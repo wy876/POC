@@ -5,6 +5,7 @@
 - JumpServer未授权访问漏洞 CVE-2023-42442
 - Craft CMS远程代码执行漏洞 CVE-2023-41892
 - WinRAR CVE-2023-38831 漏洞
+- 用友 GRP-U8 bx_historyDataCheck.jsp SQL注入漏洞
 
 ## 2023.9.22 新增漏洞
 - Joomla 未授权漏洞CVE-2023-23752
