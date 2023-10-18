@@ -7,4 +7,5 @@
 ## hunter:
 web.body="LogInOut.php?type=logout"
 
-https://mmbiz.qpic.cn/sz_mmbiz_png/W3ujp2P7OjARkXD5FOjonOrfcK6Xr6QOVaCrI21fu9F1DcBPekwcPFBf8Q8vCrI4Qmiaia2YaMExoogwic2TSnNKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1
+[](https://mmbiz.qpic.cn/sz_mmbiz_png/W3ujp2P7OjARkXD5FOjonOrfcK6Xr6QOVaCrI21fu9F1DcBPekwcPFBf8Q8vCrI4Qmiaia2YaMExoogwic2TSnNKQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
