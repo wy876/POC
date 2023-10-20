@@ -49,7 +49,8 @@ poc:
     matches: (code.eq("200") && body.contains("数据库名") && body.contains("用户名"))
 ```
 
+
 ## 漏洞复现
 /building/backmgr/urlpage/mobileurl/config_2.php
 
-
+![](./assets/20231020132337.png)
