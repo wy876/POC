@@ -3,6 +3,7 @@
 
 ## 2023.10.20 新增漏洞
 - [蓝凌EIS智慧协同平台saveImg接口存在任意文件上传漏洞](蓝凌EIS智慧协同平台saveImg接口存在任意文件上传漏洞.md)
+- [用友NC-Cloud uploadChunk 任意文件上传漏洞](用友NC-Cloud uploadChunk 任意文件上传漏洞.md)
 
 ## 2023.10.18 新增漏洞
 - 360天擎 - 未授权与sql注入
