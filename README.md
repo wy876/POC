@@ -6,6 +6,7 @@
 - 用友NC-Cloud uploadChunk 任意文件上传漏洞
 -  深信服下一代防火墙NGAF RCE漏洞
 -  金蝶EAS myUploadFile任意文件上传
+-  用友GRP U8 license_check.jsp 存在SQL注入
 
 ## 2023.10.18 新增漏洞
 - 360天擎 - 未授权与sql注入
