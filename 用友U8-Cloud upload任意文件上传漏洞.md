@@ -22,3 +22,7 @@ Accept-Encoding: gzip
 ![](https://img-blog.csdnimg.cn/img_convert/4e222417f164a3b33772bf18041feb82.png)
 
 ![](https://img-blog.csdnimg.cn/img_convert/d68273de84c541f1cb5a0ac52b469b98.png)
+
+## 路径
+http://ip:port/linux/hack.jsp
+
