@@ -2,7 +2,7 @@
 2023HW漏洞整理，收集漏洞exp,大部分来源网络，善用CTRL+F搜索
 
 ## 2023.10.26 新增漏洞
-- Apache ActiveMQ远程命令执行漏洞
+- [Apache ActiveMQ远程命令执行漏洞](Apache ActiveMQ远程命令执行漏洞.md)
 
   
 ## 2023.10.25 新增漏洞
