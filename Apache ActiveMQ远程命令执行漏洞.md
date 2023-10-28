@@ -5,7 +5,10 @@
 Apache ActiveMQ < 5.18.3
 Apache ActiveMQ < 5.17.6
 ```
-
+## fofa
+```
+app="APACHE-ActiveMQ" && port="61616"
+```
 ## 漏洞脚本
 ```
 https://github.com/Fw-fW-fw/activemq_Throwable
