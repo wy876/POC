@@ -14,6 +14,8 @@ app="APACHE-ActiveMQ" && port="61616"
 ## 漏洞脚本
 ```
 https://github.com/Fw-fW-fw/activemq_Throwable
+https://github.com/sincere9/Apache-ActiveMQ-RCE
+https://github.com/X1r0z/ActiveMQ-RCE
 ```
 
 ## 漏洞分析
