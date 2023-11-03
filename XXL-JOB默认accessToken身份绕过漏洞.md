@@ -7,6 +7,8 @@
 ```
 
 ## poc
+请求头加上XXL-JOB-ACCESS-TOKEN: default_token
+
 ```
 POST /run HTTP/1.1
 Host: 127.0.0.1:9999
