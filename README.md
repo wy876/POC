@@ -1,6 +1,11 @@
 # 漏洞收集
 2023HW漏洞整理，收集漏洞exp,大部分来源网络，善用CTRL+F搜索
 
+## 2023.11.07 新增漏洞
+- jshERP信息泄露漏洞
+- 致远OA wpsAssistServlet任意文件读取漏洞
+- 金和OA任意文件读取漏洞
+  
 ## 2023.11.03
 - XXL-JOB默认accessToken身份绕过漏洞
 - Confluence身份认证绕过(CVE-2023-22518)
