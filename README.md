@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集漏洞exp,大部分来源网络，善用CTRL+F搜索
 
+## 2023.11.08 新增漏洞
+- 奇安信360天擎getsimilarlistSQL注入漏洞
+
 ## 2023.11.07 新增漏洞
 - jshERP信息泄露漏洞
 - 致远OA wpsAssistServlet任意文件读取漏洞
