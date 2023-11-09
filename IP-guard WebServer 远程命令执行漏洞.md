@@ -22,7 +22,7 @@ IP-guard是由溢信科技股份有限公司开发的一款终端安全管理软
 ![](./assets/20231109165333.png)
 
 ## Python脚本
-```
+```python
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
 # author:MDSEC
