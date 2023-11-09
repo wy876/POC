@@ -8,7 +8,7 @@ app="Landray-OA系统"
 ## exp
 ```
 POST /data/sys-common/treexml.tmpl HTTP/1.1
-Host: oa.dgzhengrong.com:81
+Host: 
 Accept-Language: zh-CN,zh;q=0.9
 Content-Type: application/x-www-form-urlencoded
 Upgrade-Insecure-Requests: 1
