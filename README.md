@@ -6,6 +6,8 @@
 
 ## 2023.11.08 新增漏洞
 - 奇安信360天擎getsimilarlistSQL注入漏洞
+- 致远M1 usertokenservice 反序列化RCE漏洞
+
 
 ## 2023.11.07 新增漏洞
 - jshERP信息泄露漏洞
