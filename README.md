@@ -4,8 +4,8 @@
 ## 2023.11.16 新增漏洞
 - 迪普DPTech VPN 任意文件读取
 - 蓝凌OAsysUiComponent 文件存在任意文件上传漏洞
+- 通达OA get_datas.php前台sql注入
 
-  
 ## 2023.11.09 新增漏洞
 - IP-guard WebServer 远程命令执行漏洞
 
