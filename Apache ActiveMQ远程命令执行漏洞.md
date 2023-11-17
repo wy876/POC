@@ -30,6 +30,9 @@ https://github.com/Hutt0n0/ActiveMqRCE
     </bean>
 </beans>
 ```
+## 漏洞回显复现
+![](./assets/20231117150110.png)
+
 
 ## 漏洞脚本
 ```
