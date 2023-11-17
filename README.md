@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集漏洞exp,大部分来源网络，善用CTRL+F搜索
 
+# 2023.11.17 新增漏洞
+- 金蝶OA云星空 ScpSupRegHandler 任意文件上传漏洞
+  
 ## 2023.11.16 新增漏洞
 - 迪普DPTech VPN 任意文件读取
 - 蓝凌OAsysUiComponent 文件存在任意文件上传漏洞
