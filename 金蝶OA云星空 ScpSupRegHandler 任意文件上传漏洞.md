@@ -44,3 +44,8 @@ Content-Type: text/plain
 ![image](https://github.com/wy876/POC/assets/139549762/0175cf8c-a854-4b15-800c-7a07e3d0306c)
 
 ![image](https://github.com/wy876/POC/assets/139549762/7e731399-8257-448b-9ab4-2260d9c4dc43)
+
+### 文件上传路径
+```
+访问路径：/K3Cloud/uploadfiles/Test.ashx
+```
