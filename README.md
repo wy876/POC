@@ -3,6 +3,7 @@
 
 ## 2023.11.19 新增漏洞
 - 用友U8-cloud RegisterServlet接口存在SQL注入漏洞
+- SysAid远程命令执行漏洞（CVE-2023-47246）
   
 ## 2023.11.17 新增漏洞
 - 金蝶OA云星空 ScpSupRegHandler 任意文件上传漏洞
