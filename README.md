@@ -5,6 +5,7 @@
 - 金蝶OA-EAS系统 uploadLogo.action 任意文件上传漏洞
 - 浙大恩特客户资源管理系统 文件上传和sql注入漏洞
 - 锐捷RG-UAC统一上网行为管理与审计系统管理员密码泄露
+- Appium Desktop CVE-2023-2479漏洞
   
 ## 2023.11.19 新增漏洞
 - 用友U8-cloud RegisterServlet接口存在SQL注入漏洞
