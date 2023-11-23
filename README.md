@@ -3,6 +3,7 @@
 
 ## 2023.11.23 新增漏洞
 - 大华智能物联ICC综合管理平台readpic任意文件读取漏洞
+- Apache-Submarine-SQL注入漏洞CVE-2023-37924
   
 ## 2023.11.20 新增漏洞
 - 金蝶OA-EAS系统 uploadLogo.action 任意文件上传漏洞
