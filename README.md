@@ -6,6 +6,7 @@
 - Apache-Submarine-SQL注入漏洞CVE-2023-37924
 - H3C网络管理系统任意文件读取漏洞
 - 广州图创图书馆集群管理系统存在未授权访问
+- I Doc View任意文件上传漏洞
   
 ## 2023.11.20 新增漏洞
 - 金蝶OA-EAS系统 uploadLogo.action 任意文件上传漏洞
