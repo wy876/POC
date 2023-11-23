@@ -1,6 +1,7 @@
 
 ## 致远OA M3 Server 反序列化漏洞
 致远 M3 反序列化 远程命令执行漏洞（XVE-2023-24878）
+
 漏洞信息：
 https://x.threatbook.com/v5/vul/6bf25402a41b4fc27497a5b42a8421d7ef38d57cb7d8143dedb9a6f438310a2d9e083c39c56fee2571651827b4d9ce8d
 
