@@ -8,6 +8,7 @@
 - 广州图创图书馆集群管理系统存在未授权访问
 - I Doc View任意文件上传漏洞
 - 致远OA M3 Server 反序列化漏洞
+- pyLoad远程代码执行漏洞
   
 ## 2023.11.20 新增漏洞
 - 金蝶OA-EAS系统 uploadLogo.action 任意文件上传漏洞
