@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2023.11.24
+- 华为Auth-Http Serve任意文件读取
+  
 ## 2023.11.23 新增漏洞
 - 大华智能物联ICC综合管理平台readpic任意文件读取漏洞
 - Apache-Submarine-SQL注入漏洞CVE-2023-37924
