@@ -3,6 +3,7 @@
 
 ## 2023.11.24
 - 华为Auth-Http Serve任意文件读取
+- 昂捷ERP-WebService接口-SQL注入漏洞(QVD-2023-45071)
   
 ## 2023.11.23 新增漏洞
 - 大华智能物联ICC综合管理平台readpic任意文件读取漏洞
