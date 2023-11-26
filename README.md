@@ -1,7 +1,13 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
-## 2023.11.24
+## 2023.11.26 新增漏洞
+- 用友NC word.docx任意文件读取漏洞
+- 用友NC的download文件存在任意文件读取漏洞
+- 泛微e-cology9_SQL注入-CNVD-2023-12632
+- TOTOLINK A3700R命令执行漏洞CVE-2023-46574
+
+## 2023.11.24 新增漏洞
 - 华为Auth-Http Serve任意文件读取
 - 昂捷ERP WebService接口 SQL注入漏洞(QVD-2023-45071)
 - 好视通视频会议系统 toDownload.do接口 任意文件读取漏洞
