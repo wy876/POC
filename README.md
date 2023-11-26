@@ -6,6 +6,7 @@
 - 用友NC的download文件存在任意文件读取漏洞
 - 泛微e-cology9_SQL注入-CNVD-2023-12632
 - TOTOLINK A3700R命令执行漏洞CVE-2023-46574
+- Splunk Enterprise 远程代码执行漏洞 (CVE-2023-46214)
 
 ## 2023.11.24 新增漏洞
 - 华为Auth-Http Serve任意文件读取
