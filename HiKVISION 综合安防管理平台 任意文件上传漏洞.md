@@ -1,3 +1,8 @@
+## fofa
+```
+app="HIKVISION-iSecure-Center"
+```
+
 ## HiKVISION 综合安防管理平台 report 任意文件上传漏洞
 
 ```
