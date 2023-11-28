@@ -8,6 +8,7 @@
 - 云匣子堡垒机fastjson漏洞
 - 海康威视运行管理中心fastjson漏洞
 - Array VPN任意文件读取漏洞
+- 万户OA-upload任意文件上传漏洞
   
 ## 2023.11.26 新增漏洞
 - 用友NC word.docx任意文件读取漏洞
