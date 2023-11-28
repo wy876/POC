@@ -1,6 +1,14 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2023.11.28 新增漏洞
+- 新开普掌上校园服务管理平台service.action远程命令执行
+- 易宝OA ExecuteSqlForSingle SQL注入漏洞
+- 大华智慧园区综合管理平台 deleteFtp 远程命令执行漏洞
+- 云匣子堡垒机fastjson漏洞
+- 海康威视运行管理中心fastjson漏洞
+- Array VPN任意文件读取漏洞
+  
 ## 2023.11.26 新增漏洞
 - 用友NC word.docx任意文件读取漏洞
 - 用友NC的download文件存在任意文件读取漏洞
