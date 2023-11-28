@@ -1,6 +1,9 @@
 ## Hytec Inter HWL-2511-SS popen.cgi命令注入漏洞
-搜索关键字：
+
+## fofa
+```
 title="index" && header="lighttpd/1.4.30"
+```
 
 ### poc
 ```
