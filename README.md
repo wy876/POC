@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2023.11.29 新增漏洞
+- 网神防火墙 app_av_import_save文件上传漏洞
+  
 ## 2023.11.28 新增漏洞
 - 新开普掌上校园服务管理平台service.action远程命令执行
 - 易宝OA ExecuteSqlForSingle SQL注入漏洞
