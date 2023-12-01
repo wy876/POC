@@ -3,6 +3,7 @@
 
 ## 2023.11.30 新增漏洞
 - Apache-ActiveMQ-Jolokia-远程代码执行漏洞-CVE-2022-41678
+- 红帆OA iorepsavexml.aspx 文件上传漏洞
   
 ## 2023.11.29 新增漏洞
 - 网神防火墙 app_av_import_save文件上传漏洞
