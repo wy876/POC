@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2023.12.03 新增漏洞
+- 智跃人力资源管理系统GenerateEntityFromTable.aspx SQL漏洞
+  
 ## 2023.11.30 新增漏洞
 - Apache-ActiveMQ-Jolokia-远程代码执行漏洞-CVE-2022-41678
 - 红帆OA iorepsavexml.aspx 文件上传漏洞
