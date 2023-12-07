@@ -387,7 +387,7 @@ func init() {
 ```
 
 ## 另外一个点
-```
+```go
 package main
 
 import (
