@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2023.12.08 新增漏洞
+- Dedecms v5.7.111前台tags.php SQL注入漏洞
+  
 ## 2023.12.07 新增漏洞
 - WeiPHP>=5.0 SQL注入漏洞
 - Apache Ofbiz XML-RPC RCE漏洞-CVE-2023-49070
