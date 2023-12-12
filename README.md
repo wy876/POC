@@ -4,6 +4,7 @@
 ## 2023.12.11 新增漏洞
 - Apache Struts2 CVE-2023-50164
 - 蓝凌EKP前台授权绕过导致文件上传
+- 通达OA header身份认证绕过漏洞
   
 ## 2023.12.08 新增漏洞
 - Dedecms v5.7.111前台tags.php SQL注入漏洞
