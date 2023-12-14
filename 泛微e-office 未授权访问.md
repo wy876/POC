@@ -3,6 +3,7 @@
 ## fofa
 ```
 (body="login.php"&&body="eoffice")||body="/general/login/index.php"
+icon_hash="1578525679"
 ```
 
 ## POC  yaml格式
