@@ -4,6 +4,7 @@
 ## 2023.12.14 新增漏洞
 - 泛微云桥 e-Bridge addTaste接口SQL注入漏洞
 - Tenda路由器账号密码泄露
+- 思福迪运维安全管理系统RCE漏洞
 
 ## 2023.12.11 新增漏洞
 - Apache Struts2 CVE-2023-50164
