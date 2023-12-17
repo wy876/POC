@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2023.12.17 新增漏洞
+- 大华智能物联综合管理平台justForTest用户登录漏洞
+
 ## 2023.12.15 新增漏洞
 - 万户ezoffice wpsservlet任意文件上传漏洞
 - 万户 ezOFFICE DocumentEdit.jsp SQL注入
