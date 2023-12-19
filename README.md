@@ -5,6 +5,7 @@
 - 大华智能物联综合管理平台justForTest用户登录漏洞
 - CloudPanel RCE漏洞 CVE-2023-35885
 - Smartbi 内置用户登陆绕过
+- 金和OA jc6 clobfield SQL注入漏洞
 
 ## 2023.12.15 新增漏洞
 - 万户ezoffice wpsservlet任意文件上传漏洞
