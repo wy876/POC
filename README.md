@@ -6,6 +6,7 @@
 - CloudPanel RCE漏洞 CVE-2023-35885
 - Smartbi 内置用户登陆绕过
 - 金和OA jc6 clobfield SQL注入漏洞
+- EasyCVR 视频管理平台存在用户信息泄露
 
 ## 2023.12.15 新增漏洞
 - 万户ezoffice wpsservlet任意文件上传漏洞
