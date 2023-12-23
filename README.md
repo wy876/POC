@@ -1,6 +1,12 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2023.12.23 新增漏洞
+- avcon综合管理平台SQL注入漏洞
+- 致远互联FE协作办公平台editflow_manager存在sql注入漏洞
+- 海康威视CVE-2023-6895 IP网络对讲广播系统远程命令执行
+- 铭飞CMS list接口存在SQL注入
+  
 ## 2023.12.17 新增漏洞
 - 大华智能物联综合管理平台justForTest用户登录漏洞
 - CloudPanel RCE漏洞 CVE-2023-35885
