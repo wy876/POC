@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2023.12.26 新增漏洞
+- 大华DSS itcBulletin SQL 注入漏洞
+
 ## 2023.12.23 新增漏洞
 - avcon综合管理平台SQL注入漏洞
 - 致远互联FE协作办公平台editflow_manager存在sql注入漏洞
