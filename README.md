@@ -4,6 +4,7 @@
 ## 2023.12.26 新增漏洞
 - 大华DSS itcBulletin SQL 注入漏洞
 - 湖南建研-检测系统 admintool 任意文件上传
+- OpenSSH ProxyCommand命令注入漏洞 (CVE-2023-51385)
 
 ## 2023.12.23 新增漏洞
 - avcon综合管理平台SQL注入漏洞
