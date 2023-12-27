@@ -6,6 +6,7 @@
 - 湖南建研-检测系统 admintool 任意文件上传
 - OpenSSH ProxyCommand命令注入漏洞 (CVE-2023-51385)
 - Salia PLCC cPH2 远程命令执行漏洞(CVE-2023-46359)
+- 金蝶Apusic应用服务器loadTree JNDI注入漏洞
 
 ## 2023.12.23 新增漏洞
 - avcon综合管理平台SQL注入漏洞
