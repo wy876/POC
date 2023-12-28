@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2023.12.28 新增漏洞
+- wordpress listingo 文件上传漏洞
+
 ## 2023.12.26 新增漏洞
 - 大华DSS itcBulletin SQL 注入漏洞
 - 湖南建研-检测系统 admintool 任意文件上传
