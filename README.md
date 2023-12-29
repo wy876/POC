@@ -3,6 +3,7 @@
 
 ## 2023.12.28 新增漏洞
 - wordpress listingo 文件上传漏洞
+- Apache OFBiz 身份验证绕过漏洞 (CVE-2023-51467)
 
 ## 2023.12.26 新增漏洞
 - 大华DSS itcBulletin SQL 注入漏洞
