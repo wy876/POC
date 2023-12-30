@@ -7,6 +7,7 @@
 - 福建科立讯通信有限公司指挥调度管理平台RCE
 - 海康威视-综合安防管理平台-files-文件读取
 - Apache OFBiz SSRF && 任意配置读取
+- Apache Dubbo 反序列化漏洞（CVE-2023-29234）
 
 ## 2023.12.26 新增漏洞
 - 大华DSS itcBulletin SQL 注入漏洞
