@@ -5,6 +5,7 @@
 - wordpress listingo 文件上传漏洞
 - Apache OFBiz 身份验证绕过漏洞 (CVE-2023-51467)
 - 福建科立讯通信有限公司指挥调度管理平台RCE
+- 海康威视-综合安防管理平台-files-文件读取
 
 ## 2023.12.26 新增漏洞
 - 大华DSS itcBulletin SQL 注入漏洞
