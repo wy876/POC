@@ -16,7 +16,6 @@ Accept: */*
 User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0 info
 Accept-Charset: GBK,utf-8;q=0.7,*;q=0.3
 Connection: close
-Referer: http://oa.meitrack.com:9090/
 Cache-Control: max-age=0
 Content-Type: application/x-www-form-urlencoded
 
