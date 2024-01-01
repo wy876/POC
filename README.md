@@ -8,6 +8,7 @@
 - 飞企互联-FE企业运营管理平台登录绕过漏洞
 - 飞企互联Ognl表达式注入导致RCE
 - 西软云XMS反序列化漏洞
+- 用友U8_cloud_KeyWordDetailReportQuery_SQL注入漏洞
   
 ## 2023.12.28 新增漏洞
 - wordpress listingo 文件上传漏洞
