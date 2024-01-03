@@ -9,6 +9,7 @@
 - 飞企互联Ognl表达式注入导致RCE
 - 西软云XMS反序列化漏洞
 - 用友U8_cloud_KeyWordDetailReportQuery_SQL注入漏洞
+- 用友NC_Cloud_soapFormat.ajax接口存在XXE
   
 ## 2023.12.28 新增漏洞
 - wordpress listingo 文件上传漏洞
