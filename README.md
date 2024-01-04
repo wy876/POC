@@ -5,6 +5,7 @@
 - 天融信TOPSEC_maincgi.cgi远程命令执行
 - 天融信TOPSEC_static_convert远程命令执行漏洞
 - 用友CRM系统存在逻辑漏洞直接登录后台
+- 亿赛通电子文档uploadFile接口文件上传漏洞
 
 ## 2023.12.31 新增漏洞
 - OfficeWeb365_任意文件读取漏洞
