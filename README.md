@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
 
+## 2024.01.05 新增漏洞
+- 用友NC_CLOUD_smartweb2.RPC.d_XML外部实体注入
+
 ## 2024.01.03 新增漏洞
 - 天融信TOPSEC_maincgi.cgi远程命令执行
 - 天融信TOPSEC_static_convert远程命令执行漏洞
