@@ -3,6 +3,7 @@
 
 ## 2024.01.05 新增漏洞
 - 用友NC_CLOUD_smartweb2.RPC.d_XML外部实体注入
+- IDocView_qJvqhFt接口任意文件读取
 
 ## 2024.01.03 新增漏洞
 - 天融信TOPSEC_maincgi.cgi远程命令执行
