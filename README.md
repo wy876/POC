@@ -6,6 +6,7 @@
 - IDocView_qJvqhFt接口任意文件读取
 - ⻜企互联loginService任意登录
 - 全程云OA__ajax.ashxSQL注入漏洞
+- 泛微移动管理平台lang2sql接口任意文件上传
 
 ## 2024.01.03 新增漏洞
 - 天融信TOPSEC_maincgi.cgi远程命令执行
