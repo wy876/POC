@@ -10,6 +10,7 @@
 - 广联达OA任意用户登录
 - 广联达OA前台任意文件上传
 - 金蝶EAS_pdfviewlocal任意文件读取漏洞
+- PbootCMS全版本后台通杀任意代码执行漏洞
 
 ## 2024.01.03 新增漏洞
 - 天融信TOPSEC_maincgi.cgi远程命令执行
