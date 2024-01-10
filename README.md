@@ -4,6 +4,7 @@
 ## 2024.01.09 新增漏洞
 - 金和OA_HomeService.asmxSQL注入
 - 用友移动管理平台uploadIcon任意文件上传漏洞
+- 捷诚管理信息系统sql注入漏洞
   
 ## 2024.01.05 新增漏洞
 - 用友NC_CLOUD_smartweb2.RPC.d_XML外部实体注入
