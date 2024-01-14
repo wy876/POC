@@ -7,6 +7,7 @@
 - 亿赛通电子文档安全管理系统dump接口存在任意文件读取漏洞
 - 金和OA_SAP_B1Config.aspx未授权访问漏洞
 - 致远OA_getAjaxDataServlet接口存在任XXE漏洞
+- 金和OA_jc6_ntko-upload任意文件上传漏洞
 
 ## 2024.01.09 新增漏洞
 - 金和OA_HomeService.asmxSQL注入
