@@ -9,6 +9,10 @@
 - 致远OA_getAjaxDataServlet接口存在任XXE漏洞
 - 金和OA_jc6_ntko-upload任意文件上传漏洞
 - 蓝凌EIS智慧协同平台多个接口SQL注入
+- 金和OA_CarCardInfo.aspx_SQL注入漏洞
+- 金和OA_MailTemplates.aspx_SQL注入漏洞
+- 金和OA_upload_json.asp存在任意文件上传漏洞
+- 金和OA_uploadfileeditorsave接口存在任意文件上传漏洞
 
 ## 2024.01.09 新增漏洞
 - 金和OA_HomeService.asmxSQL注入
