@@ -15,6 +15,7 @@
 - 金和OA_uploadfileeditorsave接口存在任意文件上传漏洞
 - Ncast盈可视高清智能录播系统存在RCE漏洞(CVE-2024-0305)
 - 金和OA_jc6_Upload任意文件上传
+- Apache_Solr环境变量信息泄漏漏洞(CVE-2023-50290)
 
 ## 2024.01.09 新增漏洞
 - 金和OA_HomeService.asmxSQL注入
