@@ -14,6 +14,7 @@
 - 金和OA_upload_json.asp存在任意文件上传漏洞
 - 金和OA_uploadfileeditorsave接口存在任意文件上传漏洞
 - Ncast盈可视高清智能录播系统存在RCE漏洞(CVE-2024-0305)
+- 金和OA_jc6_Upload任意文件上传
 
 ## 2024.01.09 新增漏洞
 - 金和OA_HomeService.asmxSQL注入
