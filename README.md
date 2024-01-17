@@ -5,6 +5,7 @@
 - Yearning_front任意文件读取
 - 云网OA8.6存在fastjson反序列化漏洞
 - Apache Dubbo-admin-authorized-bypass (CNVD-2023-96546)
+- 先锋WEB燃气收费系统文件上传漏洞
 
 ## 2024.01.12 新增漏洞
 - GitLab任意用户密码重置漏洞(CVE-2023-7028)
