@@ -7,6 +7,7 @@
 - Apache Dubbo-admin-authorized-bypass (CNVD-2023-96546)
 - 先锋WEB燃气收费系统文件上传漏洞
 - MRCMS3.0任意文件读取漏洞
+- 奇安信天擎rptsvr任意文件上传
 
 ## 2024.01.12 新增漏洞
 - GitLab任意用户密码重置漏洞(CVE-2023-7028)
