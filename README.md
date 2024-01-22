@@ -11,6 +11,7 @@
 - 用友GRP-U8-SelectDMJE.jsp_SQL注入漏洞
 - Ivanti_Connect_Secure远程命令注入漏洞(CVE-2024-21887)
 - 天擎终端安全管理系统YII_CSRF_TOKEN远程代码执行漏洞
+- 用友移动系统管理getFileLocal接口存在任意文件读取
 
 ## 2024.01.12 新增漏洞
 - GitLab任意用户密码重置漏洞(CVE-2023-7028)
