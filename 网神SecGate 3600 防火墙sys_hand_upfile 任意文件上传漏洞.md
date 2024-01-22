@@ -5,6 +5,8 @@
  ## fofa
  ```
 body="./images/lsec/login/loading.gif"
+title="网神SecGate 3600防火墙"
+
 ```
 
 ## poc
