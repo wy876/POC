@@ -13,6 +13,7 @@
 - 天擎终端安全管理系统YII_CSRF_TOKEN远程代码执行漏洞
 - 用友移动系统管理getFileLocal接口存在任意文件读取
 - 网神SecGate 3600 防火墙sys_hand_upfile 任意文件上传漏洞
+- Atlassian Confluence 远程代码执行漏洞(CVE-2023-22527)
 
 ## 2024.01.12 新增漏洞
 - GitLab任意用户密码重置漏洞(CVE-2023-7028)
