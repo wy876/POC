@@ -3,6 +3,7 @@
 
 ## 2024.01.26 新增漏洞
 - Jenkins任意文件读取漏洞(CVE-2024-23897)
+- SpringBlade export-user SQL 注入漏洞
   
 ## 2024.01.17 新增漏洞
 - Yearning_front任意文件读取
