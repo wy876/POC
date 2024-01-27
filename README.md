@@ -5,6 +5,7 @@
 - Jenkins任意文件读取漏洞(CVE-2024-23897)
 - SpringBlade export-user SQL 注入漏洞
 - 万户OA text2Html接口存在任意文件读取漏洞
+- 亿赛通电子文档安全管理系统hiddenWatermark文件上传漏洞
   
 ## 2024.01.17 新增漏洞
 - Yearning_front任意文件读取
