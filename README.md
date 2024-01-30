@@ -8,6 +8,7 @@
 - 亿赛通电子文档安全管理系统hiddenWatermark文件上传漏洞
 - 用友系统-U9企业版存在任意文件上传漏洞
 - 广联达-linkworks-gwgdwebservice存在SQL注入漏洞
+- 远秋医学培训系统未授权查看密码
   
 ## 2024.01.17 新增漏洞
 - Yearning_front任意文件读取
