@@ -10,6 +10,7 @@
 - 广联达-linkworks-gwgdwebservice存在SQL注入漏洞
 - 远秋医学培训系统未授权查看密码
 - 联软安全数据交换系统任意文件读取
+- Apache Tomcat存在信息泄露漏洞( CVE-2024-21733)
   
 ## 2024.01.17 新增漏洞
 - Yearning_front任意文件读取
