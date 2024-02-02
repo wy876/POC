@@ -5,6 +5,7 @@
 - 亿赛通电子文档安全管理系统 UploadFileToCatalog SQL注入漏洞
 - 亿赛通电子文档安全管理系统GetValidateLoginUserService接口存在XStream反序列化漏洞
 - 亿赛通电子文档安全管理系统UploadFileList任意文件读取漏洞
+- 大华智慧园区综合管理平台bitmap接口存在任意文件上传漏洞
   
 ## 2024.01.26 新增漏洞
 - Jenkins任意文件读取漏洞(CVE-2024-23897)
