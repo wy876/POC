@@ -3,6 +3,7 @@
 
 ## 2024.02.2 新增漏洞
 - 亿赛通电子文档安全管理系统 UploadFileToCatalog SQL注入漏洞
+- 亿赛通电子文档安全管理系统GetValidateLoginUserService接口存在XStream反序列化漏洞
   
 ## 2024.01.26 新增漏洞
 - Jenkins任意文件读取漏洞(CVE-2024-23897)
