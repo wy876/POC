@@ -1,6 +1,9 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了200多个poc/exp，善用CTRL+F搜索
 
+## 2024.02.2 新增漏洞
+- 亿赛通电子文档安全管理系统 UploadFileToCatalog SQL注入漏洞
+  
 ## 2024.01.26 新增漏洞
 - Jenkins任意文件读取漏洞(CVE-2024-23897)
 - SpringBlade export-user SQL 注入漏洞
