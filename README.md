@@ -1,6 +1,11 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了200多个poc/exp，善用CTRL+F搜索
 
+## 2024.02.5 新增漏洞
+- 天翼应用虚拟化系统sql注入漏洞
+- LinkWeChat任意文件读取漏洞
+- Weblogic远程代码执行(CVE-2024-20931)
+  
 ## 2024.02.2 新增漏洞
 - 亿赛通电子文档安全管理系统 UploadFileToCatalog SQL注入漏洞
 - 亿赛通电子文档安全管理系统GetValidateLoginUserService接口存在XStream反序列化漏洞
