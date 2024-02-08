@@ -5,6 +5,7 @@
 - 天翼应用虚拟化系统sql注入漏洞
 - LinkWeChat任意文件读取漏洞
 - Weblogic远程代码执行(CVE-2024-20931)
+- 亿赛通-dataSearch.jsp-SQL注入
   
 ## 2024.02.2 新增漏洞
 - 亿赛通电子文档安全管理系统 UploadFileToCatalog SQL注入漏洞
