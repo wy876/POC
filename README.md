@@ -1,6 +1,13 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了200多个poc/exp，善用CTRL+F搜索
 
+## 2024.02.28 新增漏洞
+- 鸿运(通天星CMSV6车载)主动安全监控云平台存在任意文件读取漏洞
+- 万户OA-RhinoScriptEngineService命令执行漏洞
+- 宏景 DisplayFiles任意文件读取
+- 蓝凌OA-WechatLoginHelper.do存在SQL注入漏洞
+- 用友U8-OA协同工作系统doUpload.jsp任意文件上传漏洞
+  
 ## 2024.02.17 新增漏洞
 - 宝塔最新未授权访问漏洞及sql注入
 - 金盘移动图书馆系统存在任意文件上传漏洞
