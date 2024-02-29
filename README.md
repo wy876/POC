@@ -7,6 +7,7 @@
 - 宏景 DisplayFiles任意文件读取
 - 蓝凌OA-WechatLoginHelper.do存在SQL注入漏洞
 - 用友U8-OA协同工作系统doUpload.jsp任意文件上传漏洞
+- aiohttp存在目录遍历漏洞(CVE-2024-23334)
   
 ## 2024.02.17 新增漏洞
 - 宝塔最新未授权访问漏洞及sql注入
