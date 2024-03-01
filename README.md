@@ -1,6 +1,16 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了200多个poc/exp，善用CTRL+F搜索
 
+## 2024.03.01 新增漏洞
+- RG-UAC锐捷统一上网行为管理与审计系统存在远程代码执行漏洞
+- RUOYI-v4.7.8存在远程代码执行漏洞
+- 西软云XMS-futurehotel-query接口存在XXE漏洞
+- 西软云XMS-futurehotel-operate接口存在XXE漏洞
+- 宏景eHR-HCM-DisplayExcelCustomReport接口存在任意文件读取漏洞
+- 用友U9-UMWebService.asmx存在文件读取漏洞
+- 用友U8 Cloud-KeyWordReportQuery存在SQL注入漏洞
+- 用友U8 Cloud-ArchiveVerify存在SQL注入漏洞
+  
 ## 2024.02.28 新增漏洞
 - 鸿运(通天星CMSV6车载)主动安全监控云平台存在任意文件读取漏洞
 - 万户OA-RhinoScriptEngineService命令执行漏洞
