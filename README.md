@@ -10,6 +10,9 @@
 - 用友U9-UMWebService.asmx存在文件读取漏洞
 - 用友U8 Cloud-KeyWordReportQuery存在SQL注入漏洞
 - 用友U8 Cloud-ArchiveVerify存在SQL注入漏洞
+- 易宝OA系统DownloadFile接口存在文件读取漏洞
+- 浙大恩特客户资源管理系统-purchaseaction.entphone接口存在SQL漏洞
+- 惠尔顿-网络安全审计系统存在任意文件读取漏洞
   
 ## 2024.02.28 新增漏洞
 - 鸿运(通天星CMSV6车载)主动安全监控云平台存在任意文件读取漏洞
