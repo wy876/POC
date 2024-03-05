@@ -14,6 +14,7 @@
 - 浙大恩特客户资源管理系统-purchaseaction.entphone接口存在SQL漏洞
 - 惠尔顿-网络安全审计系统存在任意文件读取漏洞
 - 蓝凌EIS智慧协同平台rpt_listreport_definefield.aspx接口存在SQL注入漏洞
+- H3C-校园网自助服务系统flexfileupload任意文件上传漏洞
   
 ## 2024.02.28 新增漏洞
 - 鸿运(通天星CMSV6车载)主动安全监控云平台存在任意文件读取漏洞
