@@ -6,6 +6,7 @@
 - 绿盟日志审计系统存在命令执行漏洞
 - JetBrains TeamCity 身份验证绕过漏洞(CVE-2024-27198)
 - H3C-SecParh堡垒机任意用户登录漏洞
+- 红帆ioffice-udfGetDocStep.asmx存在SQL注入漏洞
   
 ## 2024.03.01 新增漏洞
 - RG-UAC锐捷统一上网行为管理与审计系统存在远程代码执行漏洞
