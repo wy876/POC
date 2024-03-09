@@ -7,6 +7,7 @@
 - JetBrains TeamCity 身份验证绕过漏洞(CVE-2024-27198)
 - H3C-SecParh堡垒机任意用户登录漏洞
 - 红帆ioffice-udfGetDocStep.asmx存在SQL注入漏洞
+- 致远前台任意用户密码修改
   
 ## 2024.03.01 新增漏洞
 - RG-UAC锐捷统一上网行为管理与审计系统存在远程代码执行漏洞
