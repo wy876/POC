@@ -9,6 +9,7 @@
 - 红帆ioffice-udfGetDocStep.asmx存在SQL注入漏洞
 - 致远前台任意用户密码修改
 - JEEVMS仓库管理系统任意文件读取漏洞
+- 海康威视iVMS综合安防系统resourceOperations接口任意文件上传漏洞
   
 ## 2024.03.01 新增漏洞
 - RG-UAC锐捷统一上网行为管理与审计系统存在远程代码执行漏洞
