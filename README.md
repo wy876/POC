@@ -6,6 +6,7 @@
 - 亿赛通电子文档安全管理系统DecryptApplication存在任意文件读取漏洞
 - 金和OA_jc6_viewConTemplate.action存在FreeMarker模板注入漏洞
 - 用友U8_Cloud-base64存在SQL注入漏洞
+- 大华智慧园区综合管理平台pageJson存在SQL注入漏洞
 
 ## 2024.03.12 新增漏洞
 - 宏景HCM-codesettree接口存在SQL注入漏洞 
