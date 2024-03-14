@@ -1,6 +1,12 @@
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了300多个poc/exp，善用CTRL+F搜索
 
+## 2024.03.14 新增漏洞
+- 亿赛通-数据泄露防护(DLP)ClientAjax接口存在任意文件读取漏洞
+- 亿赛通电子文档安全管理系统DecryptApplication存在任意文件读取漏洞
+- 金和OA_jc6_viewConTemplate.action存在FreeMarker模板注入漏洞
+- 用友U8_Cloud-base64存在SQL注入漏洞
+
 ## 2024.03.12 新增漏洞
 - 宏景HCM-codesettree接口存在SQL注入漏洞 
 - SpringBlade blade-log存在SQL 注入漏洞
