@@ -9,6 +9,8 @@
 - 大华智慧园区综合管理平台pageJson存在SQL注入漏洞
 - 金蝶云-星空ServiceGateway反序列化漏洞
 - 友点建站系统image_upload.php存在文件上传漏洞
+- D-Link_DAR-8000操作系统命令注入漏洞(CVE-2023-4542)
+- D-Link_DAR-8000-10上网行为审计网关任意文件上传漏洞(CVE-2023-5154)
 
 ## 2024.03.12 新增漏洞
 - 宏景HCM-codesettree接口存在SQL注入漏洞 
