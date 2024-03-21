@@ -5,6 +5,7 @@
 - 飞鱼星上网行为管理系统企业版前台RCE
 - WordPress_Wholesale_Market插件存在任意文件读取漏洞
 - 万户ezOFFICE-contract_gd.jsp存在SQL注入漏洞
+- 宏景eHR-report_org_collect_tree.jsp存在SQL注入漏洞
   
 ## 2024.03.14 新增漏洞
 - 亿赛通-数据泄露防护(DLP)ClientAjax接口存在任意文件读取漏洞
