@@ -7,6 +7,7 @@
 - 万户ezOFFICE-contract_gd.jsp存在SQL注入漏洞
 - 宏景eHR-report_org_collect_tree.jsp存在SQL注入漏洞
 - 正方教学管理信息服务平台ReportServer存在任意文件读取漏洞
+- 金和OA-C6-IncentivePlanFulfill.aspx存在SQL注入漏洞
   
 ## 2024.03.14 新增漏洞
 - 亿赛通-数据泄露防护(DLP)ClientAjax接口存在任意文件读取漏洞
