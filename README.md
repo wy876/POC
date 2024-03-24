@@ -1,6 +1,11 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了300多个poc/exp，善用CTRL+F搜索
 
+## 2024.03.24 新增漏洞
+- 飞企互联-FE企业运营管理平台uploadAttachmentServlet存在任意文件上传漏洞
+- Netgear路由器boardDataWW.php存在RCE漏洞
+- 瑞友应用虚拟化系统-RAPAgent存在命令执行漏洞
+
 ## 2024.03.20 新增漏洞
 - 飞鱼星上网行为管理系统企业版前台RCE
 - WordPress_Wholesale_Market插件存在任意文件读取漏洞
