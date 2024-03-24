@@ -9,6 +9,7 @@
 - 用友畅捷通RRATableController存在反序列化漏洞
 - 用友时空KSOA-imagefield接口存在SQL注入漏洞
 - F-logic_DataCube3存在任意文件上传漏洞
+- 泛微getE9DevelopAllNameValue2接口存在任意文件读取漏洞
 
 ## 2024.03.20 新增漏洞
 - 飞鱼星上网行为管理系统企业版前台RCE
