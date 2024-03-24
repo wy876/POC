@@ -5,6 +5,7 @@
 - 飞企互联-FE企业运营管理平台uploadAttachmentServlet存在任意文件上传漏洞
 - Netgear路由器boardDataWW.php存在RCE漏洞
 - 瑞友应用虚拟化系统-RAPAgent存在命令执行漏洞
+- 福建科立讯通信指挥调度平台get_extension_yl.php存在sql注入漏洞
 
 ## 2024.03.20 新增漏洞
 - 飞鱼星上网行为管理系统企业版前台RCE
