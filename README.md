@@ -10,6 +10,7 @@
 - 用友时空KSOA-imagefield接口存在SQL注入漏洞
 - F-logic_DataCube3存在任意文件上传漏洞
 - 泛微getE9DevelopAllNameValue2接口存在任意文件读取漏洞
+- 大华DSS城市安防监控平台Struct2-045命令执行漏洞
 
 ## 2024.03.20 新增漏洞
 - 飞鱼星上网行为管理系统企业版前台RCE
