@@ -4,6 +4,7 @@
 ## 2024.03.27 新增漏洞
 - Adobe-ColdFusion任意文件读取漏洞CVE-2024-20767
 - Fortinet-SSL-VPN-CVE-2024-21762
+- omfyUI follow_symlinks文件读取漏洞
   
 ## 2024.03.24 新增漏洞
 - 飞企互联-FE企业运营管理平台uploadAttachmentServlet存在任意文件上传漏洞
