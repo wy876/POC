@@ -8,6 +8,7 @@
 - Fortra FileCatalyst Workflow远程代码执行漏漏洞(CVE-2024-25153)
 - 联达OA uploadLogo.aspx存在任意文件上传
 - 网络验证系统getInfo参数存在SQL注入漏洞
+- 致远OA-ucpcLogin密码重置漏洞
   
 ## 2024.03.24 新增漏洞
 - 飞企互联-FE企业运营管理平台uploadAttachmentServlet存在任意文件上传漏洞
