@@ -1,6 +1,9 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了300多个poc/exp，善用CTRL+F搜索
 
+## 2024.03.27 新增漏洞
+- Adobe-ColdFusion任意文件读取漏洞CVE-2024-20767
+  
 ## 2024.03.24 新增漏洞
 - 飞企互联-FE企业运营管理平台uploadAttachmentServlet存在任意文件上传漏洞
 - Netgear路由器boardDataWW.php存在RCE漏洞
