@@ -6,6 +6,8 @@
 body="zhuya/js/base.js"
 ```
 
+![image](https://github.com/wy876/POC/assets/139549762/fc89004e-3d6d-43b5-9d00-628468cb3d7a)
+
 ## poc
 ```
 POST /index.php/api/Software/getInfo HTTP/1.1
