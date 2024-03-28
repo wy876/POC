@@ -1,6 +1,15 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了300多个poc/exp，善用CTRL+F搜索
 
+## 2024.03.28 新增漏洞
+- 通天星-CMSV6-inspect_file-upload存在任意文件上传漏洞
+- 用友U8-Cloud接口FileServlet存在任意文件读取漏洞
+- 联达OA-UpLoadFile.aspx存在任意文件上传漏洞
+- 协达OA系统绕过登录认证登陆后台
+- 用友U8-nc.bs.sm.login2.RegisterServlet存在SQL注入漏洞
+- 金石工程项目管理系统TianBaoJiLu.aspx存在SQL注入漏洞
+- 易宝OA-BasicService.asmx存在任意文件上传漏洞
+  
 ## 2024.03.27 新增漏洞
 - Adobe-ColdFusion任意文件读取漏洞CVE-2024-20767
 - Fortinet-SSL-VPN-CVE-2024-21762
