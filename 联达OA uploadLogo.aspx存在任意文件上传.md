@@ -1,5 +1,9 @@
 ## 联达OA uploadLogo.aspx存在任意文件上传
 
+## fofa
+```
+app="联达OA"
+```
 
 ## poc
 ```
