@@ -9,6 +9,8 @@
 - 用友U8-nc.bs.sm.login2.RegisterServlet存在SQL注入漏洞
 - 金石工程项目管理系统TianBaoJiLu.aspx存在SQL注入漏洞
 - 易宝OA-BasicService.asmx存在任意文件上传漏洞
+- WordPress Automatic Plugin任意文件下载漏洞(CVE-2024-27954)
+- 商混ERP-DictionaryEdit.aspxSQL注入漏洞
   
 ## 2024.03.27 新增漏洞
 - Adobe-ColdFusion任意文件读取漏洞CVE-2024-20767
