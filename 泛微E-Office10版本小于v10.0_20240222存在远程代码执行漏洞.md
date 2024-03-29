@@ -33,3 +33,6 @@ D.....................O:40:"Illuminate\Broadcasting\PendingBroadcast":2:{s:9:".*
 --ifedjiqy--
 ```
 
+## 漏洞来源
+- https://mp.weixin.qq.com/s/45_7Qz8AH1w471rbtFCyjw
+- https://mp.weixin.qq.com/s/nXg-2YF-iOMZW4mfDBYJYQ
