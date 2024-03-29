@@ -11,6 +11,8 @@ v10.0_20180516 < E-Office10 < v10.0_20240222
 ## fofa
 ```
 app="泛微-EOffice"
+
+body="eoffice_loading_tip" && body="eoffice10"
 ```
 
 
