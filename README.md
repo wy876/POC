@@ -4,6 +4,7 @@
 ## 2024.03.29 新增漏洞
 - 泛微E-Office10版本小于v10.0_20240222存在远程代码执行漏洞
 - 用友NC接口saveXmlToFIleServlet存在文件上传
+- TP-Link-ER7206存在命令注入漏洞
 
 ## 2024.03.28 新增漏洞
 - 通天星-CMSV6-inspect_file-upload存在任意文件上传漏洞
