@@ -8,6 +8,7 @@
 - JumpServer(CVE-2024-29201)远程代码执行漏洞&(CVE-2024-29202)Jinin2模板注入漏洞
 - 用友U8-Cloud接口FileManageServlet存在反序列漏洞
 - 用友U8-Cloud接口ServiceDispatcherServlet存在反序列漏洞
+- 泛微e-cology接口getLabelByModule存在sql注入漏洞
 
 ## 2024.03.28 新增漏洞
 - 通天星-CMSV6-inspect_file-upload存在任意文件上传漏洞
