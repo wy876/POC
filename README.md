@@ -1,6 +1,10 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了300多个poc/exp，善用CTRL+F搜索
 
+## 2024.04.06 新增漏洞
+- 用友U9-PatchFile.asmx接口存在任意文件上传漏洞
+- 用友NC-Cloud_importhttpscer接口存在任意文件上传漏洞
+
 ## 2024.03.29 新增漏洞
 - 泛微E-Office10版本小于v10.0_20240222存在远程代码执行漏洞
 - 用友NC接口saveXmlToFIleServlet存在文件上传
