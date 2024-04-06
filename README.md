@@ -4,6 +4,8 @@
 ## 2024.04.06 新增漏洞
 - 用友U9-PatchFile.asmx接口存在任意文件上传漏洞
 - 用友NC-Cloud_importhttpscer接口存在任意文件上传漏洞
+- 亿赛通DecryptApplicationService2接口任意文件上传
+- 亿赛通update接口sql注入
 
 ## 2024.03.29 新增漏洞
 - 泛微E-Office10版本小于v10.0_20240222存在远程代码执行漏洞
