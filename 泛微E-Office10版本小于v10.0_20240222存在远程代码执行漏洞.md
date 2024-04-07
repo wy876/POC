@@ -155,7 +155,7 @@ if __name__ == '__main__':
 ```
 
 ## exp2
-```
+```python
 # -*- coding:utf-8 -*-
 import json
 import requests
