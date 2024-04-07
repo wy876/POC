@@ -6,6 +6,14 @@
 - 用友NC-Cloud_importhttpscer接口存在任意文件上传漏洞
 - 亿赛通DecryptApplicationService2接口任意文件上传
 - 亿赛通update接口sql注入
+- 用友U8cloud接口MeasureQueryByToolAction存在SQL注入漏洞
+- 浙大恩特客户资源管理系统-RegulatePriceAction存在SQL注入
+- 科荣AIO-ReadFile存在任意文件读取漏洞
+- 东方通TongWeb-selectApp.jsp存在任意文件上传
+- WordPress-js-support-ticket存在文件上传漏洞
+- WordPress-thimpress_hotel_booking存在代码执行漏洞
+- 万户ezOFFICE-wf_printnum.jsp存在SQL注入漏洞
+- 用友U8cloud-ExportUfoFormatAction存在SQL注入漏洞
 
 ## 2024.03.29 新增漏洞
 - 泛微E-Office10版本小于v10.0_20240222存在远程代码执行漏洞
