@@ -18,5 +18,5 @@ Content-Type: text/xml;charset=UTF-8
     <arg1>10</arg1>
     </cli:getGroupInfoListByGroupId>
     </soapenv:Body>
-  </soapenv:E
+  </soap:Envelope>
 ```
