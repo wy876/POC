@@ -1,6 +1,13 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了300多个poc/exp，善用CTRL+F搜索
 
+## 2024.04.10 新增漏洞
+- 泛微E-Mobile-client.do存在命令执行漏洞
+- 致远互联-OA前台fileUpload.do存在绕过文件上传漏洞
+- 宏景eHR人力资源管理软件showmediainfo存在SQL注入漏洞
+- 用友NC接口PaWfm存在sql注入漏洞
+- 用友NC接口ConfigResourceServlet存在反序列漏洞
+
 ## 2024.04.06 新增漏洞
 - 用友U9-PatchFile.asmx接口存在任意文件上传漏洞
 - 用友NC-Cloud_importhttpscer接口存在任意文件上传漏洞
