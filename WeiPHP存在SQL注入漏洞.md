@@ -1,5 +1,5 @@
 
-## WeiPHP>=5.0 SQL注入漏洞
+## WeiPHP存在SQL注入漏洞
 
 ## fofa
 ```
