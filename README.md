@@ -299,7 +299,7 @@
 - 奥威亚视频云平台VideoCover.aspx接口存在任意文件上传漏洞
   
 ## 2023.12.07 新增漏洞
-- WeiPHP存在漏洞SQL注入漏洞
+- WeiPHP存在SQL注入漏洞
 - Apache Ofbiz XML-RPC RCE漏洞-CVE-2023-49070
 - 多个防火墙产品RCE
 - 金蝶Apusic应用服务器任意文件上传
