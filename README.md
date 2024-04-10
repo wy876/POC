@@ -7,6 +7,8 @@
 - 宏景eHR人力资源管理软件showmediainfo存在SQL注入漏洞
 - 用友NC接口PaWfm存在sql注入漏洞
 - 用友NC接口ConfigResourceServlet存在反序列漏洞
+- 用友NC-runStateServlet接口存在SQL注入漏洞
+- 用友NC-workflowImageServlet接口存在sql注入漏洞
 
 ## 2024.04.06 新增漏洞
 - 用友U9-PatchFile.asmx接口存在任意文件上传漏洞
