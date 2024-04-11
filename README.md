@@ -11,6 +11,7 @@
 - 用友NC-workflowImageServlet接口存在sql注入漏洞
 - 畅捷通TPlus-KeyInfoList.aspx存在SQL注入漏洞
 - 畅捷通TPlus-App_Code.ashx存在远程命令执行漏洞
+- H3C_magic_R100路由器的UDPserver中存在命令执行漏洞(CVE-2022-34598)
 
 ## 2024.04.06 新增漏洞
 - 用友U9-PatchFile.asmx接口存在任意文件上传漏洞
