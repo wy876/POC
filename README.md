@@ -14,6 +14,7 @@
 - H3C_magic_R100路由器的UDPserver中存在命令执行漏洞(CVE-2022-34598)
 - 用友NC_saveImageServlet接口存在文件上传漏洞
 - 泛微e-cology-ProcessOverRequestByXml接口存在任意文件读取漏洞
+- 用友crm-swfupload接口存在任意文件上传漏洞
 
 ## 2024.04.06 新增漏洞
 - 用友U9-PatchFile.asmx接口存在任意文件上传漏洞
