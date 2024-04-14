@@ -6,6 +6,8 @@
 - Telesquare路由器RCE(CVE-2024-29269)
 - 物业专项维修资金管理系统漏洞
 - 用友NC-ActionServlet存在SQL注入漏洞
+- 潍微科技-水务信息管理平台ChangePwd接口存在SQL注入漏洞
+- OpenMetadata命令执行(CVE-2024-28255)
 
 ## 2024.04.10 新增漏洞
 - 泛微E-Mobile-client.do存在命令执行漏洞
