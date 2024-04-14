@@ -5,6 +5,7 @@
 - 新视窗新一代物业管理系统任意文件上传漏洞
 - Telesquare路由器RCE(CVE-2024-29269)
 - 物业专项维修资金管理系统漏洞
+- 用友NC-ActionServlet存在SQL注入漏洞
 
 ## 2024.04.10 新增漏洞
 - 泛微E-Mobile-client.do存在命令执行漏洞
