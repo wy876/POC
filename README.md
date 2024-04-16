@@ -10,6 +10,7 @@
 - OpenMetadata命令执行(CVE-2024-28255)
 - 魔方网表mailupdate.jsp接口存在任意文件上传漏洞
 - 奇安信VPN任意用户密码重置
+- 润乾报表平台InputServlet存在任意文件读取漏洞
 
 ## 2024.04.10 新增漏洞
 - 泛微E-Mobile-client.do存在命令执行漏洞
