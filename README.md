@@ -9,6 +9,7 @@
 - 潍微科技-水务信息管理平台ChangePwd接口存在SQL注入漏洞
 - OpenMetadata命令执行(CVE-2024-28255)
 - 魔方网表mailupdate.jsp接口存在任意文件上传漏洞
+- 奇安信VPN任意用户密码重置
 
 ## 2024.04.10 新增漏洞
 - 泛微E-Mobile-client.do存在命令执行漏洞
