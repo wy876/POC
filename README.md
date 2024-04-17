@@ -13,6 +13,7 @@
 - Progress-Flowmon命令注入漏洞(CVE-2024-2389)
 - kkFileView-v4.3.0-RCE
 - draytek路由器addrouting命令执行漏洞
+- 飞企互联-FE企业运营管理平台ProxyServletUti存在任意文件读取漏洞
   
 ## 2024.04.12 新增漏洞
 - 新视窗新一代物业管理系统任意文件上传漏洞
