@@ -11,6 +11,8 @@
 - SpringBlade框架dict-biz接口存在sql注入漏洞
 - 通天星CMSV6车载视频监控平台downloadLogger接口任意文件读取漏洞
 - Progress-Flowmon命令注入漏洞(CVE-2024-2389)
+- kkFileView-v4.3.0-RCE
+- draytek路由器addrouting命令执行漏洞
   
 ## 2024.04.12 新增漏洞
 - 新视窗新一代物业管理系统任意文件上传漏洞
