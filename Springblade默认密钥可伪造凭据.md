@@ -1,6 +1,9 @@
 ## Springblade默认密钥可伪造凭据
 
-密钥：bladexisapowerfulmicroservicearchitectureupgradedandoptimizedfromacommercialproject
+## 默认密钥
+```
+String SIGN_KEY = "bladexisapowerfulmicroservicearchitectureupgradedandoptimizedfromacommercialproject";
+```
 
 ## poc
 ```
