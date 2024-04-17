@@ -10,6 +10,7 @@
 - 用友NC-uploadControl接口存在文件上传漏洞
 - SpringBlade框架dict-biz接口存在sql注入漏洞
 - 通天星CMSV6车载视频监控平台downloadLogger接口任意文件读取漏洞
+- Progress-Flowmon命令注入漏洞(CVE-2024-2389)
   
 ## 2024.04.12 新增漏洞
 - 新视窗新一代物业管理系统任意文件上传漏洞
