@@ -7,6 +7,7 @@
 - Linksys-RE7000无线扩展器命令执行漏洞(CVE-2024-25852)
 - IP-guard-WebServer存在权限绕过漏洞(QVD-2024-14103)
 - 用友GRP-U8-operOriztion存在SQL注入漏洞
+- 时空智友企业流程化管控系统formservice存在SQL注入漏洞
 
 ## 2024.04.16 新增漏洞
 - 网康科技NS-ASG应用安全网关add_ikev2.php存在SQL注入漏洞
