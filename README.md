@@ -5,6 +5,7 @@
 - 用友U8GRP-fastjson
 - 云时空社会化商业ERP系统validateLoginName接口处存在SQL注入漏洞
 - Linksys-RE7000无线扩展器命令执行漏洞(CVE-2024-25852)
+- IP-guard-WebServer存在权限绕过漏洞(QVD-2024-14103)
 
 ## 2024.04.16 新增漏洞
 - 网康科技NS-ASG应用安全网关add_ikev2.php存在SQL注入漏洞
