@@ -1,6 +1,9 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了400多个poc/exp，善用CTRL+F搜索
 
+## 2024.04.19 新增漏洞
+- 用友U8GRP-fastjson
+
 ## 2024.04.16 新增漏洞
 - 网康科技NS-ASG应用安全网关add_ikev2.php存在SQL注入漏洞
 - 网康科技NS-ASG应用安全网关config_ISCGroupNoCache.php存在SQL注入漏洞
