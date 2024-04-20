@@ -12,6 +12,7 @@
 - 泛微E-Mobile-messageType.do存在命令执行漏洞
 - 润乾报表dataSphereServlet任意文件上传
 - 若依后台定时任务存在SSRF漏洞
+- 用友NC-showcontent接口存在sql注入漏洞
 
 ## 2024.04.16 新增漏洞
 - 网康科技NS-ASG应用安全网关add_ikev2.php存在SQL注入漏洞
