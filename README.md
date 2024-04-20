@@ -10,6 +10,7 @@
 - 时空智友企业流程化管控系统formservice存在SQL注入漏洞
 - 泛微E-Office-jx2_config存在信息泄露漏洞
 - 泛微E-Mobile-messageType.do存在命令执行漏洞
+- 润乾报表dataSphereServlet任意文件上传
 
 ## 2024.04.16 新增漏洞
 - 网康科技NS-ASG应用安全网关add_ikev2.php存在SQL注入漏洞
