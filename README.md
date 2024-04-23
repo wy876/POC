@@ -9,6 +9,7 @@
 - 用友移动系统管理uploadApk接口存在任意文件上传
 - 泛微e-office系统UserSelect接口存在未授权访问漏洞
 - WIFISKY-7层流控路由器confirm.php接口处存在RCE漏洞
+- 泛微E-Office-uploadfile.php任意文件上传漏洞
 
 ## 2024.04.19 新增漏洞
 - 用友U8GRP-fastjson
