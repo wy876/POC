@@ -6,6 +6,9 @@
 - 锐捷校园网自助服务系统operatorReportorRoamService存在SQL注入漏洞
 - 用友政务财务系统FileDownload存在任意文件读取漏洞
 - F-logic_DataCube3存在SQL注入漏洞(CVE-2024-31750)
+- 用友移动系统管理uploadApk接口存在任意文件上传
+- 泛微e-office系统UserSelect接口存在未授权访问漏洞
+- WIFISKY-7层流控路由器confirm.php接口处存在RCE漏洞
 
 ## 2024.04.19 新增漏洞
 - 用友U8GRP-fastjson
