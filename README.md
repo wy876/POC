@@ -1,6 +1,12 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了400多个poc/exp，善用CTRL+F搜索
 
+## 2024.04.23 新增漏洞
+- 网动统一通信平台ActiveUC存在任意文件下载漏洞
+- 锐捷校园网自助服务系统operatorReportorRoamService存在SQL注入漏洞
+- 用友政务财务系统FileDownload存在任意文件读取漏洞
+- F-logic_DataCube3存在SQL注入漏洞(CVE-2024-31750)
+
 ## 2024.04.19 新增漏洞
 - 用友U8GRP-fastjson
 - 云时空社会化商业ERP系统validateLoginName接口处存在SQL注入漏洞
