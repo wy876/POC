@@ -4,6 +4,8 @@
 ## 2024.04.27 新增漏洞
 - 通达OA-WHERE_STR存在前台SQL注入漏洞
 - 用友GRP-U8-obr_zdybxd_check存在sql注入漏洞
+- 用友畅捷通TPlus-InitServerInfo存在SQL注入漏洞
+- 用友畅捷通-TPlus-CheckMutex存在sql注入漏洞
 
 ## 2024.04.23 新增漏洞
 - 网动统一通信平台ActiveUC存在任意文件下载漏洞
