@@ -10,6 +10,7 @@
 - 用友畅捷通CRM-create_site.phpSQL注入漏洞
 - MajorDoMo-thumb.php未授权RCE漏洞复现(CNVD-2024-02175)
 - 普元EOS-Platform-eos.jmx存在远程代码执行漏洞
+- 普元EOS-Platform-jmx.jmx存在远程代码执行漏洞(XVE-2023-24691)
 
 ## 2024.04.23 新增漏洞
 - 网动统一通信平台ActiveUC存在任意文件下载漏洞
