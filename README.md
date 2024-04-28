@@ -1,6 +1,21 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了400多个poc/exp，善用CTRL+F搜索
 
+## 2024.04.28 新增漏洞
+- 用友GRP-U8-slbmbygr.jsp存在SQL注入漏洞
+- 用友GRP-U8-listSelectDialogServlet存在SQL注入
+- 用友GRP-U8-bx_dj_check.jsp存在SQL注入
+- 用友GRP-U8-obr_zdybxd_check.jsp存在SQL注入
+- 用友GRP-U8-userInfoWeb存在SQL注入
+- 用友GRP-U8-dialog_moreUser_check.jsp前台SQL注入
+- 用友GRP-U8-Proxy存在SQL注入漏洞
+- 用友GRP-U8-sqcxIndex.jsp存在SQL注入漏洞
+- 用友GRP-U8-FileUpload任意文件上传
+- 用友GRP-U8-UploadFileData任意文件上传
+- 用友GRP-U8-ufgovbank存在XXE漏洞
+- 用友GRP-U8-PayReturnForWcp接口存在XXE漏洞
+- 用友GRP-U8日志泄漏漏洞
+  
 ## 2024.04.27 新增漏洞
 - 通达OA-WHERE_STR存在前台SQL注入漏洞
 - 用友GRP-U8-obr_zdybxd_check存在sql注入漏洞
