@@ -13,6 +13,7 @@
 - 普元EOS-Platform-jmx.jmx存在远程代码执行漏洞(XVE-2023-24691)
 - 用友U8-Cloud-TableInputOperServlet存在反序列化漏洞
 - 湖南建研质量监测系统upload.ashx文件上传漏洞
+- 脸爱云一脸通智慧管理平台存在UpLoadPic.ashx文件上传漏洞
 
 ## 2024.04.23 新增漏洞
 - 网动统一通信平台ActiveUC存在任意文件下载漏洞
