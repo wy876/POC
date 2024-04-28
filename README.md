@@ -14,6 +14,7 @@
 - 用友U8-Cloud-TableInputOperServlet存在反序列化漏洞
 - 湖南建研质量监测系统upload.ashx文件上传漏洞
 - 脸爱云一脸通智慧管理平台存在UpLoadPic.ashx文件上传漏洞
+- ZenML服务器远程权限提升漏洞(CVE-2024-25723)
 
 ## 2024.04.23 新增漏洞
 - 网动统一通信平台ActiveUC存在任意文件下载漏洞
