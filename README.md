@@ -8,6 +8,7 @@
 - Pkpmbs建设工程质量监督系统FileUpOrDown.ashx存在文件上传漏洞
 - Mingsoft-MCMS前台查询文章列表接口SQL注入(CNVD-2024-06148)
 - 广州图书馆集群系统WebBookNew存在SQL注入漏洞
+- Likeshop-formimage任意文件上传
 
 ## 2024.04.28 新增漏洞
 - 用友GRP-U8-slbmbygr.jsp存在SQL注入漏洞
