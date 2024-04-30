@@ -3,6 +3,7 @@
 
 ## 2024.04.30 新增漏洞
 - 亿赛通电子文档安全管理系统-jlockseniordao-findbylockname-sql注入漏洞
+- 亿赛通电子文档安全管理系统-MailMessageLogServices反序列漏洞
 
 ## 2024.04.28 新增漏洞
 - 用友GRP-U8-slbmbygr.jsp存在SQL注入漏洞
