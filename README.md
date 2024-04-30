@@ -4,6 +4,7 @@
 ## 2024.04.30 新增漏洞
 - 亿赛通电子文档安全管理系统-jlockseniordao-findbylockname-sql注入漏洞
 - 亿赛通电子文档安全管理系统-MailMessageLogServices反序列漏洞
+- 亿赛通电子文档安全管理系统RestoreFiles任意文件读取漏洞
 - 蓝网科技临床浏览系统-deleteStudy-SQL注入漏洞复现(CVE-2024-4257)
 - Pkpmbs建设工程质量监督系统FileUpOrDown.ashx存在文件上传漏洞
 - Mingsoft-MCMS前台查询文章列表接口SQL注入(CNVD-2024-06148)
