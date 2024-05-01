@@ -12,6 +12,7 @@
 - Likeshop-formimage任意文件上传
 - X2Modbus网关GetUser接口存在信息泄漏漏洞
 - WordPress-Automatic插件存在SQL注入漏洞(CVE-2024-27956)
+- 北京中科聚网一体化运营平台catchByUrl存在文件上传漏洞
 
 ## 2024.04.28 新增漏洞
 - 用友GRP-U8-slbmbygr.jsp存在SQL注入漏洞
