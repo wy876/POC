@@ -14,6 +14,7 @@
 - WordPress-Automatic插件存在SQL注入漏洞(CVE-2024-27956)
 - 北京中科聚网一体化运营平台catchByUrl存在文件上传漏洞
 - LiveGBS存在逻辑缺陷漏洞(CNVD-2023-72138)
+- 北京亚控科技KingPortal开发系统漏洞集合
 
 ## 2024.04.28 新增漏洞
 - 用友GRP-U8-slbmbygr.jsp存在SQL注入漏洞
