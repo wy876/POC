@@ -1,6 +1,11 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了400多个poc/exp，善用CTRL+F搜索
 
+## 2024.05.02 新增漏洞
+- 和丰多媒体信息发布系统QH.aspx存在文件上传漏洞
+- 用友NC-bill存在SQL注入漏洞
+- 用友U8-CRM客户关系管理系统downloadfile.php存在任意文件读取漏洞
+
 ## 2024.04.30 新增漏洞
 - 亿赛通电子文档安全管理系统-jlockseniordao-findbylockname-sql注入漏洞
 - 亿赛通电子文档安全管理系统-MailMessageLogServices反序列漏洞
