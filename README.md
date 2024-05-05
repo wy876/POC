@@ -9,6 +9,7 @@
 - OpenMetadata命令执行漏洞(CVE-2024-28253)
 - Ncast高清智能录播系统存在任意文件读取漏洞
 - AJ-Report开源数据大屏存在远程命令执行漏洞
+- 大华智慧园区综合管理平台ipms接口存在远程代码执行漏洞
 
 ## 2024.04.30 新增漏洞
 - 亿赛通电子文档安全管理系统-jlockseniordao-findbylockname-sql注入漏洞
