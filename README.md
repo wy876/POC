@@ -7,6 +7,7 @@
 - MetaCRM客户关系管理系统任意文件上传漏洞
 - 用友U8-CRM客户关系管理系统getemaildata.php任意文件上传漏洞
 - 电信网关配置管理后台ipping.php存在命令执行漏洞
+- 瑞友天翼应用虚拟化系统appsave接口存在SQL注入漏洞
 - 致远M3敏感信息泄露漏洞
 - Jan任意文件上传漏洞
 - Jeecg任意文件上传漏洞
