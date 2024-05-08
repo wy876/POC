@@ -5,6 +5,7 @@
 - 用友畅捷通TPlus-keyEdit.aspx接口存在SQL注入漏洞
 - 用友时空KSOA-linkadd.jsp存在SQL注入漏洞
 - MetaCRM客户关系管理系统任意文件上传漏洞
+- 用友U8-CRM客户关系管理系统getemaildata.php任意文件上传漏洞
 
 ## 2024.05.02 新增漏洞
 - 和丰多媒体信息发布系统QH.aspx存在文件上传漏洞
