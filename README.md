@@ -12,6 +12,8 @@
 - 用友GRPA++Cloud政府财务云存在任意文件读取漏洞
 - 红海云eHR-PtFjk.mob存在任意文件上传漏洞
 - 福建科立讯通信指挥调度管理平台ajax_users.php存在SQL注入漏洞
+- 金和OAC6-FileDownLoad.aspx任意文件读取漏洞
+- F5-BIG-IP存在SQL注入漏洞(CVE-2024-26026)&(CVE-2024-21793)
 - 致远M3敏感信息泄露漏洞
 - Jan任意文件上传漏洞
 - Jeecg任意文件上传漏洞
