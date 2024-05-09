@@ -14,6 +14,7 @@
 - 福建科立讯通信指挥调度管理平台ajax_users.php存在SQL注入漏洞
 - 金和OAC6-FileDownLoad.aspx任意文件读取漏洞
 - F5-BIG-IP存在SQL注入漏洞(CVE-2024-26026)&(CVE-2024-21793)
+- Mura-CMS-processAsyncObject存在SQL注入漏洞(CVE-2024-32640)
 - 致远M3敏感信息泄露漏洞
 - Jan任意文件上传漏洞
 - Jeecg任意文件上传漏洞
