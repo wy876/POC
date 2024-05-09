@@ -9,6 +9,7 @@
 - 电信网关配置管理后台ipping.php存在命令执行漏洞
 - 瑞友天翼应用虚拟化系统appsave接口存在SQL注入漏洞
 - 泛微OA-E-Cology-FileDownload文件读取漏洞
+- 用友GRPA++Cloud政府财务云存在任意文件读取漏洞
 - 致远M3敏感信息泄露漏洞
 - Jan任意文件上传漏洞
 - Jeecg任意文件上传漏洞
