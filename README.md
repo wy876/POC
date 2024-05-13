@@ -4,6 +4,7 @@
 ## 2024.05.13 新增漏洞
 - 用友NC系统registerServlet接口存在JNDI注入漏洞
 - 微擎-AccountEdit-file-upload文件上传漏洞
+- RuvarOA协同办公平台多处存在SQL注入漏洞
 
 ## 2024.05.08 新增漏洞
 - 用友畅捷通TPlus-keyEdit.aspx接口存在SQL注入漏洞
