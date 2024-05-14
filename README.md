@@ -10,6 +10,7 @@
 - 用友NC系统printBill接口存在任意文件读取漏洞
 - 泛微-OA系统ResourceServlet接口任意文件读取漏洞
 - 锐捷网络flwo.control.php存在RCE漏洞
+- 亿赛通电子文档安全管理系统-UploadFileManagerService-任意文件读取漏洞
 
 ## 2024.05.08 新增漏洞
 - 用友畅捷通TPlus-keyEdit.aspx接口存在SQL注入漏洞
