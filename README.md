@@ -1,5 +1,5 @@
 # 漏洞收集
-收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了400多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了500多个poc/exp，善用CTRL+F搜索
 
 ## 2024.05.13 新增漏洞
 - 用友NC系统registerServlet接口存在JNDI注入漏洞
