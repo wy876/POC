@@ -10,6 +10,7 @@
 - 安达通TPN-2G安全网关远程代码执行
 - 科拓全智能停车收费系统DoubtCarNoListFrom.aspx存在SQL注入漏洞
 - 科拓全智能停车收费系统Webservice.asmx存在任意文件上传
+- D-LINK-DIR-X4860未授权RCE漏洞
 
 ## 2024.05.13 新增漏洞
 - 用友NC系统registerServlet接口存在JNDI注入漏洞
