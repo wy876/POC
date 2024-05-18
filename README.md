@@ -1,6 +1,16 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了500多个poc/exp，善用CTRL+F搜索
 
+## 2024.05.18 新增漏洞
+- 英飞达医学影像存档与通信系统WebJobUpload任意文件上传漏洞
+- 佳会视频会议attachment任意文件读取
+- 六零导航页存在任意文件上传漏洞
+- SeaCMS海洋影视管理系统dmku存在SQL注入漏洞
+- 用友CRM系统uploadfile.php接口存在任意文件上传
+- 安达通TPN-2G安全网关远程代码执行
+- 科拓全智能停车收费系统DoubtCarNoListFrom.aspx存在SQL注入漏洞
+- 科拓全智能停车收费系统Webservice.asmx存在任意文件上传
+
 ## 2024.05.13 新增漏洞
 - 用友NC系统registerServlet接口存在JNDI注入漏洞
 - 微擎-AccountEdit-file-upload文件上传漏洞
