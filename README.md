@@ -1,7 +1,25 @@
 # 漏洞收集
 收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了500多个poc/exp，善用CTRL+F搜索
 
+
+
+## 2024.05.21 新增漏洞
+
+- QNAP-QTS溢出导致的未授权RCE漏洞(CVE-2024-27130)
+- Zabbix-Serve-SQL注入漏洞(CVE-2024-22120)
+- 山东聚恒网络技术有限公司聚恒中台data.ashx存在SQL注入漏洞
+- 方正畅享全媒体新闻采编系统binary.do存在SQL注入漏洞
+- Git远程代码执行漏洞(CVE-2024-32002)
+- Gradio存在任意文件读取漏洞(CVE-2024-1561)
+- EasyCVR视频管理平台存在任意用户添加漏洞
+- 用友U8-Cloud系统XChangeServlet接口存在XXE漏洞
+- emlog后台插件任意文件上传(CVE-2024-33752)
+- 泛微OA-E-Cology-JqueryFileTree.jsp目录遍历漏洞
+- cockpit系统upload接口存在文件上传漏洞
+- 宏景HCM系统fieldsettree接口存在SQL注入漏洞
+
 ## 2024.05.18 新增漏洞
+
 - 英飞达医学影像存档与通信系统WebJobUpload任意文件上传漏洞
 - 佳会视频会议attachment任意文件读取
 - 六零导航页存在任意文件上传漏洞
