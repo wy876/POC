@@ -3,6 +3,21 @@
 
 
 
+## 2024.05.23 新增漏洞
+
+- 致远OAV52019系统properties信息泄露漏洞
+- GeoServer系统wms接口存在远程命令执行漏洞
+- 用友NC-complainbilldetail存在SQL注入漏洞
+- 用友NC-downTax存在SQL注入漏洞
+- 宏景eHR-OutputCode存在任意文件读取漏洞
+- 用友U8-Cloud-linkntb.jsp存在SQL注入漏洞(CNVD-C-2023-708748)
+- 懒人网址导航页search.html存在SQL注入漏洞
+- LVS精益价值管理系统LVS.Web.ashx存在SQL注入漏洞
+- LVS精益价值管理系统DownLoad.aspx存在任意文件读取漏洞
+- 泛微OA-E-Cology-Getdata.jsp存在SQL注入漏洞
+- 蓝海卓越计费管理系统SQL注入漏洞
+- 铭飞CMS-search接口存在sql注入漏洞
+
 ## 2024.05.21 新增漏洞
 
 - QNAP-QTS溢出导致的未授权RCE漏洞(CVE-2024-27130)
