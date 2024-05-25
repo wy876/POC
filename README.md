@@ -2,15 +2,11 @@
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了500多个poc/exp，善用CTRL+F搜索
 
 
-
 ## 2024.05.25 新增漏洞
 
 - 瑞星EDR-XSS漏洞可打管理员cookie
-
 - 金山云EDR任意文件上传漏洞
-
 - HM发卡网反序列化漏洞
-
 - Nexus未授权目录穿越漏洞(CVE-2024-4956)
 - 泛微E-cology-LoginSSO.jsp存在QL注入漏洞(CNVD-2021-33202)
 - 万户ezEIP-success.aspx存在反序列化漏洞
