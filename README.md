@@ -1,7 +1,31 @@
 # 漏洞收集
-收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了500多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了500多个poc/exp，善用CTRL+F搜索
 
 
+
+## 2024.05.25 新增漏洞
+
+- 瑞星EDR-XSS漏洞可打管理员cookie
+
+- 金山云EDR任意文件上传漏洞
+
+- HM发卡网反序列化漏洞
+
+- Nexus未授权目录穿越漏洞(CVE-2024-4956)
+- 泛微E-cology-LoginSSO.jsp存在QL注入漏洞(CNVD-2021-33202)
+- 万户ezEIP-success.aspx存在反序列化漏洞
+- 通天星CMSV6车载定位监控平台SQL注入漏洞(XVE-2023-23744)
+- 通天星CMSV6车载视频监控平台getAlser.acion接口处存在信息泄露漏洞
+- 通天星CMSV6车载视频监控平台xz_center信息泄露漏洞
+- 智慧校园(安校易)管理系统FileUpProductupdate.aspx任意文件上传漏洞
+- 泛微E-Office10-OfficeServer任意文件上传漏洞
+- ArubaOS-RCE漏洞(CVE-2024-26304)
+- H3C路由器userLogin.asp信息泄漏漏洞
+- 用友nc电子采购信息系统securitycheck存在sql注入
+- 用友NC-warningDetailInfo接口存在SQL注入漏洞
+- Confluence远程命令执行漏洞(CVE-2024-21683)
+- 蓝海卓越计费管理系统存在debug.php远程命令执行漏洞
+- 蓝海卓越计费管理系统存在download.php任意文件读取漏洞
 
 ## 2024.05.23 新增漏洞
 

