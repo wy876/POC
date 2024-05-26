@@ -5,7 +5,7 @@
 
 ## fofa
 ```
-title:"YONYOU NC"
+title="YONYOU NC"
 ```
 
 
