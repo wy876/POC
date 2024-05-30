@@ -1,6 +1,19 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了500多个poc/exp，善用CTRL+F搜索
 
+## 2024.05.31 新增漏洞
+
+- PHP-Live-Chat代码审计之组合拳GetShell
+- 宏景eHR-showmedia.jsp存在SQL注入漏洞
+- NextGen-Mirth-Connect-XStream反序列化远程代码执行漏洞(CVE-2023-43208)
+- 用友智石开PLM-getWorkGroups存在信息泄露漏洞
+- 智邦国际ERP-GetPersonalSealData.ashx存在SQL注入漏洞
+- 中成科信票务管理系统ReserveTicketManagerPlane.ashx存在SQL注入漏洞
+- JEPaaS低代码平台document存在文件上传致RCE漏洞
+- 大华城市安防监控系统平台管理存在user_edit.action信息泄露漏洞
+- Check-Point安全网关任意文件读取漏洞(CVE-2024-24919)
+- 电信网关配置管理后台rewrite.php接口存在文件上传漏洞
+
 ## 2024.05.28 新增漏洞
 
 - DCN有线无线智能一体化控制器WEB管理系统
