@@ -1,5 +1,18 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了500多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了600多个poc/exp，善用CTRL+F搜索
+
+## 2024.06.02 新增漏洞
+
+- 海康威视综合安防download存在任意文件读取漏洞
+- 科讯图书馆综合管理云平台WebCloud.asmx存在SQL注入
+- 翰智员工服务平台loginByPassword存在SQL注入漏洞
+- DT高清车牌识别摄像机存在任意文件读取漏洞
+- showDoc-uploadImg任意文件上传漏洞
+- 全程云OA-svc.asmxSQL注入漏洞
+- 中国移动云控制台存在任意文件读取
+- 泛微OA-E-Mobile移动管理平台lang2sql任意文件上传漏洞
+- 金蝶云星空UserService反序列化漏洞
+- 湖南建研检测系统存在DownLoad2.aspx任意文件读取漏洞
 
 ## 2024.05.31 新增漏洞
 
