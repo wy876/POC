@@ -1,6 +1,27 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了600多个poc/exp，善用CTRL+F搜索
 
+## 2024.06.05 新增漏洞
+
+- Symfony-app_dev.php信息泄露漏洞
+- 泛微OA-E-cology8-SptmForPortalThumbnail.jsp任意文件读取漏洞
+- O2OA远程命令执行(CVE-2022-22916)
+- 大华DSS城市安防监控平台login_init.action接口存在Struct2-045命令执行漏洞
+- H3C-CVM-upload接口前台任意文件上传漏洞复现
+- 用友NC-pagesServlet存在SQL注入
+- 宏景HCM-pos_dept_post存在SQL注入漏洞
+- 迈普多业务融合网关send_order.cgi存在命令执行漏洞
+- HSC-Mailinspector-loader.php存在任意文件读取漏洞(CVE-2024-34470)
+- Minio-verify信息泄露(CVE-2023-28432)
+- OrangeHRM-viewProjects接口存在SQL注入漏洞(CVE-2024-36428)
+- ShowDoc3.2.5存在SQL注入漏洞
+- mysql2原型污染漏洞(CVE-2024-21512)
+- 亿赛通-电子文档安全管理系统SaveCDGPermissionFromGFOA接口存在sql注入漏洞
+- Apache-OFBiz存在路径遍历导致RCE漏洞(CVE-2024-36104)
+- 飞企互联-FE企业运营管理平台treeXml.jsp存在SQL注入漏洞
+- 泛微E-Office-json_common.phpSQL注入漏洞
+- 泛微E-Office系统login_other.php存在sql注入漏洞
+
 ## 2024.06.02 新增漏洞
 
 - 海康威视综合安防download存在任意文件读取漏洞
