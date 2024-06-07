@@ -1,6 +1,19 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了600多个poc/exp，善用CTRL+F搜索
 
+## 2024.06.07 新增漏洞
+
+- 天智云智造管理平台Usermanager.ashx存在SQL注入漏洞
+- 海康威视综合安防管理平台productFile远程代码执行
+- 海康威视综合安防管理平台applyAutoLoginTicket远程代码执行漏洞
+- showdoc3.2.4-phar反序列漏洞复现
+- Progress-Telerik-Report-Server身份验证绕过(CVE-2024-4358)
+- 悟空CRM9.0-fastjson远程代码执行漏洞(CVE-2024-23052)
+- PHP-CGI-Windows平台远程代码执行漏洞(CVE-2024-4577)
+- 用友NC-downCourseWare任意文件读取
+- 用友-U9-PatchFile.asmx任意文件上传漏洞
+- Apache-HugeGraph-Server远程代码执行漏洞(CVE-2024-27348)
+
 ## 2024.06.05 新增漏洞
 
 - Symfony-app_dev.php信息泄露漏洞
