@@ -11,6 +11,12 @@
 - 泛微e-office-uploadify.php存在任意文件上传漏洞
 - 世邦通信SPON-IP网络对讲广播系统addscenedata.php任意文件上传漏洞
 - 电信网关配置管理后台del_file.php接口存在命令执行漏洞
+- Ivanti-EPM存在SQL注入漏洞(CVE-2024-29824)
+- JEPaaS低代码平台j_spring_security_check存在SQL注入漏洞
+- 东胜物流软件GetProParentModuTreeList存在SQL注入漏洞
+- 锐捷NBR系列路由器存在管理员密码重置漏洞
+- 海洋CMS-admin_notify.php远程代码执行漏洞
+- SolarWinds-Serv-U目录遍历漏洞(CVE-2024-28995)
 
 ## 2024.06.11 新增漏洞
 
