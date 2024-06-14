@@ -1,6 +1,17 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了600多个poc/exp，善用CTRL+F搜索
 
+## 2024.06.14 新增漏洞
+
+- 致远oa系统saveFormula4Cloud存在JNDI注入
+- 用友NC-oacoSchedulerEvents接口存在sql注入漏洞
+- 致远OA帆软组件ReportServer目录遍历漏洞
+- 泛微-eoffice-webservice-file-upload任意文件上传漏洞
+- 泛微e-office-mobile_upload_save存在任意文件上传漏洞
+- 泛微e-office-uploadify.php存在任意文件上传漏洞
+- 世邦通信SPON-IP网络对讲广播系统addscenedata.php任意文件上传漏洞
+- 电信网关配置管理后台del_file.php接口存在命令执行漏洞
+
 ## 2024.06.11 新增漏洞
 
 - 海康威视综合安防管理平台keepAlive远程代码执行漏洞
