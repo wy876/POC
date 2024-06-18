@@ -1,6 +1,19 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了600多个poc/exp，善用CTRL+F搜索
 
+## 2024.06.18 新增漏洞
+
+- 禅道18.5存在后台命令执行漏洞
+- Fastadmin框架存在任意文件读取漏洞
+- CRMEB开源商城v5.2.2存在sql注入漏洞
+- AEGON-LIFEv1.0存在SQL注入漏洞(CVE-2024-36597)
+- 悦库企业网盘userlogin.html存在SQL注入漏洞
+- 仿新浪外汇余额宝时间交易所任意文件读取
+- 申瓯通信在线录音管理系统download任意文件读取漏洞
+- 致远互联FE协作办公平台ncsubjass存在SQL注入
+- 世邦通信SPON-IP网络对讲广播系统my_parser.php任意文件上传漏洞
+- 万户-ezOFFICE-download_ftp.jsp任意文件下载漏洞
+
 ## 2024.06.14 新增漏洞
 
 - 致远oa系统saveFormula4Cloud存在JNDI注入
