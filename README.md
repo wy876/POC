@@ -1,6 +1,28 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了600多个poc/exp，善用CTRL+F搜索
 
+## 2024.06.21 新增漏洞
+
+- 真内控国产化开发平台接口preview任意文件读取漏洞
+- 华测监测预警系统接口UserEdit.aspx存在SQL注入
+- ShokoServer系统withpath任意文件读取漏洞(CVE-2023-43662)
+- 契约锁电子签章平台add远程命令执行漏洞
+- Zyxel-NAS设备setCookie未授权命令注入漏洞(CVE-2024-29973)
+- 新视窗新一代物业管理系统GetCertificateInfoByStudentId存在SQL注入漏洞
+- XWiki-Platform远程代码执行漏洞
+- 学分制系统GetCalendarContentById存在SQL注入漏洞
+- 云匣子系统接口ssoToolReport存在远程代码执行漏洞
+- 泛微E-Cology-KtreeUploadAction任意文件上传漏洞
+- 极限OA接口video_file.php存在任意文件读取漏洞
+- 锐捷上网行为管理系统static_convert.php存在远程命令执行漏洞
+- 佑友防火墙后台接口download存在任意文件读取漏洞
+- 佑友防火墙后台接口maintain存在命令执行漏洞
+- 极企智能办公路由接口jumper.php存在RCE漏洞
+- 用友Ufida-ELTextFile.load.d任意文件读取漏洞
+- 易天智能eHR管理平台任意用户添加漏洞
+- 多客圈子论坛前台SSRF漏洞
+- APP分发签名系统index-uplog.php存在任意文件上传漏洞
+
 ## 2024.06.18 新增漏洞
 
 - 禅道18.5存在后台命令执行漏洞
@@ -13,6 +35,7 @@
 - 致远互联FE协作办公平台ncsubjass存在SQL注入
 - 世邦通信SPON-IP网络对讲广播系统my_parser.php任意文件上传漏洞
 - 万户-ezOFFICE-download_ftp.jsp任意文件下载漏洞
+- 平升水库水文监测系统默认密码
 
 ## 2024.06.14 新增漏洞
 

