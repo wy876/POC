@@ -20,6 +20,9 @@
 - 铭飞MCMS接口upload.do存在任意文件上传漏洞
 - OpenCart开源电子商务平台divido.php存在SQL注入漏洞
 - D-LINK-DIR-845L接口bsc_sms_inbox.php存在信息泄露漏洞
+- 致远互联FE协作办公平台codeMoreWidget.js存在sql注入漏洞
+- 飞企互联-FE企业运营管理平台efficientCodewidget39接口SQL注入漏洞
+- 金和OA-C6接口DownLoadBgImage存在任意文件读取漏洞
 
 ## 2024.06.21 新增漏洞
 
