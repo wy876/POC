@@ -1,5 +1,25 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了600多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了700多个poc/exp，善用CTRL+F搜索
+
+## 2024.06.28 新增漏洞
+
+- WordPress插件Dokan-Pro存在SQL注入漏洞
+- 时空智友ERP系统updater.uploadStudioFile接口处存在任意文件上传漏洞
+- Apache-ServiceComb存在SSRF漏洞(CVE-2023-44313)
+- 通天星CMSV6接口pointManage存在SQL注入
+- 用友U8-Cloud-smartweb2.showRPCLoadingTip.d存在XXE漏洞
+- WordPress-MasterStudy-LMS插件存在SQL注入漏洞(CVE-2024-1512)
+- Apache-Kafka的UI中的远程代码执行CVE-2023-52251
+- 碧海威L7产品confirm存在命令执行漏洞
+- 万户-ezOFFICE-OA-officeserver.jsp文件上传漏洞
+- 医药信息管理系统GetLshByTj存在SQL注入
+- MSService服务init.do接口处存在SQL注入漏洞
+- Pear-Admin-Boot存在SQL注入漏洞
+- 福建科立讯通信有限公司指挥调度管理平台uploadgps.php存在SQL注入漏洞
+- Magento开源电子商务平台接口estimate-shipping-methods存在XXE漏洞
+- 铭飞MCMS接口upload.do存在任意文件上传漏洞
+- OpenCart开源电子商务平台divido.php存在SQL注入漏洞
+- D-LINK-DIR-845L接口bsc_sms_inbox.php存在信息泄露漏洞
 
 ## 2024.06.21 新增漏洞
 
