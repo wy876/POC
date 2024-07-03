@@ -15,6 +15,13 @@
 - 英飞达医学影像存档与通信系统Upload.asmx任意文件上传漏洞
 - GeoServer属性名表达式前台代码执行漏洞(CVE-2024-36401)
 - D-LINK-Go-RT-AC750 GORTAC750_A1_FW_v101b03存在硬编码漏洞(CVE-2024-22853)
+- 致远OA-A8-V5接口officeservlet存在任意文件读取漏洞
+- JieLink+智能终端操作平台存在sql注入漏洞
+- 金斗云-HKMP智慧商业软件任意用户添加漏洞
+- 热网无线监测系统SystemManager.asmx存在SQL注入漏洞
+- 喰星云-数字化餐饮服务系统listuser信息泄露漏洞
+- 邦永PM2项目管理系统Global_UserLogin.aspx存在SQL注入漏洞
+- 锐明技术Crocus系统Service.do任意文件读取漏洞
 
 ## 2024.06.28 新增漏洞
 
