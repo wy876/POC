@@ -1,6 +1,20 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了700多个poc/exp，善用CTRL+F搜索
 
+## 2024.07.03 新增漏洞
+
+- 金和OA_C6_UploadFileDownLoadnew存在任意文件读取漏洞
+- 科荣AIO-moffice接口存在SQL注入漏洞
+- 朗新天霁人力资源管理系统GetMessage存在sql注入漏洞
+- 用友u9系统接口GetConnectionString存在信息泄露漏洞
+- YzmCMS接口存在pay_callback远程命令执行
+- 美特CRM系统接口anotherValue存在FastJson反序列化RCE
+- 飞企互联FE企业运营管理平台ajax_codewidget39.jsp接口存在SQL注入漏洞
+- 飞企互联FE企业运营管理平台checkGroupCode.js接口存在SQL注入漏洞
+- 大华ICC智能物联综合管理平台heapdump敏感信息泄露
+- 英飞达医学影像存档与通信系统Upload.asmx任意文件上传漏洞
+- GeoServer属性名表达式前台代码执行漏洞(CVE-2024-36401)
+
 ## 2024.06.28 新增漏洞
 
 - WordPress插件Dokan-Pro存在SQL注入漏洞
