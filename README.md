@@ -1,6 +1,18 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了700多个poc/exp，善用CTRL+F搜索
 
+## 2024.07.06 新增漏洞
+
+- 宏景eHR人力资源管理系统接口getSdutyTree存在SQL注入漏洞
+- 宏景eHR人力资源管理系统接口loadtree存在SQL注入漏洞
+- 宏景eHR人力资源管理系统接口LoadOtherTreeServlet存在SQL注入漏洞
+- 宏景eHR人力资源管理系统接口DownLoadCourseware存在任意文件读取漏洞
+- 平升电子水库监管平台GetAllRechargeRecordsBySIMCardId接口处存在SQL注入漏洞
+- Docassemble任意文件读取漏洞(CVE-2024-27292) 
+- WordPress插件Recall存在SQL注入漏洞(CVE-2024-32709)
+- rejetto-HFS-3存在远程命令执行漏洞(CVE-2024-39943)
+- Splunk-Enterprise任意文件读取漏洞
+
 ## 2024.07.03 新增漏洞
 
 - 金和OA_C6_UploadFileDownLoadnew存在任意文件读取漏洞
@@ -743,7 +755,7 @@
 - 用友NC的download文件存在任意文件读取漏洞
 - 泛微e-cology9_SQL注入-CNVD-2023-12632
 - TOTOLINK A3700R命令执行漏洞CVE-2023-46574
-- Splunk Enterprise 远程代码执行漏洞 (CVE-2023-46214)
+- Splunk-Enterprise远程代码执行漏洞(CVE-2023-46214)
 
 ## 2023.11.24 新增漏洞
 - 华为Auth-Http Serve任意文件读取
