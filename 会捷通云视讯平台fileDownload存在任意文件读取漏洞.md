@@ -3,7 +3,7 @@
 ## fofa
 
 ```
-body="/him/api/rest/v1.0/node/role
+body="/him/api/rest/v1.0/node/role"
 ```
 
 ## poc

@@ -1,6 +1,22 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了700多个poc/exp，善用CTRL+F搜索
 
+## 2024.07.12 新增漏洞
+
+- 泛微E-Cology接口getFileViewUrl存在SSRF漏洞
+- Pyspider-WebUI未授权访问致远程代码执行漏洞
+- 赛蓝企业管理系统DownloadBuilder任意文件读取漏洞
+- 上讯信息技术股份有限公司运维管理系统RepeatSend存在命令执行漏洞
+- 同享人力管理管理平台DownloadFile存在任意文件下载漏洞
+- 北京中科聚网一体化运营平台importVisualModuleImg接口存在文件上传漏洞
+- 用友NC-Cloud接口blobRefClassSea存在反序列化漏洞
+- 慧学教育科技有限公司Campuswit_uploadFiles存在任意文件上传漏洞
+- 虚拟仿真实验室系统FileUploadServlet存在任意文件上传漏洞
+- 风速科技统一认证平台存在密码重置漏洞
+- 联奕统一身份认证平台getDataSource存在信息泄露漏洞
+- PowerCreator接口UploadResourcePic.ashx存在任意文件上传漏洞
+- 数字通OA-智慧政务接口payslip存在SQL注入漏洞
+
 ## 2024.07.09 新增漏洞
 
 - 申瓯通信在线录音管理系统Thinkphp远程代码执行漏洞

