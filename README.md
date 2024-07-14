@@ -1,6 +1,18 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了700多个poc/exp，善用CTRL+F搜索
 
+## 2024.07.14 新增漏洞
+
+- 新中新中小学智慧校园信息管理系统Upload接口存在任意文件上传漏洞
+- 金斗云-HKMP智慧商业软件download任意文件读取漏洞
+- 公众号无限回调系统接口siteUrl存在SQL注入漏洞
+- 用友U8-Cloud系统接口MeasQueryConditionFrameAction存在SQL注入漏洞
+- ServiceNow-UI存在Jelly模板注入漏洞(CVE-2024-4879)
+- 天喻软件数据安全平台DownLoad.ashx存在SQL注入
+- 启明星辰-天清汉马VPN接口download任意文件读取
+- 泛微OA-E-Cology接口WorkflowServiceXml存在SQL注入漏洞
+- 全行业小程序运营系统接口Wxapps.php存在任意文件上传漏洞
+
 ## 2024.07.12 新增漏洞
 
 - 泛微E-Cology接口getFileViewUrl存在SSRF漏洞
