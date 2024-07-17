@@ -1,6 +1,19 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了700多个poc/exp，善用CTRL+F搜索
 
+## 2024.07.17 新增漏洞
+
+- Nacos远程代码执行漏洞
+- 蓝凌KEP前台RCE漏洞
+- 某自动发卡网alipay_notify.php存在SQL注入漏洞
+- 赛蓝企业管理系统GetExcellTemperature存在SQL注入漏洞
+- SuiteCRM系统接口responseEntryPoint存在SQL注入漏洞(CVE-2024-36412)
+- Netgear-WN604接口downloadFile.php信息泄露漏洞(CVE-2024-6646)
+- 泛微e-cology9接口XmlRpcServlet存在任意文件读取漏洞
+- 泛微E-office-10接口leave_record.php存在SQL注入漏洞
+- 用友GRP-A-Cloud政府财务云系统接口selectGlaDatasourcePreview存在SQL注入漏洞
+- 用友NC-Cloud文件服务器用户登陆绕过漏洞
+
 ## 2024.07.14 新增漏洞
 
 - 新中新中小学智慧校园信息管理系统Upload接口存在任意文件上传漏洞
