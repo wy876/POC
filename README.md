@@ -1,6 +1,24 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了700多个poc/exp，善用CTRL+F搜索
 
+## 2024.07.20 新增漏洞
+
+- WebLogic远程代码执行漏洞(CVE-2024-21006)
+- 广联达OA接口ArchiveWebService存在XML实体注入漏洞
+- 亿赛通电子文档安全管理系统NetSecConfigAjax接口存在SQL注入漏洞
+- 亿赛通电子文档安全管理系统NoticeAjax接口存在SQL注入漏洞
+- 云课网校系统文件上传漏洞(DVB-2024-6594)
+- 全息AI网络运维平台ajax_cloud_router_config.php存在命令执行漏洞
+- 1Panel面板最新前台RCE漏洞(CVE-2024-39911)
+- 用友CRM客户关系管理系统import.php存在任意文件上传漏洞
+- 致远互联AnalyticsCloud分析云存在任意文件读取漏洞
+- 海洋CMS后台admin_smtp.php存在远程代码执行漏洞
+- DedeCMSV5.7.114后台article_template_rand.php存在远程代码执行漏洞
+- DedeCMSV5.7.114后台sys_verizes.php存在远程代码执行漏洞
+- fogproject系统接口export.php存在远程命令执行漏洞(CVE-2024-39914)
+- LiveNVR流媒体服务软件接口存在未授权访问漏洞
+- 拼团零售商城系统前台任意文件写入漏洞
+
 ## 2024.07.17 新增漏洞
 
 - Nacos远程代码执行漏洞

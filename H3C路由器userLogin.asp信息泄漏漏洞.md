@@ -1,4 +1,4 @@
-## H3C路由器userLogin.asp信息泄漏漏洞
+## H3C路由器userLogin.asp信息泄漏漏洞(CVE-2024-32238)
 
 
 
