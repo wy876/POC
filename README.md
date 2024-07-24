@@ -1,5 +1,31 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了700多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了800多个poc/exp，善用CTRL+F搜索
+
+## 2024.07.24 新增漏洞
+
+- 通天星CMSV6车载视频监控平台disable存在SQL注入
+- 创客13星零售商城系统前台任意文件上传漏洞
+- 建文工程管理系统BusinessManger.ashx存在SQL注入漏洞
+- 天问物业ERP系统AreaAvatarDownLoad.aspx任意文件读取漏洞
+- 致远OA系统constDef接口存在代码执行漏洞
+- 启明星辰天玥网络安全审计系统SQL注入漏洞
+- Bazarr任意文件读取(CVE-2024-40348)
+- 浪潮云财务系统bizintegrationwebservice.asmx存在命令执行漏洞
+- 建文工程管理系统desktop.ashx存在SQL注入漏洞
+- 帆软系统ReportServer存在SQL注入漏洞导致RCE
+- WVP视频平台(国标28181)未授权SQL注入漏洞
+- 用友NC系统querygoodsgridbycode接口code参数存在SQL注入漏洞
+- 锐捷RG-NBS2026G-P交换机WEB管理ping.htm未授权访问漏洞
+- 华磊科技物流modifyInsurance存在sql注入漏洞
+- 华磊科技物流getOrderTrackingNumber存在sql注入漏洞
+- 泛微E-Mobile系统接口installOperate.do存在SSRF漏洞
+- 润乾报表dataSphereServlet接口存在任意文件读取漏洞
+- 联软安渡系统接口queryLinklnfo存在SQL注入漏洞
+- 科讯一卡通管理系统get_kq_tj_today存在SQL注入漏洞
+- 科讯一卡通管理系统dormitoryHealthRanking存在SQL注入漏洞
+- Apache-CloudStack中的SAML身份验证漏洞(CVE-2024-41107)
+- 飞讯云MyImportData前台SQL注入(XVE-2024-18113)
+- 资管云comfileup.php前台文件上传漏洞(XVE-2024-18154)
 
 ## 2024.07.20 新增漏洞
 
