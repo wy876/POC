@@ -1,6 +1,32 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了800多个poc/exp，善用CTRL+F搜索
 
+## 2024.07.27 新增漏洞
+
+- 金和OA-C6-GeneralXmlhttpPage.aspx存在SQL注入漏洞
+- 汇智ERP接口filehandle.aspx存在任意文件读取漏洞
+- 赛蓝企业管理系统GetJSFile存在任意文件读取漏洞
+- 赛蓝企业管理系统ReadTxtLog存在任意文件读取漏洞
+- 通达OAV11.10接口login.php存在SQL注入漏洞
+- 泛微e-cology9接口WorkPlanService前台SQL注入漏洞(XVE-2024-18112)
+- 宏脉医美行业管理系统DownLoadServerFile任意文件读取下载漏洞
+- Sharp多功能打印机未授权访问漏洞
+- 天问物业ERP系统ContractDownLoad存在任意文件读取漏洞
+- 金慧综合管理信息系统LoginBegin.aspx存在SQL注入漏洞
+- 红海云eHR系统kgFile.mob存在任意文件上传漏洞
+- 华天动力OA系统downloadWpsFile存在任意文件读取漏洞
+- 邦永PM2项目管理平台系统ExcelIn.aspx存在任意文件上传漏洞
+- 用友NC系统接口UserAuthenticationServlet存在反序列化RCE漏洞(XVE-2024-18302)
+-  用友NC及U8cloud系统接口LoggingConfigServlet存在反序列化漏洞(XVE-2024-18151)
+- 金万维-云联应用系统接入平台GNRemote.dll前台存在RCE漏洞
+- 天问物业ERP系统OwnerVacantDownLoad存在任意文件读取漏洞
+- 天问物业ERP系统VacantDiscountDownLoad存在任意文件读取漏洞
+- 浪潮云财务系统xtdysrv.asmx存在命令执行漏洞
+- 瑞斯康达-多业务智能网关-RCE
+- 超级猫签名APP分发平台前台存在SQL注入漏洞
+- 超级猫签名APP分发平台前台远程文件写入漏洞
+- T18-1TOTOLINK-A6000R-远程命令执行漏洞
+
 ## 2024.07.24 新增漏洞
 
 - 通天星CMSV6车载视频监控平台disable存在SQL注入

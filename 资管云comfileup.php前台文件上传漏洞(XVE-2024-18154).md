@@ -1,6 +1,13 @@
 # 资管云comfileup.php前台文件上传漏洞(XVE-2024-18154)
 
+百易云资产管理运营系统 comfileup.php 接口存在文件上传漏洞，未经身份验证的攻击者通过漏洞上传恶意后门文件，执行任意代码，从而获取到服务器权限。
 
+## fofa
+
+```yaml
+body="不要着急，点此"
+title="资管云"
+```
 
 ## poc
 
@@ -25,3 +32,4 @@ test
 ----------1110146050--
 ```
 
+![img](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202407252257165.png)
