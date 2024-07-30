@@ -1,6 +1,26 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了800多个poc/exp，善用CTRL+F搜索
 
+## 2024.07.30 新增漏洞
+
+- RAISECOM网关设备list_base_config.php存在远程命令执行漏洞
+- 用友时空KSOA系统接口PreviewKPQT.jsp存在SQL注入漏洞
+- 用友时空KSOA系统接口PrintZP.jsp存在SQL注入漏洞
+- 用友时空KSOA系统接口PrintZPYG.jsp存在SQL注入漏洞
+- 用友时空KSOA系统接口PrintZPFB.jsp存在SQL注入漏洞
+- 用友时空KSOA系统接口PrintZPZP.jsp存在SQL注入漏洞
+- 用友时空KSOA系统接口fillKP.jsp存在SQL注入漏洞
+- 拓尔思TRS媒资管理系统uploadThumb存在文件上传漏洞
+- 方天云智慧平台系统GetCompanyItem存在sql注入漏洞
+- 用友畅捷通-TPlus系统接口ajaxpro存在ssrf漏洞
+- 泛微e-cology接口HrmService前台SQL注入漏洞
+- 杭州雄威餐厅数字化综合管理平台存在存在绕过认证导致任意密码重置漏洞
+- 用友U9系统DoQuery接口存在SQL注入
+- 泛微ecology系统setup接口存在信息泄露漏洞
+- eking管理易FileUpload接口存在任意文件上传漏洞
+- SpringBlade系统menu接口存在SQL注入漏洞
+- JeecgBoot反射型XSS漏洞
+
 ## 2024.07.27 新增漏洞
 
 - 金和OA-C6-GeneralXmlhttpPage.aspx存在SQL注入漏洞
