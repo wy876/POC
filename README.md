@@ -1,5 +1,33 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了800多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，善用CTRL+F搜索
+
+## 2024.08.01 新增漏洞
+
+- 海康威视综合安防管理平台licenseExpire存在前台远程命令执行漏洞
+- 北京派网软件有限公司Panabit-Panalog大数据日志审计系统sprog_upstatus.php存在SQL注入漏洞
+- Quicklancer系统接口listing存在SQL注入漏洞
+- KubePi存在JWT验证绕过漏洞(CVE-2024-36111)
+- Tenda-FH1201存在命令注入漏洞(CVE-2024-41473)
+- Tenda-FH1201存在命令注入漏洞(CVE-2024-41468)
+- 海康威视综合安防管理平台clusters接口存在任意文件上传漏洞
+- 广联达OA系统接口ConfigService.asmx存在SQL注入漏洞
+- 广联达OA系统GetSSOStamp接口存在任意用户登录
+- 方天云智慧平台系统Upload.ashx存在任意文件上传漏洞
+- 用友NC-Cloud系统queryStaffByName存在SQL注入漏洞
+- 用友NC-Cloud系统queryPsnInfo存在SQL注入漏洞
+- 契约锁电子签章平台ukeysign存在远程命令执行漏洞
+- AspCMS系统commentList.asp存在SQL注入漏洞
+- 满客宝智慧食堂系统downloadWebFile存在任意文件读取漏洞(XVE-2024-18926)
+- 万户ezOFFICE协同管理平台getAutoCode存在SQL注入漏洞(XVE-2024-18749)
+- 深澜计费管理系统bind-ip远程代码执行漏洞(XVE-2024-18750)
+- 任我行协同CRM系统UploadFile存在反序列化漏洞
+- 方天云智慧平台系统GetCustomerLinkman存在sql注入漏洞
+- 用友u8-cloud系统ESBInvokerServlet存在反序列化漏洞
+- 3C环境自动监测监控系统ReadLog文件读取漏洞
+- ClusterControl存在任意文件读取漏洞
+- 泛微E-Cology系统接口ReceiveCCRequestByXml存在XXE漏洞
+- 致远互联FE协作办公平台apprvaddNew存在sql注入漏洞
+- 赛蓝企业管理系统AuthToken接口存在任意账号登录漏洞
 
 ## 2024.07.30 新增漏洞
 
