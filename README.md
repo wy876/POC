@@ -1,6 +1,23 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，善用CTRL+F搜索
 
+## 2024.08.04 新增漏洞
+
+- 同享人力管理管理平台UploadHandler存在任意文件上传漏洞
+- jeecg-boot系统接口jmLink权限绕过漏洞
+- 章管家前台任意文件上传漏洞(XVE-2024-19042)
+- 灵动业务架构平台(LiveBOS)系统UploadFile.do接口文件上传漏洞(XVE-2023-21708)
+- 灵动业务架构平台(LiveBOS)系统UploadImage接口文件上传漏洞(XVE-2024-18835)
+- PEPM系统Cookie存在远程代码执行漏洞(XVE-2024-16919)
+- 用友NC系统complainjudge接口SQL注入漏洞(XVE-2024-19043)
+- 群杰印章物联网管理平台rest密码重置漏洞(XVE-2024-18945)
+- 网神SecGate3600未授权添加用户漏洞
+- 海康威视综合安防管理平台uploadAllPackage任意文件上传漏洞
+- 信呼OA系统index存在SQL注入漏洞
+- 泛微E-Cology系统接口deleteRequestInfoByXml存在XXE漏洞
+- 通天星CMSV6车载视频监控平台SESSION伪造漏洞
+- 小狐狸Chatgpt付费创作系统存在任意文件上传漏洞
+
 ## 2024.08.01 新增漏洞
 
 - 海康威视综合安防管理平台licenseExpire存在前台远程命令执行漏洞
