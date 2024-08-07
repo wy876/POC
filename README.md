@@ -1,6 +1,23 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，善用CTRL+F搜索
 
+## 2024.08.07 新增漏洞
+
+- 蓝凌EIS智慧协同平台UniformEntry.aspx存在SQL注入漏洞(XVE-2024-19181)
+- 世邦通信SPON-IP网络对讲广播系统addmediadata.php任意文件上传漏洞(XVE-2024-19281)
+- 泛微云桥(e-Bridge)系统接口addResume存在任意文件上传漏洞
+- Apache-OFBiz授权不当致代码执行漏洞(CVE-2024-38856)
+- 易捷OA协同办公软件ShowPic接口存在任意文件读取
+- SpringBlade系统usual接口存在SQL注入漏洞
+- 宏景eHR系统ajaxService接口处存在SQL注入漏洞
+- 满客宝智慧食堂系统selectUserByOrgId存在未授权访问漏洞
+- 蓝凌EKP系统dataxml.tmpl存在命令执行漏洞
+- 云时空社会化商业ERP系统online存在身份认证绕过漏洞
+- PerkinElmer-ProcessPlus存在文件读取漏洞(CVE-2024-6911)
+- 赛蓝企业管理系统GetCssFile存在任意文件读取漏洞
+- Calibre任意文件读取漏洞(CVE-2024-6781)
+- Calibre远程代码执行漏洞(CVE-2024-6782)
+
 ## 2024.08.04 新增漏洞
 
 - 同享人力管理管理平台UploadHandler存在任意文件上传漏洞
