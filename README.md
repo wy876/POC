@@ -1,6 +1,31 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，善用CTRL+F搜索
 
+## 2024.08.10 新增漏洞
+
+- H3C-iMC智能管理中心存在远程代码执行漏洞(XVE-2024-4567)
+- H3C-iMC智能管理中心autoDeploy.xhtml存在远程代码执行漏洞
+- 同享人力资源管理系统hdlUploadFile.ashx存在文件上传漏洞
+- 亿赛通电子文档安全管理系统DecryptionApp存在反序列化漏洞
+- 亿赛通电子文档安全管理系统docRenewApp存在反序列化漏洞
+- 亿赛通电子文档安全管理系统SecureUsbConnection存在反序列化漏洞
+- IP网络广播服务平台upload存在任意文件上传漏洞
+- ALR-F800存在命令执行漏洞
+- Atmail存在SQL注入漏洞
+- ELADMIN后台管理系统存在SSRF漏洞
+- JeecgBoot系统AviatorScript表达式注入漏洞
+- Journyx存在未经身份验证的XML外部实体注入
+- Mtab书签导航程序存在SQL注入漏洞
+- 驰骋BPM系统存在SQL注入漏洞
+- 亿赛通电子文档安全管理系统CDGAuthoriseTempletService1存在SQL注入漏洞(XVE-2024-19611)
+- 赛蓝企业管理系统SubmitUploadify存在任意文件上传漏洞
+- 用友NC系统接口link存在SQL注入漏洞
+- 大华DSS系统group_saveGroup存在SQL注入漏洞
+- H3C-SecPath下一代防火墙local_cert_delete_both存在任意文件上传漏洞
+- 科讯一卡通管理系统DataService.asmx存在SQL注入漏洞
+- 三汇网关管理软件debug.php远程命令执行漏洞
+- 万户ezOFFICE系统graph_include.jsp存在SQL注入漏洞
+
 ## 2024.08.07 新增漏洞
 
 - 蓝凌EIS智慧协同平台UniformEntry.aspx存在SQL注入漏洞(XVE-2024-19181)

