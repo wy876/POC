@@ -1,6 +1,25 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，善用CTRL+F搜索
 
+## 2024.08.13 新增漏洞
+
+- 用友U8-Cloud系统BusinessRefAction存在SQL注入漏洞
+- 泛微e-office10系统schema_mysql.sql敏感信息泄露漏洞
+- 某短视频直播打赏系统任意文件读取漏洞
+- 某短视频直播打赏系统后台任意文件上传漏洞
+- 章管家listUploadIntelligent接口存在sql注入漏洞
+- 中成科信票务管理系统SeatMapHandler.ashx存在SQL注入漏洞
+- 中成科信票务管理系统TicketManager.ashx存在SQL注入漏洞
+- 喰星云-数字化餐饮服务系统not_finish.php存在SQL注入漏洞
+- 喰星云-数字化餐饮服务系统stock.php存在SQL注入漏洞
+- 喰星云-数字化餐饮服务系统shelflife.php存在SQL注入漏洞
+- 安美数字酒店宽带运营系统weather.php任意文件读取漏洞
+- 赛蓝企业管理系统GetImportDetailJson存在SQL注入漏洞
+- 金斗云HKMP智慧商业软件queryPrintTemplate存在SQL注入漏洞
+- 亿赛通电子文档安全管理系统SecretKeyService存在SQL注入漏洞
+- 润申信息科技ERP系统CommentStandardHandler.ashx接口存在sql注入漏洞
+- 润申信息科技ERP系统DefaultHandler.ashx接口存在sql注入漏洞
+
 ## 2024.08.10 新增漏洞
 
 - H3C-iMC智能管理中心存在远程代码执行漏洞(XVE-2024-4567)
