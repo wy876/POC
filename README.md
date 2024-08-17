@@ -1,6 +1,35 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，善用CTRL+F搜索
 
+## 2024.08.17 新增漏洞
+
+- 易宝OA-BasicService.asmx存在SQL注入漏洞
+- 章管家updatePwd.htm存在任意账号密码重置漏洞
+- 智慧校园(安校易)管理系统FileUpAd.aspx任意文件上传漏洞
+- 用友crm客户关系管理help.php存在任意文件读取漏洞
+- 方天云智慧平台系统setImg.ashx存在文件上传漏洞
+- 乐享智能运维管理平台getToken存在SQL注入漏洞
+- ZoneMinder系统sort接口存在SQL注入漏洞
+- WookTeam轻量级的团队在线协作系统接口searchinfo存在SQL注入漏洞
+- DeDecms接口sys_verifies.php存在任意文件读取漏洞
+- 用友U8-CRM系统接口attrlist存在SQL注入漏洞
+- 红海云eHR系统pc.mob存在sql注入漏洞
+- 用友NC系统FileManager接口存在任意文件上传漏洞
+- 杭州三一谦成科技车辆监控服务平台接口platformSql存在SQL注入漏洞
+- 亿赛通电子文档安全管理系统logincontroller接口存在远程代码执行漏洞
+- 亿赛通电子文档安全管理系统getAllUsers身份绕过漏洞
+- 用友U8-CRM系统接口reservationcomplete.php存在SQL注入漏洞
+- 用友U8-CRM接口exportdictionary.php存在SQL注入漏洞
+- 方正全媒体采编系统存在syn.do信息泄露漏洞
+- 亿赛通电子文档安全管理系统LogDownLoadService存在SQL注入漏洞
+- 用友NC接口download存在SQL注入漏洞
+- 科荣AIO管理系统endTime参数存在SQL注入漏洞
+- 智互联(深圳)科技有限公司SRM智联云采系统download存在任意文件读取漏洞
+- 东华医疗协同办公系统templateFile存在任意文件下载漏洞
+- 智能停车管理系统ToLogin存在SQL注入漏洞
+- AVCON-系统管理平台download.action存在任意文件读取漏洞
+- AVCON-网络视频服务系统editusercommit.php存在任意用户重置密码漏洞
+
 ## 2024.08.13 新增漏洞
 
 - 用友U8-Cloud系统BusinessRefAction存在SQL注入漏洞
@@ -904,7 +933,7 @@
 ## 2024.01.03 新增漏洞
 - 天融信TOPSEC_maincgi.cgi远程命令执行
 - 天融信TOPSEC_static_convert远程命令执行漏洞
-- 用友CRM系统存在逻辑漏洞直接登录后台
+- 用友CRM系统reservationcomplete.php存在逻辑漏洞直接登录后台
 - 亿赛通电子文档uploadFile接口文件上传漏洞
 
 ## 2023.12.31 新增漏洞
