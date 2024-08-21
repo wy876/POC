@@ -1,5 +1,21 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了900多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，善用CTRL+F搜索
+
+## 2024.08.21 新增漏洞
+
+- JieLink+智能终端操作平台多个接口处存在敏感信息泄露漏洞
+- 正方移动信息服务管理系统oaMobile_fjUploadByType存在文件上传漏洞
+- LiveGBS任意用户密码重置漏洞
+- 泛微e-cology-v10远程代码执行漏洞
+- 华夏ERPV3.3存在信息泄漏漏洞
+- 奥威亚云视频平台UploadFile.aspx存在文件上传漏洞
+- 万户ezOFFICE协同管理平台receivefile_gd.jsp存在SQL注入漏洞
+- 泛微ecology系统接口BlogService存在SQL注入漏洞
+- Altenergy电力系统控制软件set_timezone接口存在远程命令执行漏洞
+- 私有云管理平台存在登录绕过漏洞
+- 微商城系统api.php存在文件上传漏洞
+- 微商城系统goods.php存在SQL注入漏洞
+- 某业务管理系统LoginUser存在信息泄露漏洞
 
 ## 2024.08.17 新增漏洞
 
