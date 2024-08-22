@@ -1,6 +1,13 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，善用CTRL+F搜索
 
+## 2024.08.25 新增漏洞
+
+- 汇智ERP系统Upload.aspx存在文件上传漏洞
+- 超易企业管理系统Login.ashx存在SQL注入漏洞
+- 同享人力管理管理平台SFZService.asmx存在SQL注入漏洞
+- 九思OA接口WebServiceProxy存在XXE漏洞
+
 ## 2024.08.21 新增漏洞
 
 - JieLink+智能终端操作平台多个接口处存在敏感信息泄露漏洞
