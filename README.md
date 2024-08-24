@@ -1,12 +1,21 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，善用CTRL+F搜索
 
-## 2024.08.25 新增漏洞
+## 2024.08.24 新增漏洞
 
-- 汇智ERP系统Upload.aspx存在文件上传漏洞
-- 超易企业管理系统Login.ashx存在SQL注入漏洞
-- 同享人力管理管理平台SFZService.asmx存在SQL注入漏洞
-- 九思OA接口WebServiceProxy存在XXE漏洞
+- [汇智ERP系统Upload.aspx存在文件上传漏洞](./汇智ERP/汇智ERP系统Upload.aspx存在文件上传漏洞.md)
+- [超易企业管理系统Login.ashx存在SQL注入漏洞](./超易企业管理系统/超易企业管理系统Login.ashx存在SQL注入漏洞.md)
+- [同享人力管理管理平台SFZService.asmx存在SQL注入漏洞](./同享人力管理管理平台/同享人力管理管理平台SFZService.asmx存在SQL注入漏洞.md)
+- [九思OA接口WebServiceProxy存在XXE漏洞](./九思OA/九思OA接口WebServiceProxy存在XXE漏洞.md)
+- [泛微ecology9系统接口ModeDateService存在SQL漏洞](./泛微OA/泛微ecology9系统接口ModeDateService存在SQL漏洞.md)
+- [Oracle-JDEdwards-EnterpriseOne未授权获取管理员密码泄漏](./Oracle/Oracle-JDEdwards-EnterpriseOne未授权获取管理员密码泄漏.md)
+- [金和OA-C6协同管理平台DBModules.aspx存在SQL注入漏洞](./金和OA/金和OA-C6协同管理平台DBModules.aspx存在SQL注入漏洞.md)
+- [瑞斯康达多业务智能网关list_service_manage.php存在未授权命令注入漏洞](./瑞斯康达/瑞斯康达多业务智能网关list_service_manage.php存在未授权命令注入漏洞.md)
+- [南京星源图科技SparkShop存在任意文件上传漏洞](./南京星源图科技/南京星源图科技SparkShop存在任意文件上传漏洞.md)
+- [SeaCMS海洋影视管理系统index.php存在SQL注入漏洞](./海洋cms/SeaCMS海洋影视管理系统index.php存在SQL注入漏洞.md)
+- [点企来客服系统getwaitnum存在sql注入漏洞](./点企来客服系统/点企来客服系统getwaitnum存在sql注入漏洞.md)
+- [山石网科应用防火墙WAF未授权命令注入漏洞](./山石网科云鉴/山石网科应用防火墙WAF未授权命令注入漏洞.md)
+- [用友U8Cloud系统接口MeasureQResultAction存在SQL注入漏洞](./用友OA/用友U8Cloud系统接口MeasureQResultAction存在SQL注入漏洞.md)
 
 ## 2024.08.21 新增漏洞
 
