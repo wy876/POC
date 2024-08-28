@@ -1,6 +1,20 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，善用CTRL+F搜索
 
+## 2024.08.28 新增漏洞
+
+- [朗新天霁智能eHR人力资源管理系统GetE01ByDeptCode存在SQL注入漏洞](./朗新天霁人力资源管理系统/朗新天霁智能eHR人力资源管理系统GetE01ByDeptCode存在SQL注入漏洞.md)
+- [全程云OA接口UploadFile存在任意文件上传漏洞](./全程云OA/全程云OA接口UploadFile存在任意文件上传漏洞)
+- [Nacos任意文件读写漏洞](./Nacos/Nacos任意文件读写漏洞.md)
+- [畅捷通CRM系统newleadset.php接口存在SQL注入漏洞](./用友OA/畅捷通CRM系统newleadset.php接口存在SQL注入漏洞.md)
+- [智能停车管理系统GetPasswayData存在SQL注入漏洞](./智能停车管理系统/智能停车管理系统GetPasswayData存在SQL注入漏洞.md)
+- [某U挖矿质押单语言系统imageupload后台任意文件上传漏洞](./挖矿质押单语言系统/某U挖矿质押单语言系统imageupload后台任意文件上传漏洞.md)
+- [某U挖矿质押单语言系统前台未授权修改管理员密码](./挖矿质押单语言系统/某U挖矿质押单语言系统前台未授权修改管理员密码.md)
+- [某U挖矿质押单语言系统后台phar反序列漏洞](./挖矿质押单语言系统/某U挖矿质押单语言系统后台phar反序列漏洞.md)
+- [SPIP-porte_plume插件存在任意PHP执行漏洞(CVE-2024-7954)](./SPIP/SPIP-porte_plume插件存在任意PHP执行漏洞(CVE-2024-7954).md)
+- [通天星CMSV6车载定位监控平台getAlarmAppealByGuid存在SQL注入漏洞](./通天星/通天星CMSV6车载定位监控平台getAlarmAppealByGuid存在SQL注入漏洞.md)
+- [同鑫eHR人力资源管理系统GetFlowDropDownListItems存在SQL注入漏洞](./同鑫eHR/同鑫eHR人力资源管理系统GetFlowDropDownListItems存在SQL注入漏洞.md)
+
 ## 2024.08.24 新增漏洞
 
 - [汇智ERP系统Upload.aspx存在文件上传漏洞](./汇智ERP/汇智ERP系统Upload.aspx存在文件上传漏洞.md)
