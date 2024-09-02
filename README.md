@@ -1,6 +1,22 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，善用CTRL+F搜索
 
+## 2024.09.02 新增漏洞
+
+- [蜂信物联(FastBee)物联网平台download存在任意文件下载漏洞](./蜂信物联/蜂信物联(FastBee)物联网平台download存在任意文件下载漏洞.md)
+- [紫光电子档案管理系统selectFileRemote存在SQL注入漏洞](./紫光电子档案管理系统/紫光电子档案管理系统selectFileRemote存在SQL注入漏洞.md)
+- [中兴ZTE-ZSR-V2系列多业务路由器存在任意文件读取漏洞](./中兴/中兴ZTE-ZSR-V2系列多业务路由器存在任意文件读取漏洞.md)
+- [珠海新华通软件股份有限公司云平台存在登录绕过漏洞](./珠海新华通软件股份有限公司/珠海新华通软件股份有限公司云平台存在登录绕过漏洞.md)
+- [Ivanti-Virtual-Traffic-Manager存在身份验证绕过漏洞(CVE-2024-7593)](./Ivanti/Ivanti-Virtual-Traffic-Manager存在身份验证绕过漏洞(CVE-2024-7593).md)
+- [浪潮云财务系统UploadListFile存在任意文件上传漏洞](./浪潮云/浪潮云财务系统UploadListFile存在任意文件上传漏洞.md)
+- [金和OA-C6系统接口jQueryUploadify.ashx存在SQL注入漏洞](./金和/金和OA-C6系统接口jQueryUploadify.ashx存在SQL注入漏洞.md)
+- [用友U8-Cloud系统接口RepAddToTaskAction存在SQL注入漏洞](./用友OA/用友U8-Cloud系统接口RepAddToTaskAction存在SQL注入漏洞.md)
+- [EOVA未授权doInit接口存在反序列化漏洞](./EOVA/EOVA未授权doInit接口存在反序列化漏洞.md)
+- [短剧影视小程序前台base64_image_content任意文件上传漏洞](./短剧影视小程序/短剧影视小程序前台base64_image_content任意文件上传漏洞.md)
+- [短剧影视小程序前台juhecurl任意文件读取漏洞](./短剧影视小程序/短剧影视小程序前台juhecurl任意文件读取漏洞.md)
+- [短剧影视小程序前台未授权漏洞](./短剧影视小程序/短剧影视小程序前台未授权漏洞.md)
+- [某仿soul欲音社交系统存在任意文件读取漏洞](./社交系统/某仿soul欲音社交系统存在任意文件读取漏洞.md)
+
 ## 2024.08.28 新增漏洞
 
 - [朗新天霁智能eHR人力资源管理系统GetE01ByDeptCode存在SQL注入漏洞](./朗新天霁人力资源管理系统/朗新天霁智能eHR人力资源管理系统GetE01ByDeptCode存在SQL注入漏洞.md)
