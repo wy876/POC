@@ -1,6 +1,18 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，善用CTRL+F搜索
 
+## 2024.09.08 新增漏洞
+
+- [智联云采SRM2.0系统接口autologin身份认证绕过漏洞](./智互联科技有限公司/智联云采SRM2.0系统接口autologin身份认证绕过漏洞.md)
+- [众诚网上订单系统o_sa_order.ashx存在SQL注入漏洞](./众诚软件/众诚网上订单系统o_sa_order.ashx存在SQL注入漏洞.md)
+- [用友NC-Cloud系统show_download_content接口存在SQL注入漏洞](./用友OA/用友NC-Cloud系统show_download_content接口存在SQL注入漏洞.md)
+- [Jenkins-Remoting任意文件读取漏洞(CVE-2024-43044)](./Jenkins/Jenkins-Remoting任意文件读取漏洞(CVE-2024-43044).md)
+- [WordPress插件GiveWP存在反序列漏洞(CVE-2024-5932)](./WordPress/WordPress插件GiveWP存在反序列漏洞(CVE-2024-5932).md)
+- [Apache-OFBiz远程代码执行漏洞(CVE-2024-45195)](./Apache/Apache-OFBiz远程代码执行漏洞(CVE-2024-45195).md)
+- [用友U8-Cloud系统接口MultiRepChooseAction存在SQL注入漏洞](./用友OA/用友U8-Cloud系统接口MultiRepChooseAction存在SQL注入漏洞.md)
+- [用友U8-Cloud系统接口AddTaskDataRightAction存在SQL注入漏洞](./用友OA/用友U8-Cloud系统接口AddTaskDataRightAction存在SQL注入漏洞.md)
+- [热网无线监测系统GetMenuItem存在SQL注入漏洞](./热网无线监测系统/热网无线监测系统GetMenuItem存在SQL注入漏洞.md)
+
 ## 2024.09.02 新增漏洞
 
 - [蜂信物联(FastBee)物联网平台download存在任意文件下载漏洞](./蜂信物联/蜂信物联(FastBee)物联网平台download存在任意文件下载漏洞.md)
