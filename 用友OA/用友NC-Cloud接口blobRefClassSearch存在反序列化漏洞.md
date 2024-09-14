@@ -1,4 +1,4 @@
-## 用友NC-Cloud接口blobRefClassSea存在反序列化漏洞
+## 用友NC-Cloud接口blobRefClassSearch存在反序列化漏洞
 
 用友NC Cloud接口 /ncchr/pm/ref/indiIssued/blobRefClassSearch 存在反序列漏洞。
 

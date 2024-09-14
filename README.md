@@ -1,6 +1,32 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，善用CTRL+F搜索
 
+## 2024.09.14 新增漏洞
+
+- [DCN防火墙ping.php存在命令执行漏洞](./DCN/DCN防火墙ping.php存在命令执行漏洞.md)
+- [大华智慧园区系统updateOcx_updateCab.action存在任意文件上传漏洞](./大华/大华智慧园区系统updateOcx_updateCab.action存在任意文件上传漏洞.md)
+- [大华智慧园区系统updateOcx_updateZip.action存在任意文件上传漏洞](./大华/大华智慧园区系统updateOcx_updateZip.action存在任意文件上传漏洞.md)
+- [用友U8-CRM系统chkService.php存在SQL注入漏洞](./用友OA/用友U8-CRM系统chkService.php存在SQL注入漏洞.md)
+- [万户ezOFFICE系统接口filesendcheck_gd.jsp存在SQL注入漏洞](./万户OA/万户ezOFFICE系统接口filesendcheck_gd.jsp存在SQL注入漏洞.md)
+- [Hoverfly系统接口simulation任意文件读取漏洞复现(CVE-2024-45388)](./Hoverfly/Hoverfly系统接口simulation任意文件读取漏洞复现(CVE-2024-45388).md)
+- [NUUO网络视频录像机css_parser.php任意文件读取漏洞](./NUUO/NUUO网络视频录像机css_parser.php任意文件读取漏洞.md)
+- [百易云资产管理运营系统house.save.php存在SQL注入漏洞](./资管云/百易云资产管理运营系统house.save.php存在SQL注入漏洞)
+- [科荣AIO系统接口UtilServlet存在代码执行漏洞](./科荣AIO/科荣AIO系统接口UtilServlet存在代码执行漏洞.md)
+- [imo云办公室接口Imo_DownLoadUI.php任意文件下载漏洞](./Imo云办公/imo云办公室接口Imo_DownLoadUI.php任意文件下载漏洞.md)
+- [顺景ERP管理系统UploadInvtSpFile存在任意文件上传漏洞](./顺景ERP/顺景ERP管理系统UploadInvtSpFile存在任意文件上传漏洞.md)
+- [某二开版海外抢单Shua单系统存在任意用户登录漏洞](./抢单刷单系统/某二开版海外抢单Shua单系统存在任意用户登录漏洞.md)
+- [Array-Networks-APV应用交付系统ping_hosts存在任意命令执行漏洞](./Array APV/Array-Networks-APV应用交付系统ping_hosts存在任意命令执行漏洞.md)
+- [哲霖机械ERP接口DownloadInpFile存在任意文件读取漏洞](./哲霖机械ERP/哲霖机械ERP接口DownloadInpFile存在任意文件读取漏洞.md)
+- [章管家list.htm存在SQL注入漏洞](./章管家-印章智慧管理平台/章管家list.htm存在SQL注入漏洞.md)
+- [华望云会议管理平台conflog.inc存在SQL注入漏洞](./华望云/华望云会议管理平台conflog.inc存在SQL注入漏洞.md)
+- [华望云会议管理平台confmanger.inc存在SQL注入漏洞](./华望云/华望云会议管理平台confmanger.inc存在SQL注入漏洞.md)
+- [华望云会议管理平台deptactionlist存在SQL注入漏洞](./华望云/华望云会议管理平台deptactionlist存在SQL注入漏洞.md)
+- [华望云会议管理平台myconflist.in存在SQL注入漏洞](./华望云/华望云会议管理平台myconflist.in存在SQL注入漏洞.md)
+- [华望云会议管理平台recodemanger.inc存在SQL注入漏洞](./华望云/华望云会议管理平台recodemanger.inc存在SQL注入漏洞.md)
+- [华望云会议管理平台recodemangerForUser.inc存在SQL注入漏洞](./华望云/华望云会议管理平台recodemangerForUser.inc存在SQL注入漏洞.md)
+- [华望云会议管理平台syslog.inc存在SQL注入漏洞](./华望云/华望云会议管理平台syslog.inc存在SQL注入漏洞.md)
+- [华望云会议管理平台useractionlist存在SQL注入漏洞](./华望云/华望云会议管理平台useractionlist存在SQL注入漏洞.md)
+
 ## 2024.09.08 新增漏洞
 
 - [智联云采SRM2.0系统接口autologin身份认证绕过漏洞](./智互联科技有限公司/智联云采SRM2.0系统接口autologin身份认证绕过漏洞.md)
@@ -333,7 +359,7 @@
 - [上讯信息技术股份有限公司运维管理系统RepeatSend存在命令执行漏洞](./上讯信息技术股份有限公司/上讯信息技术股份有限公司运维管理系统RepeatSend存在命令执行漏洞.md)
 - [同享人力管理管理平台DownloadFile存在任意文件下载漏洞](./同享人力管理管理平台/同享人力管理管理平台DownloadFile存在任意文件下载漏洞.md)
 - [北京中科聚网一体化运营平台importVisualModuleImg接口存在文件上传漏洞](./北京中科聚网/北京中科聚网一体化运营平台importVisualModuleImg接口存在文件上传漏洞.md)
-- [用友NC-Cloud接口blobRefClassSea存在反序列化漏洞](./用友OA/用友NC-Cloud接口blobRefClassSea存在反序列化漏洞.md)
+- [用友NC-Cloud接口blobRefClassSearch存在反序列化漏洞](./用友OA/用友NC-Cloud接口blobRefClassSearch存在反序列化漏洞.md)
 - [慧学教育科技有限公司Campuswit_uploadFiles存在任意文件上传漏洞](./慧学教育科技有限公司/慧学教育科技有限公司Campuswit_uploadFiles存在任意文件上传漏洞.md)
 - [虚拟仿真实验室系统FileUploadServlet存在任意文件上传漏洞](./虚拟仿真实验室系统/虚拟仿真实验室系统FileUploadServlet存在任意文件上传漏洞.md)
 - [风速科技统一认证平台存在密码重置漏洞](./风速科技统一认证平台/风速科技统一认证平台存在密码重置漏洞.md)
