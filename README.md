@@ -15,7 +15,7 @@
 - [imo云办公室接口Imo_DownLoadUI.php任意文件下载漏洞](./Imo云办公/imo云办公室接口Imo_DownLoadUI.php任意文件下载漏洞.md)
 - [顺景ERP管理系统UploadInvtSpFile存在任意文件上传漏洞](./顺景ERP/顺景ERP管理系统UploadInvtSpFile存在任意文件上传漏洞.md)
 - [某二开版海外抢单Shua单系统存在任意用户登录漏洞](./抢单刷单系统/某二开版海外抢单Shua单系统存在任意用户登录漏洞.md)
-- [Array-Networks-APV应用交付系统ping_hosts存在任意命令执行漏洞](./Array APV/Array-Networks-APV应用交付系统ping_hosts存在任意命令执行漏洞.md)
+- [Array-APV应用交付系统ping_hosts存在任意命令执行漏洞](./Array-APV/Array-APV应用交付系统ping_hosts存在任意命令执行漏洞.md)
 - [哲霖机械ERP接口DownloadInpFile存在任意文件读取漏洞](./哲霖机械ERP/哲霖机械ERP接口DownloadInpFile存在任意文件读取漏洞.md)
 - [章管家list.htm存在SQL注入漏洞](./章管家-印章智慧管理平台/章管家list.htm存在SQL注入漏洞.md)
 - [华望云会议管理平台conflog.inc存在SQL注入漏洞](./华望云/华望云会议管理平台conflog.inc存在SQL注入漏洞.md)
