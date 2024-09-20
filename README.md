@@ -1,6 +1,29 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，善用CTRL+F搜索
 
+## 2024.09.20 新增漏洞
+
+- [唯徳知识产权管理系统WSFM.asmx接口存在任意文件上传漏洞](./唯徳知识产权管理系统/唯徳知识产权管理系统WSFM.asmx接口存在任意文件上传漏洞.md)
+- [唯徳知识产权管理系统DownloadFileWordTemplate接口存在文件读取漏洞](./唯徳知识产权管理系统/唯徳知识产权管理系统DownloadFileWordTemplate接口存在文件读取漏洞.md)
+- [商混ERP系统接口Operater_Action.aspx存在SQL注入漏洞](./商混ERP/商混ERP系统接口Operater_Action.aspx存在SQL注入漏洞.md)
+- [商混ERP系统接口StockreceiveEdit.aspx存在SQL注入漏洞](./商混ERP/商混ERP系统接口StockreceiveEdit.aspx存在SQL注入漏洞.md)
+- [商混ERP系统接口TaskCarToQueue.aspx存在SQL注入漏洞](./商混ERP/商混ERP系统接口TaskCarToQueue.aspx存在SQL注入漏洞.md)
+- [广联达OA系统接口do.asmx存在任意文件读取漏洞](./广联达OA/广联达OA系统接口do.asmx存在任意文件读取漏洞.md)
+- [广联达OA系统接口do.asmx存在任意文件写入漏洞](./广联达OA/广联达OA系统接口do.asmx存在任意文件写入漏洞.md)
+- [thinkphp最新CVE-2024-44902反序列化漏洞](./thinkphp/thinkphp最新CVE-2024-44902反序列化漏洞.md)
+- [誉龙视音频综合管理平台TimeSyn存在远程命令执行漏洞](./誉龙数字/誉龙视音频综合管理平台TimeSyn存在远程命令执行漏洞.md)
+- [誉龙视音频综合管理平台FindById存在SQL注入漏洞](./誉龙数字/誉龙视音频综合管理平台FindById存在SQL注入漏洞.md)
+- [魅思视频管理系统getOrderStatus存在SQL注入漏洞](./魅思视频管理系统/魅思视频管理系统getOrderStatus存在SQL注入漏洞.md)
+- [AC集中管理平台未授权漏洞](./路由器/AC集中管理平台未授权漏洞.md)
+- [数字通云平台智慧政务workflow存在SQL注入漏洞](./数字通OA/数字通云平台智慧政务workflow存在SQL注入漏洞.md)
+- [用友U8CRM系统接口relobjreportlist.php存在SQL注入漏洞](./用友OA/用友U8CRM系统接口relobjreportlist.php存在SQL注入漏洞.md)
+- [华望云会议管理平台checkDoubleUserNameForAdd存在SQL注入漏洞](./华望云/华望云会议管理平台checkDoubleUserNameForAdd存在SQL注入漏洞.md)
+- [地大信息-基础信息平台GetImg任意文件读取漏洞](./地大信息/地大信息-基础信息平台GetImg任意文件读取漏洞.md)
+- [泛微E-Mobile系统接口cdnfile存在任意文件读取漏洞](./泛微OA/泛微E-Mobile系统接口cdnfile存在任意文件读取漏洞.md)
+- [灵当CRM系统接口getOrderList存在SQL注入漏洞](./灵当CRM/灵当CRM系统接口getOrderList存在SQL注入漏洞.md)
+- [网御VPN安全网关存在任意文件下载漏洞(CNVD-2024-34014)](.//网御星云/网御VPN安全网关存在任意文件下载漏洞(CNVD-2024-34014).md)
+- [Nacos未授权下载配置信息](./Nacos/Nacos未授权下载配置信息.md)
+
 ## 2024.09.14 新增漏洞
 
 - [DCN防火墙ping.php存在命令执行漏洞](./DCN/DCN防火墙ping.php存在命令执行漏洞.md)
