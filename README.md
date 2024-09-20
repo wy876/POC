@@ -1,6 +1,14 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1000多个poc/exp，善用CTRL+F搜索
 
+## 2024.09.27 新增漏洞
+
+- [DataGear数据可视化分析平台存在SpEL表达式注入漏洞(CVE-2024-37759)](./DataGear/DataGear数据可视化分析平台存在SpEL表达式注入漏洞(CVE-2024-37759).md)
+- [Apache-Seata存在Hessian反序列化漏洞(CVE-2024-22399)](./Apache/Apache-Seata存在Hessian反序列化漏洞(CVE-2024-22399).md)
+- [金和OA系统接口SignUpload.ashx存在SQL注入漏洞](./金和OA/金和OA系统接口SignUpload.ashx存在SQL注入漏洞.md)
+- [用友U8+CRM系统leadconversion.php存在SQL注入漏洞](./用友OA/用友U8+CRM系统leadconversion.php存在SQL注入漏洞.md)
+- [数字通云平台智慧政务setting存在文件上传漏洞](./数字通OA/数字通云平台智慧政务setting存在文件上传漏洞.md)
+
 ## 2024.09.20 新增漏洞
 
 - [唯徳知识产权管理系统WSFM.asmx接口存在任意文件上传漏洞](./唯徳知识产权管理系统/唯徳知识产权管理系统WSFM.asmx接口存在任意文件上传漏洞.md)
