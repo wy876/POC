@@ -1,7 +1,14 @@
 
 ## 红帆OA iorepsavexml.aspx 文件上传漏洞
 
+## fofa
+
+```
+app="红帆-ioffice"
+```
+
 ## exp
+
 ```go
 package main
 

@@ -9,6 +9,31 @@
   <img src="https://contrib.rocks/image?repo=wy876/POC" />
 </a>
 
+## 2024.10.07 新增漏洞
+
+- [泛微E-Mobile硬编码口令漏洞(XVE-2024-28095)](./泛微OA/泛微E-Mobile硬编码口令漏洞(XVE-2024-28095).md)
+- [用友U8-CRM系统fillbacksetting.php存在SQL注入漏洞](./用友OA/用友U8-CRM系统fillbacksetting.php存在SQL注入漏洞.md)
+- [Qualitor系统接口processVariavel.php未授权命令注入漏洞(CVE-2023-47253)](./Qualitor/Qualitor系统接口processVariavel.php未授权命令注入漏洞(CVE-2023-47253).md)
+- [中新天达系统存在任意文件读取漏洞](./EDU/中新天达系统存在任意文件读取漏洞.md)
+- [孚盟云系统接口ajaxsenddingdingmessage存在SQL注入漏洞](./孚盟云/孚盟云系统接口ajaxsenddingdingmessage存在SQL注入漏洞.md)
+- [FLIR-AX8热成像仪applyfirmware存在远程命令执行漏洞](./FLIR/FLIR-AX8热成像仪applyfirmware存在远程命令执行漏洞.md)
+
+- [FLIR-AX8热成像仪download.php存在任意文件读取漏洞](./FLIR/FLIR-AX8热成像仪download.php存在任意文件读取漏洞.md)
+- [FLIR-AX8热成像仪palette.php存在远程命令执行漏洞](./FLIR/FLIR-AX8热成像仪palette.php存在远程命令执行漏洞.md)
+- [FLIR-AX8热成像仪res.php存在远程命令执行漏洞](./FLIR/FLIR-AX8热成像仪res.php存在远程命令执行漏洞.md)
+- [万豪娱乐存在任意文件读取漏洞](./菠菜/万豪娱乐存在任意文件读取漏洞.md)
+- [Cups-Browsed远程命令执行漏洞(CVE-2024-47177)](./cups-browsed/CVE-2024-47177.md)
+- [Spring-Framework路径遍历漏洞(CVE-2024-38816)](./Spring/Spring-Framework路径遍历漏洞(CVE-2024-38816).md)
+- [万户OA系统接口GeneralWeb存在XXE漏洞](./万户OA/万户OA系统接口GeneralWeb存在XXE漏洞.md)
+- [Zimbra远程命令执行漏洞(CVE-2024-45519)](./Zimbra/CVE-2024-45519.md)
+- [pgAdmin4存在反序列化漏洞(CVE-2024-2044)](./pgAdmin/CVE-2024-2044.md)
+- [pgAdmin4敏感信息泄露漏洞(CVE-2024-9014)](./pgAdmin/CVE-2024-9014.md)
+- [CVE-2024-8190](./Ivanti/CVE-2024-8190.md)
+- [CVE-2024-22024](./Ivanti/CVE-2024-22024.md)
+- [微信公众号小说漫画系统前台任意文件写入漏洞](./漫画系统/微信公众号小说漫画系统前台任意文件写入漏洞.md)
+- [微信公众号小说漫画系统fileupload.php存在前台任意文件上传漏洞](./漫画系统/微信公众号小说漫画系统fileupload.php存在前台任意文件上传漏洞.md)
+- [金慧综合管理信息系统LoginBegin.aspx存在SQL注入漏洞](./金慧/金慧综合管理信息系统LoginBegin.aspx存在SQL注入漏洞.md)
+
 ## 2024.09.26 新增漏洞
 
 - [DataGear数据可视化分析平台存在SpEL表达式注入漏洞(CVE-2024-37759)](./DataGear/DataGear数据可视化分析平台存在SpEL表达式注入漏洞(CVE-2024-37759).md)

