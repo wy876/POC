@@ -9,6 +9,10 @@
   <img src="https://contrib.rocks/image?repo=wy876/POC" />
 </a>
 
+## 2024.10.13 新增漏洞
+
+- [大华智慧园区综合管理平台hasSubsystem存在文件上传漏洞](./大华/大华智慧园区综合管理平台hasSubsystem存在文件上传漏洞.md)
+
 ## 2024.10.07 新增漏洞
 
 - [泛微E-Mobile硬编码口令漏洞(XVE-2024-28095)](./泛微OA/泛微E-Mobile硬编码口令漏洞(XVE-2024-28095).md)
