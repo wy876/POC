@@ -9,6 +9,26 @@
   <img src="https://contrib.rocks/image?repo=wy876/POC" />
 </a>
 
+## 2024.10.19 新增漏洞
+
+- [网动统一通信平台(ActiveUC)接口iactiveEnterMeeting存在信息泄露漏洞](./网动统一通信平台/网动统一通信平台(ActiveUC)接口iactiveEnterMeeting存在信息泄露漏洞.md)
+- [浙大恩特客户资源管理系统Quotegask_editAction存在SQL注入漏洞](./浙大恩特客户资源管理系统/浙大恩特客户资源管理系统Quotegask_editAction存在SQL注入漏洞.md)
+- [好视通云会议upLoad2.jsp接口处存在任意文件上传漏洞](./好视通视频会议系统/好视通云会议upLoad2.jsp接口处存在任意文件上传漏洞.md)
+- [用友NC系统word.docx存在信息泄露漏洞](./用友OA/用友NC系统word.docx存在信息泄露漏洞.md)
+- [志华软件openfile.aspx存在任意文件读取漏洞](./志华软件/志华软件openfile.aspx存在任意文件读取漏洞.md)
+- [大华智能云网关注册管理平台SQL注入漏洞(CNVD-2024-38747)](./大华/大华智能云网关注册管理平台SQL注入漏洞(CNVD-2024-38747).md)
+- [万户ezEIP企业管理系统productlist.aspx存在SQL注入漏洞](./万户OA/万户ezEIP企业管理系统productlist.aspx存在SQL注入漏洞.md)
+- [智联云采testService存在SQL注入漏洞](./智互联科技有限公司/智联云采testService存在SQL注入漏洞.md)
+- [Cloudlog系统接口delete_oqrs_line未授权SQL注入漏洞](./Cloudlog/Cloudlog系统接口delete_oqrs_line未授权SQL注入漏洞.md)
+- [灵当CRM系统接口wechatSession文件上传漏洞](./灵当CRM/灵当CRM系统接口wechatSession文件上传漏洞.md)
+- [灵当CRM系统接口pdf.php接口处存在任意文件读取漏洞](./灵当CRM/灵当CRM系统接口pdf.php接口处存在任意文件读取漏洞.md)
+- [WordPress插件GutenKit存在任意文件上传漏洞(CVE-2024-9234)](./WordPress/WordPress插件GutenKit存在任意文件上传漏洞(CVE-2024-9234).md)
+- [WordPress插件Tainacan存在前台任意文件读取漏洞(CVE-2024-7135)](./WordPress/WordPress插件Tainacan存在前台任意文件读取漏洞(CVE-2024-7135).md)
+- [英飞达医学WebUserLogin.asmx信息泄露](./英飞达医学影像存档与通信系统/英飞达医学WebUserLogin.asmx信息泄露.md)
+- [公交IC卡收单管理系统信息泄露漏洞](./公交IC卡收单管理系统/公交IC卡收单管理系统信息泄露漏洞.md)
+- [知识吾爱纯净版小程序系统leibiao存在SQL注入漏洞](./发卡网系统/知识吾爱纯净版小程序系统leibiao存在SQL注入漏洞.md)
+- [夜莺开源监控系统存在默认用户漏洞](./夜莺开源监控系统/夜莺开源监控系统存在默认用户漏洞.md)
+
 ## 2024.10.13 新增漏洞
 
 - [大华智慧园区综合管理平台hasSubsystem存在文件上传漏洞](./大华/大华智慧园区综合管理平台hasSubsystem存在文件上传漏洞.md)
