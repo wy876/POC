@@ -9,6 +9,33 @@
   <img src="https://contrib.rocks/image?repo=wy876/POC" />
 </a>
 
+## 2024.10.26 新增漏洞
+
+- [瑞格智慧心理服务平台NPreenSMSList.asmx存在sql注入漏洞](./EDU/瑞格智慧心理服务平台NPreenSMSList.asmx存在sql注入漏洞.md)
+- [金盘微信管理平台download.jsp任意文件读取漏洞](./金盘/金盘微信管理平台download.jsp任意文件读取漏洞.md)
+- [Grafana表达式远程代码执行(CVE-2024-9264)](./Grafana/Grafana表达式远程代码执行(CVE-2024-9264).md)
+- [明源云GetErpConfig.aspx信息泄露漏洞](./明源云/明源云GetErpConfig.aspx信息泄露漏洞.md)
+- [用友U8-Cloud系统接口esnserver存在任意文件上传漏洞](./用友OA/用友U8-Cloud系统接口esnserver存在任意文件上传漏洞.md)
+- [分诊叫号后台系统存在任意文件上传漏洞](./北京神州/分诊叫号后台系统存在任意文件上传漏洞.md)
+- [百易云资产管理运营系统ufile.api.php存在SQL注入漏洞](./资管云/百易云资产管理运营系统ufile.api.php存在SQL注入漏洞.md)
+- [泛微e-Mobile移动管理平台error存在远程命令执行漏洞](./泛微OA/泛微e-Mobile移动管理平台error存在远程命令执行漏洞.md)
+- [亿赛通电子文档安全管理系统存在3处弱口令漏洞](./亿赛通电子文档安全管理系统/亿赛通电子文档安全管理系统存在3处弱口令漏洞.md)
+- [HCM-Cloud云端专业人力资源平台download任意文件读取漏洞](./浪潮云/HCM-Cloud云端专业人力资源平台download任意文件读取漏洞.md)
+- [高校人力资源管理系统ReportServer存在敏感信息泄露漏洞](./EDU/高校人力资源管理系统ReportServer存在敏感信息泄露漏洞.md)
+- [Apache-HertzBeat-SnakeYaml反序列化漏洞(CVE-2024-42323)](./Apache/Apache-HertzBeat-SnakeYaml反序列化漏洞(CVE-2024-42323).md)
+- [CRMEB电商系统PublicController.php反序列化漏洞(CVE-2024-6944)](./CRMEB/CRMEB电商系统PublicController.php反序列化漏洞(CVE-2024-6944).md)
+- [锐捷校园网自助服务系统login_judge.jsf任意文件读取漏洞补丁绕过](./锐捷/锐捷校园网自助服务系统login_judge.jsf任意文件读取漏洞补丁绕过.md)
+- [天融信运维安全审计系统存在任意文件读取漏洞](./天融信/天融信运维安全审计系统存在任意文件读取漏洞.md)
+- [甄云SRM云平台SpEL表达式注入漏洞(XVE-2024-18301)](./上海甄云/甄云SRM云平台SpEL表达式注入漏洞(XVE-2024-18301).md)
+- [鸿宇多用户商城scan_list.php存在SQL注入漏洞](./鸿宇科技/鸿宇多用户商城scan_list.php存在SQL注入漏洞.md)
+- [易宝OA-ExecuteSqlForDataSet接口处存在SQL注入漏洞](./易宝OA/易宝OA-ExecuteSqlForDataSet接口处存在SQL注入漏洞.md)
+- [易宝OA-ExecuteQueryNoneResult接口处存在SQL注入漏洞](./易宝OA/易宝OA-ExecuteQueryNoneResult接口处存在SQL注入漏洞.md)
+- [联达OA接口uploadImg.aspx任意文件上传漏洞](./联达OA/联达OA接口uploadImg.aspx任意文件上传漏洞.md)
+- [大商创多用户商城wholesale_flow.php存在SQL注入漏洞](./上海商创/大商创多用户商城wholesale_flow.php存在SQL注入漏洞.md)
+- [大商创多用户商城系统ajax_dialog.php存在SQL注入漏洞](./上海商创/大商创多用户商城系统ajax_dialog.php存在SQL注入漏洞.md)
+- [NUUO网络视频录像机upload.php任意文件上传漏洞](./NUUO/NUUO网络视频录像机upload.php任意文件上传漏洞.md)
+- [Smartbi修改用户密码漏洞](./Smartbi/Smartbi修改用户密码漏洞.md)
+
 ## 2024.10.19 新增漏洞
 
 - [网动统一通信平台(ActiveUC)接口iactiveEnterMeeting存在信息泄露漏洞](./网动统一通信平台/网动统一通信平台(ActiveUC)接口iactiveEnterMeeting存在信息泄露漏洞.md)
@@ -1072,7 +1099,7 @@
   
 ## 2024.02.17 新增漏洞
 - [宝塔最新未授权访问漏洞及sql注入](./宝塔/宝塔最新未授权访问漏洞及sql注入.md)
-- [金盘移动图书馆系统存在任意文件上传漏洞](./金盘移动图书馆系统/金盘移动图书馆系统存在任意文件上传漏洞.md)
+- [金盘移动图书馆系统存在任意文件上传漏洞](./金盘/金盘移动图书馆系统存在任意文件上传漏洞.md)
 - [Panalog大数据日志审计系统libres_syn_delete.php存在命令执行](./Panalog/Panalog大数据日志审计系统libres_syn_delete.php存在命令执行.md)
 - [WAGO系统远程代码执行漏洞(CVE-2023-1698)](./WAGO/WAGO系统远程代码执行漏洞(CVE-2023-1698).md)
 - [山石网科云鉴存在前台任意命令执行漏洞](./山石网科云鉴/山石网科云鉴存在前台任意命令执行漏洞.md)
