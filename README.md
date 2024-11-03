@@ -9,6 +9,25 @@
   <img src="https://contrib.rocks/image?repo=wy876/POC" />
 </a>
 
+## 2024.11.02 新增漏洞
+
+- [万户ezoffice协同办公平台SignatureEditFrm存在SQL注入漏洞](./万户OA/万户ezoffice协同办公平台SignatureEditFrm存在SQL注入漏洞.md)
+- [禅道20.7后台任意文件读取漏洞](./禅道/禅道20.7后台任意文件读取漏洞.md)
+- [瑞斯康达main.asp未授权访问漏洞](./瑞斯康达/瑞斯康达main.asp未授权访问漏洞.md)
+- [cyberpanel未授权远程命令执行漏洞](./cyberpanel/cyberpanel未授权远程命令执行漏洞.md)
+- [金和OA-C6系统接口ApproveRemindSetExec.aspx存在XXE漏洞(CNVD-2024-40568)](./金和/金和OA-C6系统接口ApproveRemindSetExec.aspx存在XXE漏洞(CNVD-2024-40568).md)
+- [北京亚控科技img任意文件读取漏洞](./北京亚控科技/北京亚控科技img任意文件读取漏洞.md)
+- [快递微信小程序系统httpRequest任意文件读取漏洞](./快递/快递微信小程序系统httpRequest任意文件读取漏洞.md)
+- [Apache-Solr身份认证绕过导致任意文件读取漏洞复现(CVE-2024-45216)](./Apache/Apache-Solr身份认证绕过导致任意文件读取漏洞复现(CVE-2024-45216).md)
+- [吉大正元身份认证网关downTools任意文件读取漏洞](./吉大正元信息/吉大正元身份认证网关downTools任意文件读取漏洞.md)
+- [赛普EAP企业适配管理平台Download.aspx任意文件读取漏洞](./赛普/赛普EAP企业适配管理平台Download.aspx任意文件读取漏洞.md)
+- [金华迪加现场大屏互动系统mobile.do.php任意文件上传漏洞](./金华迪加/金华迪加现场大屏互动系统mobile.do.php任意文件上传漏洞.md)
+- [用友U8-Cloud系统接口approveservlet存在SQL注入漏洞](./用友OA/用友U8-Cloud系统接口approveservlet存在SQL注入漏洞.md)
+- [用友U8-Cloud系统接口uapbd.refdef.query存在SQL注入漏洞](./用友OA/用友U8-Cloud系统接口uapbd.refdef.query存在SQL注入漏洞.md)
+- [Teaching在线教学平台getDictItemsByTable存在sql注入漏洞](./上海鸽蛋网络/Teaching在线教学平台getDictItemsByTable存在sql注入漏洞.md)
+- [智慧平台SExcelExpErr.ashx存在SQL注入漏洞](./EDU/智慧平台SExcelExpErr.ashx存在SQL注入漏洞.md)
+- [用友u9系统接口TransWebService存在未授权访问漏洞](./用友OA/用友u9系统接口TransWebService存在未授权访问漏洞.md)
+
 ## 2024.10.26 新增漏洞
 
 - [瑞格智慧心理服务平台NPreenSMSList.asmx存在sql注入漏洞](./EDU/瑞格智慧心理服务平台NPreenSMSList.asmx存在sql注入漏洞.md)
