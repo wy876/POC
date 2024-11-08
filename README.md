@@ -1,5 +1,5 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1100多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1200多个poc/exp，善用CTRL+F搜索
 
 ## 贡献者 
 
@@ -8,6 +8,38 @@
 <a href="https://github.com/wy876/POC/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=wy876/POC" />
 </a>
+
+## 2024.11.08 新增漏洞
+
+- [Vben-Admin存在硬编码漏洞](./Vben-Admin/Vben-Admin存在硬编码漏洞.md)
+- [F22服装管理软件系统Load存在任意文件读取漏洞](./广州锦铭泰软件/F22服装管理软件系统Load存在任意文件读取漏洞.md)
+- [明源地产ERP系统WFWebService存在反序列化漏洞](./明源云/明源地产ERP系统WFWebService存在反序列化漏洞.md)
+- [蓝凌OA-EKP系统接口hrStaffWebService存在任意文件读取漏洞](./蓝凌OA/蓝凌OA-EKP系统接口hrStaffWebService存在任意文件读取漏洞.md)
+- [泛微E-Cology9平台QRcodeBuildAction存在身份认证绕过导致SQL注入漏洞](./泛微OA/泛微E-Cology9平台QRcodeBuildAction存在身份认证绕过导致SQL注入漏洞.md)
+- [亿赛通CDG电子文档安全管理系统DelHookService存在sql注入漏洞(CVE-2024-10660)](./亿赛通电子文档安全管理系统/亿赛通CDG电子文档安全管理系统DelHookService存在sql注入漏洞(CVE-2024-10660).md)
+- [易思智能物流无人值守系统ExportReport存在SQL注入漏洞](./易思智能物流无人值守系统/易思智能物流无人值守系统ExportReport存在SQL注入漏洞.md)
+- [易思智能物流无人值守系统login存在SQL注入漏洞](./易思智能物流无人值守系统/易思智能物流无人值守系统login存在SQL注入漏洞.md)
+- [易思智能物流无人值守系统DownFile任意文件读取漏洞](./易思智能物流无人值守系统/易思智能物流无人值守系统DownFile任意文件读取漏洞.md)
+- [H3C-CVM-fd接口前台任意文件上传漏洞复现](./H3C/H3C-CVM-fd接口前台任意文件上传漏洞复现.md)
+- [东胜物流软件AttributeAdapter.aspx存在SQL注入漏洞](./东胜物流软件/东胜物流软件AttributeAdapter.aspx存在SQL注入漏洞.md)
+- [ArcGIS地理信息系统任意文件读取漏洞](./ArcGIS/ArcGIS地理信息系统任意文件读取漏洞.md)
+- [EyouCMS文件包含RCE漏洞](./EyouCMS/EyouCMS文件包含RCE漏洞.md)
+- [宏景人力资源信息管理系统uploadLogo存在任意文件上传漏洞](./宏景OA/宏景人力资源信息管理系统uploadLogo存在任意文件上传漏洞.md)
+- [顺景ERP管理系统UploadInvtSpBuzPlanFile存在任意文件上传漏洞](./顺景ERP/顺景ERP管理系统UploadInvtSpBuzPlanFile存在任意文件上传漏洞.md)
+- [顺景ERP管理系统FileUpload存在任意文件上传漏洞](./顺景ERP/顺景ERP管理系统FileUpload存在任意文件上传漏洞.md)
+- [全程云OA系统QCPES.asmx存在SQL注入漏洞](./全程云OA/全程云OA系统QCPES.asmx存在SQL注入漏洞.md)
+- [ZKBioSecurity存在shiro反序列漏洞](./ZKBioSecurity/ZKBioSecurity存在shiro反序列漏洞.md)
+- [美特CRM系统接口sync_emp_weixin存在反序列化漏洞](./美特CRM系统/美特CRM系统接口sync_emp_weixin存在反序列化漏洞.md)
+- [索贝融媒体存在硬编码漏洞](./成都索贝数码科技/索贝融媒体存在硬编码漏洞.md)
+- [金蝶EAS存在appUtil.jsp命令执行漏洞](./金蝶/金蝶EAS存在appUtil.jsp命令执行漏洞.md)
+- [明源云ERP接口VisitorWeb_XMLHTTP.aspx存在SQL注入漏洞](./明源云/明源云ERP接口VisitorWeb_XMLHTTP.aspx存在SQL注入漏洞.md)
+- [聚合支付平台接口sdcustomno存在SQL注入漏洞](./聚合支付/聚合支付平台接口sdcustomno存在SQL注入漏洞.md)
+- [苹果IOS端IPA签名工具Sign.php前台任意命令执行漏洞](./分发签名系统/苹果IOS端IPA签名工具Sign.php前台任意命令执行漏洞.md)
+- [和信创天云桌面系统newserver远程命令执行漏洞](./和信创天/和信创天云桌面系统newserver远程命令执行漏洞.md)
+- [金航网上阅卷系统fileUpload任意文件上传漏洞](./EDU/衡水金航/金航网上阅卷系统fileUpload任意文件上传漏洞.md)
+- [HANDLINK-ISS-7000v2网关login_handler.cgi未授权RCE漏洞](./瀚霖科技股份有限公司/HANDLINK-ISS-7000v2网关login_handler.cgi未授权RCE漏洞.md)
+- [电信网关配置管理后台upload_channels.php接口存在文件上传漏洞](./电信网关配置管理/电信网关配置管理后台upload_channels.php接口存在文件上传漏洞.md)
+- [爱数AnyShare智能内容管理平台Usrm_GetAllUsers信息泄露漏洞](./上海爱数信息/爱数AnyShare智能内容管理平台Usrm_GetAllUsers信息泄露漏洞.md)
 
 ## 2024.11.02 新增漏洞
 
