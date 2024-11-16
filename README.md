@@ -5,9 +5,66 @@
 
 感谢以下贡献者为本项目做出的贡献：
 
-<a href="https://github.com/wy876/POC/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=wy876/POC" />
-</a>
+<div><table frame=void>
+	<tr>
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/139549762?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/wy876"><sub>wy876</sub></a>
+        </td>    
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/90972683?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/Kazgangap"><sub>Kazgangap</sub></a>
+        </td>    
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/30861754?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/kukais"><sub>kukais</sub></a>
+        </td> 
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/61577401?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/yiliufeng168"><sub>yiliufeng168</sub></a>
+        </td> 
+        <td align="center">
+            <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/59686577?v=4&mask=circle&w=60&h=60"
+                   alt="Typora-Logo"
+                 />
+            <br>
+            <a href="https://github.com/WebSafety-2tina"><sub>WebSafety-2tina</sub></a>
+        </td> 
+    </tr>
+    </table>
+</div>
+
+
+## 2024.11.16 新增漏洞
+
+- [通达OA前台submenu.php存在SQL注入漏洞(CVE-2024-10600)](./通达OA/通达OA前台submenu.php存在SQL注入漏洞(CVE-2024-10600).md)
+- [D-Link-NAS接口account_mg存在命令执行漏洞(CVE-2024-10914)](./D-Link/D-Link-NAS接口account_mg存在命令执行漏洞(CVE-2024-10914).md)
+- [珠海市安克电子技术有限公司医疗急救管理系统存在SQL注入漏洞](./安克电子技术/珠海市安克电子技术有限公司医疗急救管理系统存在SQL注入漏洞.md)
+- [用友YonBIP高级版yonbiplogin存在任意文件读取漏洞](./用友OA/用友YonBIP高级版yonbiplogin存在任意文件读取漏洞.md)
+- [九思OA接口dl.jsp任意文件读取漏洞](./九思OA/九思OA接口dl.jsp任意文件读取漏洞.md)
+- [东胜物流软件GetDataListCA存在SQL注入漏洞](./东胜物流软件/东胜物流软件GetDataListCA存在SQL注入漏洞.md)
+- [企望制造ERP系统drawGrid.action存在SQL漏洞](./企望制造 ERP/企望制造ERP系统drawGrid.action存在SQL漏洞.md)
+- [全新优客API接口管理系统doc存在SQL注入漏洞](./优客API接口管理系统/全新优客API接口管理系统doc存在SQL注入漏洞.md)
+- [海信智能公交企业管理系统OrgInfoMng.aspx存在SQL注入漏洞](./海信智能公交企业管理系统/海信智能公交企业管理系统OrgInfoMng.aspx存在SQL注入漏洞.md)
+- [美团代付微信小程序系统read.php任意文件读取漏洞](./美团代付微信小程序系统/美团代付微信小程序系统read.php任意文件读取漏洞.md)
+- [微信公众号商家收银台小程序系统存在前台SQL注入漏洞](./微信公众号商家收银台小程序系统/微信公众号商家收银台小程序系统存在前台SQL注入漏洞.md)
+- [赛普EAP企业适配管理平台Upload存在任意文件上传漏洞](./赛普/赛普EAP企业适配管理平台Upload存在任意文件上传漏洞.md)
+- [中成科信票务管理系统UploadHandler.ashx任意文件上传漏洞](./中成科信票务管理系统/中成科信票务管理系统UploadHandler.ashx任意文件上传漏洞.md)
+- [帕拉迪堡垒机sslvpnservice.php存在SQL注入漏洞](./帕拉迪堡垒机/帕拉迪堡垒机sslvpnservice.php存在SQL注入漏洞.md)
+- [FortiManager身份认证绕过漏洞(CVE-2024-47575)](./FortiManager/FortiManager身份认证绕过漏洞(CVE-2024-47575).md)
+- [WordPress的Meetup插件身份验证绕过漏洞(CVE-2024-50483)](./WordPress/WordPress的Meetup插件身份验证绕过漏洞(CVE-2024-50483).md)
 
 ## 2024.11.08 新增漏洞
 
