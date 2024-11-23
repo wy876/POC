@@ -1,7 +1,7 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1200多个poc/exp，善用CTRL+F搜索
 
-## 贡献者 
+## 贡献者（排名不分先后）
 
 感谢以下贡献者为本项目做出的贡献：
 
@@ -47,6 +47,34 @@
 </div>
 
 
+## 2024.11.23 新增漏洞
+
+- [SRM智联云采系统inquiry存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统inquiry存在SQL注入漏洞.md)
+- [SRM智联云采系统quickReceiptDetail存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统quickReceiptDetail存在SQL注入漏洞.md)
+- [SRM智联云采系统getSuppliers存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统getSuppliers存在SQL注入漏洞.md)
+- [SRM智联云采系统receiptDetail存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统receiptDetail存在SQL注入漏洞.md)
+- [SRM智联云采系统statusList存在SQL注入漏洞](./智互联科技有限公司/SRM智联云采系统statusList存在SQL注入漏洞.md)
+- [微信活码系统updateInfos前台未授权任意用户密码修改](./微信活码系统/微信活码系统updateInfos前台未授权任意用户密码修改.md)
+- [微信活码系统后台任意内容写入](./微信活码系统/微信活码系统后台任意内容写入.md)
+- [百择唯供应链存在RankingGoodsList2存在SQL注入漏洞](./百择唯供应链/百择唯供应链存在RankingGoodsList2存在SQL注入漏洞.md)
+- [百择唯供应链存在ReadAfterSaleList存在SQL注入漏洞](./百择唯供应链/百择唯供应链存在ReadAfterSaleList存在SQL注入漏洞.md)
+- [百择唯供应链存在SearchOrderByParams存在SQL注入漏洞](./百择唯供应链/百择唯供应链存在SearchOrderByParams存在SQL注入漏洞.md)
+- [PAN-OS软件中存在权限提升漏洞(CVE-2024-9474)](./PAN-OS/CVE-2024-9474.md)
+- [数字通云平台的智慧政务系统存在登录绕过漏洞](./数字通OA/数字通云平台的智慧政务系统存在登录绕过漏洞.md)
+- [万能门店小程序doPageGetFormList存在sql注入漏洞](/万能门店小程序/万能门店小程序doPageGetFormList存在sql注入漏洞.md)
+- [索贝融媒体search存在SQL注入漏洞](./成都索贝数码科技/索贝融媒体search存在SQL注入漏洞.md)
+- [海信智能公交企业管理系统apply.aspx存在SQL注入漏洞](./海信/海信智能公交企业管理系统apply.aspx存在SQL注入漏洞.md)
+- [东胜物流软件CertUpload文件上传漏洞](./东胜物流软件/东胜物流软件CertUpload文件上传漏洞.md)
+- [任子行网络安全审计系统log_fw_ips_scan_jsondata接口存在SQL注入漏洞](./任子行/任子行网络安全审计系统log_fw_ips_scan_jsondata接口存在SQL注入漏洞.md)
+- [D-Link-NAS接口sc_mgr.cgi存在命令执行漏洞](./D-Link/D-Link-NAS接口sc_mgr.cgi存在命令执行漏洞.md)
+- [Altenergy电力系统控制软件status_zigbee存在SQL注入漏洞](./电力系统控制软件/Altenergy电力系统控制软件status_zigbee存在SQL注入漏洞.md)
+- [任我行协同CRM普及版Edit存在SQL注入漏洞](./任我行/任我行协同CRM普及版Edit存在SQL注入漏洞.md)
+- [紫光档案管理系统mergeFile存在SQL注入漏洞](./紫光电子档案管理系统/紫光档案管理系统mergeFile存在SQL注入漏洞.md)
+- [购物商城系统commodtiy存在任意SQL注入漏洞](./购物商城系统/购物商城系统commodtiy存在任意SQL注入漏洞.md)
+- [微信万能门店小程序系统_requestPost存在任意文件读取漏洞](./万能门店小程序/微信万能门店小程序系统_requestPost存在任意文件读取漏洞.md)
+- [致翔OA系统接口open_juese存在SQL注入漏洞](./致翔OA/致翔OA系统接口open_juese存在SQL注入漏洞.md)
+- [资产管理运营系统mobilefront2前台文件上传漏洞](./资管云/资产管理运营系统mobilefront2前台文件上传漏洞.md)
+
 ## 2024.11.16 新增漏洞
 
 - [通达OA前台submenu.php存在SQL注入漏洞(CVE-2024-10600)](./通达OA/通达OA前台submenu.php存在SQL注入漏洞(CVE-2024-10600).md)
@@ -57,7 +85,7 @@
 - [东胜物流软件GetDataListCA存在SQL注入漏洞](./东胜物流软件/东胜物流软件GetDataListCA存在SQL注入漏洞.md)
 - [企望制造ERP系统drawGrid.action存在SQL漏洞](./企望制造ERP/企望制造ERP系统drawGrid.action存在SQL漏洞.md)
 - [全新优客API接口管理系统doc存在SQL注入漏洞](./优客API接口管理系统/全新优客API接口管理系统doc存在SQL注入漏洞.md)
-- [海信智能公交企业管理系统OrgInfoMng.aspx存在SQL注入漏洞](./海信智能公交企业管理系统/海信智能公交企业管理系统OrgInfoMng.aspx存在SQL注入漏洞.md)
+- [海信智能公交企业管理系统OrgInfoMng.aspx存在SQL注入漏](./海信/海信智能公交企业管理系统OrgInfoMng.aspx存在SQL注入漏洞.md)
 - [美团代付微信小程序系统read.php任意文件读取漏洞](./美团代付微信小程序系统/美团代付微信小程序系统read.php任意文件读取漏洞.md)
 - [微信公众号商家收银台小程序系统存在前台SQL注入漏洞](./微信公众号商家收银台小程序系统/微信公众号商家收银台小程序系统存在前台SQL注入漏洞.md)
 - [赛普EAP企业适配管理平台Upload存在任意文件上传漏洞](./赛普/赛普EAP企业适配管理平台Upload存在任意文件上传漏洞.md)
