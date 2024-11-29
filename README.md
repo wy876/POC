@@ -54,7 +54,7 @@
 - [用友U8-CRM系统getufvouchdata.php存在SQL注入漏洞](./用友OA/用友U8-CRM系统getufvouchdata.php存在SQL注入漏洞.md)
 - [用友U8-CRM系统ajaxgetborrowdata.php存在SQL注入漏洞](./用友OA/用友U8-CRM系统ajaxgetborrowdata.php存在SQL注入漏洞.md)
 - [信呼OA办公系统后台uploadAction存在SQL注入](./信呼OA/信呼OA办公系统后台uploadAction存在SQL注入.md)
-- [海信智能公交企业管理系统AdjustWorkHours.aspx存在SQL注入漏洞](./海信/用海信智能公交企业管理系统AdjustWorkHours.aspx存在SQL注入漏洞.md)
+- [海信智能公交企业管理系统AdjustWorkHours.aspx存在SQL注入漏洞](./海信/海信智能公交企业管理系统AdjustWorkHours.aspx存在SQL注入漏洞.md)
 - [圣乔ERP系统login.action存在Struts2远程代码执行漏洞](./圣乔ERP/圣乔ERP系统login.action存在Struts2远程代码执行漏洞.md)
 - [顺景ERP系统GetFile任意文件读取漏洞](./顺景ERP/顺景ERP系统GetFile任意文件读取漏洞.md)
 - [安科瑞环保用电监管云平台GetEnterpriseInfoById存在SQL注入漏洞](./安科瑞/安科瑞环保用电监管云平台GetEnterpriseInfoById存在SQL注入漏洞.md)
