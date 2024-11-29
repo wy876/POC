@@ -1,5 +1,5 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1200多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1300多个poc/exp，善用CTRL+F搜索
 
 ## 贡献者（排名不分先后）
 
@@ -46,6 +46,34 @@
     </table>
 </div>
 
+
+## 2024.11.29 新增漏洞
+
+- [用友NC-cartabletimeline存在SQL注入漏洞](./用友OA/用友NC-cartabletimeline存在SQL注入漏洞.md)
+- [用友NC-process存在SQL注入漏洞](./用友OA/用友NC-process存在SQL注入漏洞.md)
+- [用友U8-CRM系统getufvouchdata.php存在SQL注入漏洞](./用友OA/用友U8-CRM系统getufvouchdata.php存在SQL注入漏洞.md)
+- [用友U8-CRM系统ajaxgetborrowdata.php存在SQL注入漏洞](./用友OA/用友U8-CRM系统ajaxgetborrowdata.php存在SQL注入漏洞.md)
+- [信呼OA办公系统后台uploadAction存在SQL注入](./信呼OA/信呼OA办公系统后台uploadAction存在SQL注入.md)
+- [海信智能公交企业管理系统AdjustWorkHours.aspx存在SQL注入漏洞](./海信/用海信智能公交企业管理系统AdjustWorkHours.aspx存在SQL注入漏洞.md)
+- [圣乔ERP系统login.action存在Struts2远程代码执行漏洞](./圣乔ERP/圣乔ERP系统login.action存在Struts2远程代码执行漏洞.md)
+- [顺景ERP系统GetFile任意文件读取漏洞](./顺景ERP/顺景ERP系统GetFile任意文件读取漏洞.md)
+- [安科瑞环保用电监管云平台GetEnterpriseInfoById存在SQL注入漏洞](./安科瑞/安科瑞环保用电监管云平台GetEnterpriseInfoById存在SQL注入漏洞.md)
+- [安科瑞环保用电监管云平台newLogin存在SQL注入漏洞](./安科瑞/安科瑞环保用电监管云平台newLogin存在SQL注入漏洞.md)
+- [药业管理软件XSDService.asmx存在SQL注入漏洞](./黄药师/药业管理软件XSDService.asmx存在SQL注入漏洞.md)
+- [思普企业运营管理平台apilogin存在SQL注入漏洞](./思普/思普企业运营管理平台apilogin存在SQL注入漏洞.md)
+- [昂捷CRM系统cwsfiledown.asmx任意文件读取漏洞](./昂捷ERP/昂捷CRM系统cwsfiledown.asmx任意文件读取漏洞.md)
+- [九思OA系统workflowSync.getUserStatusByRole.dwr存在SQL注入](./九思OA/九思OA系统workflowSync.getUserStatusByRole.dwr存在SQL注入.md)
+- [管家婆订货易在线商城UploadImgNoCheck存在文件上传漏洞](./管家婆/管家婆订货易在线商城UploadImgNoCheck存在文件上传漏洞.md)
+- [Apache-HertzBeat开源实时监控系统存在默认口令漏洞](./Apache/Apache-HertzBeat开源实时监控系统存在默认口令漏洞.md)
+- [YourPHPCMS系统login_checkEmail存在sql注入漏洞](./YourPHPCMS/YourPHPCMS系统login_checkEmail存在sql注入漏洞.md)
+- [YourPHPCMS系统Register_checkEmail存在sql注入漏洞](./YourPHPCMS/YourPHPCMS系统Register_checkEmail存在sql注入漏洞.md)
+- [JeecgBoot接口getTotalData存在未授权SQL注入漏洞(CVE-2024-48307)](./JeecgBoot/JeecgBoot接口getTotalData存在未授权SQL注入漏洞(CVE-2024-48307).md)
+- [ProjectSend身份认证绕过漏洞(CVE-2024-11680)](./ProjectSend/ProjectSend身份认证绕过漏洞(CVE-2024-11680).md)
+- [华天动力OA系统upload.jsp任意文件上传漏洞.md](./华天动力/华天动力OA系统upload.jsp任意文件上传漏洞.md)
+- [Sitecore未授权读取任意文件(CVE-2024-46938)](./Sitecore/CVE-2024-46938.md)
+- [万能门店小程序管理系统onepic_uploade任意文件上传漏洞](./万能门店小程序/万能门店小程序管理系统onepic_uploade任意文件上传漏洞.md)
+- [电子资料管理系统ImageUpload.ashx文件上传漏洞](./电子资料管理系统/电子资料管理系统ImageUpload.ashx文件上传漏洞.md)
+- [同享人力管理管理平台ActiveXConnector.asmx信息泄露漏洞](./同享人力管理管理平台/同享人力管理管理平台ActiveXConnector.asmx信息泄露漏洞.md)
 
 ## 2024.11.23 新增漏洞
 

