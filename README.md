@@ -47,6 +47,19 @@
 </div>
 
 
+## 2024.12.07 新增漏洞
+
+- [Zabbix SQL注入漏洞(CVE-2024-42327)](./Zabbix/Zabbix存在SQL注入漏洞(CVE-2024-42327).md)
+- [时空WMS-仓储精细化管理系统ImageAdd.ashx文件上传漏洞](./时空WMS/时空WMS-仓储精细化管理系统ImageAdd.ashx文件上传漏洞.md)
+- [时空WMS-仓储精细化管理系统SaveCrash.ashx文件上传漏洞](./时空WMS/时空WMS-仓储精细化管理系统SaveCrash.ashx文件上传漏洞.md)
+- [用友U8-CRM系统getDeptName存在SQL注入漏洞](./用友OA/用友U8-CRM系统getDeptName存在SQL注入漏洞.md)
+- [用友NC系统接口yerfile_down存在SQL注入漏洞](./用友OA/用友NC系统接口yerfile_down存在SQL注入漏洞.md)
+- [用友U8-CRM接口rellistname.php存在SQL注入漏洞](./用友OA/用友U8-CRM接口rellistname.php存在SQL注入漏洞.md)
+- [用友GRP-U8系统taskmanager_login存在SQL注入漏洞](./用友OA/用友GRP-U8系统taskmanager_login存在SQL注入漏洞.md)
+- [九思OA系统upload_l.jsp存在任意文件上传漏洞](./九思OA/九思OA系统upload_l.jsp存在任意文件上传漏洞.md)
+- [锁群管理系统存在逻辑缺陷漏洞](./锁群管理系统/锁群管理系统存在逻辑缺陷漏洞.md)
+- [WordPress插件ElementorPageBuilder存在文件读取漏洞(CVE-2024-9935)](./WordPress/WordPress插件ElementorPageBuilder存在文件读取漏洞(CVE-2024-9935).md)
+
 ## 2024.11.29 新增漏洞
 
 - [用友NC-cartabletimeline存在SQL注入漏洞](./用友OA/用友NC-cartabletimeline存在SQL注入漏洞.md)
