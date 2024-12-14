@@ -47,6 +47,35 @@
 </div>
 
 
+## 2024.12.14 新增漏洞
+
+- [顺景ERP系统FullGuidFileName任意文件读取漏洞](./顺景ERP/顺景ERP系统FullGuidFileName任意文件读取漏洞.md)
+- [圣乔ERP系统queryForString存在SQL注入漏洞](./圣乔ERP/圣乔ERP系统queryForString存在SQL注入漏洞.md)
+- [圣乔ERP系统uploadFile文件上传漏洞](./圣乔ERP/圣乔ERP系统uploadFile文件上传漏洞.md)
+- [圣乔ERP系统SingleRowQueryConvertor存在SQL注入漏洞](./圣乔ERP/圣乔ERP系统SingleRowQueryConvertor存在SQL注入漏洞.md)
+- [圣乔ERP系统queryForMapWithDefaultValues存在SQL注入漏洞](./圣乔ERP/圣乔ERP系统queryForMapWithDefaultValues存在SQL注入漏洞.md)
+- [圣乔ERP系统getSupplyQueryKeyword存在SQL注入漏洞](./圣乔ERP/圣乔ERP系统getSupplyQueryKeyword存在SQL注入漏洞.md)
+- [PbootCMS接口entrance.php存在SQL注入漏洞](./PbootCMS/PbootCMS接口entrance.php存在SQL注入漏洞.md)
+- [海康威视运行管理中心applyST远程代码执行漏洞(XVE-2024-33936)](./海康威视/海康威视运行管理中心applyST远程代码执行漏洞(XVE-2024-33936).md)
+- [大华DSS数字监控系统attachment_downloadAtt.action任意文件读取漏洞](./大华/大华DSS数字监控系统attachment_downloadAtt.action任意文件读取漏洞.md)
+- [电子图书阅读平台downFile.aspx存在SQL注入漏洞](./电子图书阅读平台/电子图书阅读平台downFile.aspx存在SQL注入漏洞.md)
+- [中成科信票务管理系统ReturnTicketPlance.ashx存在SQL注入](./中成科信/中成科信票务管理系统ReturnTicketPlance.ashx存在SQL注入.md)
+- [易宝OA-GetUDEFStreamID存在SQL注入漏洞](./易宝OA/易宝OA-GetUDEFStreamID存在SQL注入漏洞.md)
+- [WordPress插件query-console存在未授权RCE漏洞](./WordPress/WordPress插件query-console存在未授权RCE漏洞.md)
+- [EasyCVR视频管理平台taillog任意文件读取漏洞](./EasyCVR/EasyCVR视频管理平台taillog任意文件读取漏洞.md)
+- [Mitel企业协作平台任意文件读取漏洞](./Mitel/Mitel企业协作平台任意文件读取漏洞.md)
+- [三汇SMG网关管理软件SMGSuperAdmin信息泄露漏洞](./三汇网关管理软件/三汇SMG网关管理软件SMGSuperAdmin信息泄露漏洞.md)
+- [生命港湾服务配置工具平台Download任意文件读取漏洞](./生命港湾信息技术/生命港湾服务配置工具平台Download任意文件读取漏洞.md)
+- [孚盟云系统接口MailAjax.ashx存在SQL注入漏洞](./孚盟云/孚盟云系统接口MailAjax.ashx存在SQL注入漏洞.md)
+- [杜特网上订单管理系统Login.ashx存在SQL注入漏洞](./杜特网/杜特网上订单管理系统Login.ashx存在SQL注入漏洞.md)
+- [DockerUI存在弱口令漏洞](./DockerUI/DockerUI存在弱口令漏洞.md)
+- [OpenWrt任意文件读取](./OpenWrt/OpenWrt任意文件读取.md)
+- [某短视频系统视频知识付费系统存在前台任意文件读取漏洞](./某短视频直播打赏系统/某短视频系统视频知识付费系统存在前台任意文件读取漏洞.md)
+- [CRMEB任意文件下载漏洞分析(CVE-2024-52726)](./CRMEB/CRMEB任意文件下载漏洞分析(CVE-2024-52726).md)
+- [中科网威anysec安全网关arping存在后台远程命令执行漏洞](./中科网威科技/中科网威anysec安全网关arping存在后台远程命令执行漏洞.md)
+- [Yapi存在远程命令执行漏洞](./Yapi/Yapi存在远程命令执行漏洞.md)
+- [金和JC6协同管理平台oaplusrangedownloadfile存在文件下载漏洞](./金和OA/金和JC6协同管理平台oaplusrangedownloadfile存在文件下载漏洞.md)
+
 ## 2024.12.07 新增漏洞
 
 - [Zabbix SQL注入漏洞(CVE-2024-42327)](./Zabbix/Zabbix存在SQL注入漏洞(CVE-2024-42327).md)
