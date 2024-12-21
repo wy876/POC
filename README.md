@@ -47,6 +47,34 @@
 </div>
 
 
+## 2024.12.21 新增漏洞
+
+- [蓝凌EKP系统接口thirdImSyncForKKWebService存在任意文件读取漏洞](./蓝凌OA/蓝凌EKP系统接口thirdImSyncForKKWebService存在任意文件读取漏洞.md)
+-  [蓝凌EKP系统接口sysFormMainDataInsystemWebservice存在任意文件读取漏洞](./蓝凌OA/蓝凌EKP系统接口sysFormMainDataInsystemWebservice存在任意文件读取漏洞.md)
+-  [蓝凌EKP系统任意文件读取漏洞集合](./蓝凌OA/蓝凌EKP系统任意文件读取漏洞集合.md)
+- [神州数码DCN系统接口online_list.php存在任意文件读取漏洞](./DCN/神州数码DCN系统接口online_list.php存在任意文件读取漏洞.md)
+- [TOTOLINK远程代码执行漏洞(CVE-2024-51228)](./路由器/TOTOLINK远程代码执行漏洞(CVE-2024-51228).md)
+- [泛微云桥e-Bridge系统接口addTasteJsonp存在SQL注入漏洞](./泛微OA/泛微云桥e-Bridge系统接口addTasteJsonp存在SQL注入漏洞.md)
+- [泛微云桥e-Bridge系统checkMobile存在SQL注入漏洞](./泛微OA/泛微云桥e-Bridge系统checkMobile存在SQL注入漏洞.md)
+- [泛微e-cology9系统接口FileDownloadLocation接口存在SQL注入漏洞](./泛微OA/泛微e-cology9系统接口FileDownloadLocation接口存在SQL注入漏洞.md)
+- [JeecgBoot系统接口passwordChange任意用户密码重置漏洞](./JeecgBoot/JeecgBoot系统接口passwordChange任意用户密码重置漏洞.md)
+- [国威HB1910数字程控电话交换机generate.php未授权RCE漏洞](./深圳国威电子/国威HB1910数字程控电话交换机generate.php未授权RCE漏洞.md)
+- [Cloudlog系统request_form存在SQL注入漏洞](./Cloudlog/Cloudlog系统request_form存在SQL注入漏洞.md)
+- [协众OA系统接口checkLoginQrCode存在SQL注入漏洞复现](./协众OA/协众OA系统接口checkLoginQrCode存在SQL注入漏洞复现.md)
+- [云连POS-ERP管理系统ZksrService存在SQL注入漏洞](./云连POS-ERP管理系统/云连POS-ERP管理系统ZksrService存在SQL注入漏洞.md)
+- [云连POS-ERP管理系统downloadFile存在任意文件读取漏洞](./云连POS-ERP管理系统/云连POS-ERP管理系统downloadFile存在任意文件读取漏洞.md)
+- [杜特网上订单管理系统getUserImage.ashx存在SQL注入漏洞](./杜特网/杜特网上订单管理系统getUserImage.ashx存在SQL注入漏洞.md)
+- [秒优科技-供应链管理系统doAction存在SQL注入漏洞](./秒优科技/秒优科技-供应链管理系统doAction存在SQL注入漏洞.md)
+- [昂捷CRM系统cwsuploadpicture.asmx任意文件读取漏洞](./昂捷ERP/昂捷CRM系统cwsuploadpicture.asmx任意文件读取漏洞.md)
+- [圣乔ERP系统downloadFile.action任意文件读取漏洞](./圣乔ERP/圣乔ERP系统downloadFile.action任意文件读取漏洞.md)
+- [用友NC-Cloud系统接口getStaffInfo存在SQL注入漏洞](./用友OA/用友NC-Cloud系统接口getStaffInfo存在SQL注入漏洞.md)
+- [用友U8-Cloud系统接口ReleaseRepMngAction存在SQL注入漏洞复现(CNVD-2024-33023)](./用友OA/用友U8-Cloud系统接口ReleaseRepMngAction存在SQL注入漏洞复现(CNVD-2024-33023).md)
+- [飞鱼星-路由器存在敏感信息泄露漏洞](./飞鱼星/飞鱼星-路由器存在敏感信息泄露漏洞.md)
+- [上海汉塔网络科技有限公司上网行为管理系统存在远程命令执行漏洞](./上海汉塔/上海汉塔网络科技有限公司上网行为管理系统存在远程命令执行漏洞.md)
+- [Apache-Tomcat条件竞争致远程代码执行漏洞(CVE-2024-50379)](./Apache/Apache-Tomcat条件竞争致远程代码执行漏洞(CVE-2024-50379).md)
+- [方正畅享全媒体新闻采编系统screen.do存在SQL注入漏洞](./方正全媒体/方正畅享全媒体新闻采编系统screen.do存在SQL注入漏洞.md)
+- [方正畅享全媒体新闻采编系统reportCenter.do存在SQL注入漏洞](./方正全媒体/方正畅享全媒体新闻采编系统reportCenter.do存在SQL注入漏洞.md)
+
 ## 2024.12.14 新增漏洞
 
 - [顺景ERP系统FullGuidFileName任意文件读取漏洞](./顺景ERP/顺景ERP系统FullGuidFileName任意文件读取漏洞.md)
