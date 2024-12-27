@@ -47,6 +47,28 @@
 </div>
 
 
+## 2024.12.28 新增漏洞
+
+- [CPAS审计管理系统存在任意文件读取漏洞](./北京友数聚科技/CPAS审计管理系统存在任意文件读取漏洞.md)
+- [CPAS审计管理系统getCurserIfAllowLogin存在SQL注入漏洞](./北京友数聚科技/CPAS审计管理系统getCurserIfAllowLogin存在SQL注入漏洞.md)
+- [WordPress插件rtw_pdf_file任意文件读取漏洞](./WordPress/WordPress插件rtw_pdf_file任意文件读取漏洞.md)
+- [WordPress插件FileUpload任意文件读取漏洞复现(CVE-2024-9047)](./WordPress/WordPress插件FileUpload任意文件读取漏洞复现(CVE-2024-9047).md)
+- [WordPress插件Tutor_LMS存在SQL注入漏洞复现(CVE-2024-10400)](./WordPress/WordPress插件Tutor_LMS存在SQL注入漏洞复现(CVE-2024-10400).md)
+- [灵当CRM系统接口getMyAmbassador存在SQL注入漏洞](./灵当CRM/灵当CRM系统接口getMyAmbassador存在SQL注入漏洞.md)
+- [灵当CRM系统接口uploadfile文件上传漏洞](./灵当CRM/灵当CRM系统接口uploadfile文件上传漏洞.md)
+- [卓软计量业务管理平台image.ashx任意文件读取漏洞](./华美卓软/卓软计量业务管理平台image.ashx任意文件读取漏洞.md)
+- [博斯外贸管理软件loginednew.jsp存在SQL注入漏洞](./博斯软件/博斯外贸管理软件loginednew.jsp存在SQL注入漏洞.md)
+- [博斯外贸管理软件logined.jsp存在SQL注入漏洞](./博斯软件/博斯外贸管理软件logined.jsp存在SQL注入漏洞.md)
+- [安科瑞环保用电监管云平台etEnterpriseInfoY存在SQL注入漏洞](./安科瑞/安科瑞环保用电监管云平台etEnterpriseInfoY存在SQL注入漏洞.md)
+- [勤云远程稿件处理系统存在SQL注入漏洞](./北京勤云科技/勤云远程稿件处理系统存在SQL注入漏洞.md)
+- [赛诸葛数字化智能中台系统login存在SQL注入漏洞](./赛诸葛/赛诸葛数字化智能中台系统login存在SQL注入漏洞.md)
+- [网神SecFox运维安全管理与审计系统FastJson反序列化RCE漏洞](./网神/网神SecFox运维安全管理与审计系统FastJson反序列化RCE漏洞.md)
+- [朗速ERP系统FileUploadApi.ashx存在文件上传漏洞](./朗速ERP/朗速ERP系统FileUploadApi.ashx存在文件上传漏洞.md)
+- [月子会所ERP管理云平台GetData.ashx存在SQL注入](./武汉金同方/月子会所ERP管理云平台GetData.ashx存在SQL注入.md)
+- [科汛新职教网校系统CheckOrder存在SQL注入漏洞](./科汛/科汛新职教网校系统CheckOrder存在SQL注入漏洞.md)
+- [虹安DLP数据泄漏防护系统pushSetup.do存在SQL注入漏洞](./虹安/虹安DLP数据泄漏防护系统pushSetup.do存在SQL注入漏洞.md)
+- [蓝凌EKP系统fsscCommonPortlet.do存在未授权SQL注入漏洞](./蓝凌OA/蓝凌EKP系统fsscCommonPortlet.do存在未授权SQL注入漏洞.md)
+
 ## 2024.12.21 新增漏洞
 
 - [蓝凌EKP系统接口thirdImSyncForKKWebService存在任意文件读取漏洞](./蓝凌OA/蓝凌EKP系统接口thirdImSyncForKKWebService存在任意文件读取漏洞.md)
