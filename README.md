@@ -1,9 +1,9 @@
 # 漏洞收集
-收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1300多个poc/exp，善用CTRL+F搜索
+收集整理漏洞EXP/POC,大部分漏洞来源网络，目前收集整理了1400多个poc/exp，善用CTRL+F搜索
 
 ## 贡献者（排名不分先后）
 
-感谢以下贡献者为本项目做出的贡献：
+感谢以下贡献者为本项目做出的贡献，同时也欢迎各位师傅提交`PR/issues`共同维护：
 
 <div><table frame=void>
 	<tr>
@@ -46,6 +46,24 @@
     </table>
 </div>
 
+
+## 2025.01.04 新增漏洞
+
+- [Guns后台任意文件上传漏洞](./Guns/Guns后台任意文件上传漏洞.md)
+- [金山终端安全系统V9.0任意用户添加漏洞](./金山/金山终端安全系统V9.0任意用户添加漏洞.md)
+- [大华智能物联综合管理平台GetClassValue.jsp远程代码执行漏洞](./大华/大华智能物联综合管理平台GetClassValue.jsp远程代码执行漏洞.md)
+- [九垠赢商业管理系统Common.ashx存在文件上传漏洞](./九垠科技/九垠赢商业管理系统Common.ashx存在文件上传漏洞.md)
+- [时空物流运输管理系统存在敏感信息泄露漏洞](./时空物流运输管理系统/时空物流运输管理系统存在敏感信息泄露漏洞.md)
+- [内训宝scorm存在任意文件上传漏洞](./内训宝科技/内训宝scorm存在任意文件上传漏洞.md)
+- [W&Jsoft-D-Security数据仿泄露系统(DLP)存在任意文件读取漏洞](./WNJsoft/W&Jsoft-D-Security数据仿泄露系统(DLP)存在任意文件读取漏洞.md)
+- [方正畅享全媒体新闻采编系统imageProxy.do任意文件读取漏洞](./方正全媒体/方正畅享全媒体新闻采编系统imageProxy.do任意文件读取漏洞.md)
+- [急诊综合管理平台ServicePage.aspx任意文件读取漏洞](./互慧软件/急诊综合管理平台ServicePage.aspx任意文件读取漏洞.md)
+- [快云服务器助手GetDetail任意文件读取漏洞](./快云/快云服务器助手GetDetail任意文件读取漏洞.md)
+- [朗速ERP系统接口UEditorAjaxApi.ashx存在SSRF漏洞](./朗速ERP/朗速ERP系统接口UEditorAjaxApi.ashx存在SSRF漏洞.md)
+- [药业管理软件UploadFile文件上传漏洞](./黄药师/药业管理软件UploadFile文件上传漏洞.md)
+- [WordPress插件Crypto身份认证绕过漏洞复现(CVE-2024-9989)](./WordPress/WordPress插件Crypto身份认证绕过漏洞复现(CVE-2024-9989).md)
+- [WordPress插件Wux-Blog-Editor存在前台越权漏洞( CVE-2024-9932)](./WordPress/WordPress插件Wux-Blog-Editor存在前台越权漏洞( CVE-2024-9932).md)
+- [Next.js权限绕过(CVE-2024-51479)](./Next/Next.js权限绕过(CVE-2024-51479).md)
 
 ## 2024.12.28 新增漏洞
 

