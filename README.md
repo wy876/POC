@@ -62,7 +62,7 @@
 - [朗速ERP系统接口UEditorAjaxApi.ashx存在SSRF漏洞](./朗速ERP/朗速ERP系统接口UEditorAjaxApi.ashx存在SSRF漏洞.md)
 - [药业管理软件UploadFile文件上传漏洞](./黄药师/药业管理软件UploadFile文件上传漏洞.md)
 - [WordPress插件Crypto身份认证绕过漏洞复现(CVE-2024-9989)](./WordPress/WordPress插件Crypto身份认证绕过漏洞复现(CVE-2024-9989).md)
-- [WordPress插件Wux-Blog-Editor存在前台越权漏洞( CVE-2024-9932)](./WordPress/WordPress插件Wux-Blog-Editor存在前台越权漏洞( CVE-2024-9932).md)
+- [WordPress插件Wux-Blog-Editor存在前台越权漏洞( CVE-2024-9932)](./WordPress/WordPress插件Wux-Blog-Editor存在越权漏洞( CVE-2024-9932).md)
 - [Next.js权限绕过(CVE-2024-51479)](./Next/Next.js权限绕过(CVE-2024-51479).md)
 
 ## 2024.12.28 新增漏洞
