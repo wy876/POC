@@ -47,6 +47,35 @@
 </div>
 
 
+## 2025.02.06新增漏洞
+
+- [WordPress插件WP-Guru存在任意文件读取漏洞(CVE-2024-12849)](./WordPress/WordPress插件WP-Guru存在任意文件读取漏洞(CVE-2024-12849).md)
+- [WordPress插件radio存在SSRF漏洞(CVE-2024-54385)](./WordPress/WordPress插件radio存在SSRF漏洞(CVE-2024-54385).md)
+- [WordPress插件Icegram-Express存在未经身份验证的SQL注入漏洞(CVE-2024-4295)](./WordPress/WordPress插件Icegram-Express存在未经身份验证的SQL注入漏洞(CVE-2024-4295).md)
+- [Aviatrix未授权远程代码执行漏洞(CVE-2024-50603)](./Aviatrix/Aviatrix未授权远程代码执行漏洞(CVE-2024-50603).md)
+- [CyberPanel需授权命令注入漏洞(CVE-2024-53376)](./cyberpanel/CyberPanel需授权命令注入漏洞(CVE-2024-53376).md)
+- [tenda路由器WriteFacMac存在远程命令执行漏洞(CVE-2024-10697)](./Tenda/tenda路由器WriteFacMac存在远程命令执行漏洞(CVE-2024-10697).md)
+- [瑞友天翼应用虚拟化系统GetPwdPolicy存在SQL注入漏洞](./瑞友天翼应用虚拟化系统/瑞友天翼应用虚拟化系统GetPwdPolicy存在SQL注入漏洞.md)
+- [亿赛通电子文档安全管理系统OrganiseAjax存在SQL注入漏洞](./亿赛通电子文档安全管理系统/亿赛通电子文档安全管理系统OrganiseAjax存在SQL注入漏洞.md)
+- [亿赛通电子文档安全管理系统MultiServerAjax存在SQL注入漏洞](./亿赛通电子文档安全管理系统/亿赛通电子文档安全管理系统MultiServerAjax存在SQL注入漏洞.md)
+- [亿赛通电子文档安全管理系统LogicGroupAjax存在SQL注入漏洞](./亿赛通电子文档安全管理系统/亿赛通电子文档安全管理系统LogicGroupAjax存在SQL注入漏洞.md)
+- [亿赛通电子文档安全管理系统SecureUsbService存在SQL注入漏洞](./亿赛通电子文档安全管理系统/亿赛通电子文档安全管理系统SecureUsbService存在SQL注入漏洞.md)
+- [亿赛通电子文档安全管理系统DeviceAjax存在SQL注入漏洞](./亿赛通电子文档安全管理系统/亿赛通电子文档安全管理系统DeviceAjax存在SQL注入漏洞.md)
+- [亿赛通电子文档安全管理系统FileFormatAjax存在SQL注入漏洞](./亿赛通电子文档安全管理系统/亿赛通电子文档安全管理系统FileFormatAjax存在SQL注入漏洞.md)
+- [亿赛通电子文档安全管理系统NetSecPolicyAjax存在SQL注入漏洞](./亿赛通电子文档安全管理系统/亿赛通电子文档安全管理系统NetSecPolicyAjax存在SQL注入漏洞.md)
+- [亿赛通电子文档安全管理系统DocInfoAjax存在SQL注入漏洞](./亿赛通电子文档安全管理系统/亿赛通电子文档安全管理系统DocInfoAjax存在SQL注入漏洞.md)
+- [用友NC接口checkekey存在SQL注入漏洞(XVE-2024-37013)](./用友OA/用友NC接口checkekey存在SQL注入漏洞(XVE-2024-37013).md)
+- [禅道21.1开源版存在SQL注入漏洞](./禅道/禅道21.1开源版存在SQL注入漏洞.md)
+- [明源地产ERP接口Service.asmx存在SQL注入漏洞](./明源云/明源地产ERP接口Service.asmx存在SQL注入漏洞.md)
+- [pearProjectApi系统接口organizationCode存在SQL注入漏洞](./pearProjectApi/pearProjectApi系统接口organizationCode存在SQL注入漏洞.md)
+- [pearProjectApi系统接口projectCode存在SQL注入漏洞](./pearProjectApi/pearProjectApi系统接口projectCode存在SQL注入漏洞.md)
+- [zzcms系统接口ad_list.php存在SQL注入漏洞](./zzcms/zzcms系统接口ad_list.php存在SQL注入漏洞.md)
+- [zzcms系统接口index.php存在SQL注入漏洞](./zzcms/zzcms系统接口index.php存在SQL注入漏洞.md)
+- [锐捷系统接口auth存在远程命令执行漏洞](./锐捷/锐捷系统接口auth存在远程命令执行漏洞.md)
+- [WeGIA存在前台任意文件上传漏洞](./WeGIA/WeGIA存在前台任意文件上传漏洞.md)
+- [RGCMS2.0存在phar反序列化漏洞](./RGCMS/RGCMS2.0存在phar反序列化漏洞.md)
+- [74CMS存在任意文件上传漏洞(CVE-2024-2561)](./74CMS/CVE-2024-2561.md)
+
 ## 2025.01.04 新增漏洞
 
 - [Guns后台任意文件上传漏洞](./Guns/Guns后台任意文件上传漏洞.md)
