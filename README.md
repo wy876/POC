@@ -45,7 +45,9 @@
     </tr>
     </table>
 </div>
-## 2025.02.21新增漏洞
+
+
+## 2025.02.21 新增漏洞
 
 - [MasterSAM接口downloadService任意文件读取](./MasterSAM/MasterSAM接口downloadService任意文件读取.md)
 - [金和OA-C6系统接口IncentivePlanFulfillAppprove.aspx存在SQL注入漏洞](./金和OA/金和OA-C6系统接口IncentivePlanFulfillAppprove.aspx存在SQL注入漏洞.md)
