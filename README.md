@@ -3,7 +3,7 @@
 
 ## 贡献者（排名不分先后）
 
-感谢以下贡献者为本项目做出的贡献，同时也欢迎各位师傅提交`PR/issues`共同维护：
+感谢以下贡献者为本项目做出的贡献，同时也欢迎各位师傅提交`pr/issues`共同维护：
 
 <div><table frame=void>
 	<tr>
@@ -45,7 +45,26 @@
     </tr>
     </table>
 </div>
+## 2025.02.21新增漏洞
 
+- [MasterSAM接口downloadService任意文件读取](./MasterSAM/MasterSAM接口downloadService任意文件读取.md)
+- [金和OA-C6系统接口IncentivePlanFulfillAppprove.aspx存在SQL注入漏洞](./金和OA/金和OA-C6系统接口IncentivePlanFulfillAppprove.aspx存在SQL注入漏洞.md)
+- [Elber-Wayber模拟数字音频密码重置漏洞](./wayber/Elber-Wayber模拟数字音频密码重置漏洞.md)
+- [SonicOS-SSLVPN身份验证绕过漏洞(CVE-2024-53704)](./SonicWall/SonicOS-SSLVPN身份验证绕过漏洞(CVE-2024-53704).md)
+- [停车场后台管理系统GetVideo存在SQL注入漏洞](./停车场后台管理系统/停车场后台管理系统GetVideo存在SQL注入漏洞.md)
+- [金盘移动图书馆系统upload存在任意文件上传漏洞](./金盘/金盘移动图书馆系统upload存在任意文件上传漏洞.md)
+- [金盘移动图书馆系统download.jsp存在任意文件读取漏洞](./金盘/金盘移动图书馆系统download.jsp存在任意文件读取漏洞.md)
+- [华测监测预警系统FileDownLoad.ashx存在任意文件读取漏洞](./华测监测预警系统/华测监测预警系统FileDownLoad.ashx存在任意文件读取漏洞.md)
+- [NUUO摄像机handle_config.php远程代码执行漏洞](./NUUO/NUUO摄像机handle_config.php远程代码执行漏洞.md)
+- [NUUO摄像机handle_site_config远程代码执行漏洞](./NUUO/NUUO摄像机handle_site_config远程代码执行漏洞.md)
+- [NUUO摄像机debugging_center_utils远程代码执行漏洞](./NUUO/NUUO摄像机debugging_center_utils远程代码执行漏洞.md)
+- [JEEWMS系统cgFormBuildController.do存在SQL注入漏洞](./JEEWMS/JEEWMS系统cgFormBuildController.do存在SQL注入漏洞.md)
+- [JEEWMS系统dynamicDataSourceController.do存在JDBC反序列化漏洞](./JEEWMS/JEEWMS系统dynamicDataSourceController.do存在JDBC反序列化漏洞.md)
+- [JEEWMS系统commonController.do存在任意文件上传漏洞](./JEEWMS/JEEWMS系统commonController.do存在任意文件上传漏洞.md)
+- [JEEWMS系统cgReportController.do存在SQL注入漏洞](./JEEWMS/JEEWMS系统cgReportController.do存在SQL注入漏洞.md)
+- [JEEWMS系统graphReportController.do存在SQL注入漏洞](./JEEWMS/JEEWMS系统graphReportController.do存在SQL注入漏洞.md)
+- [电子文档安全管理系统V6.0接口backup存在任意文件下载漏洞](./电子文档安全管理系统/电子文档安全管理系统V6.0接口backup存在任意文件下载漏洞.md)
+- [酒店智慧营销IPTV系统userlogin.php存在sql注入漏洞](./IPTV系统/酒店智慧营销IPTV系统userlogin.php存在sql注入漏洞.md)
 
 ## 2025.02.06新增漏洞
 
@@ -1371,7 +1390,7 @@
 - [H3C-SecParh堡垒机任意用户登录漏洞](./H3C/H3C-SecParh堡垒机任意用户登录漏洞.md)
 - [红帆ioffice-udfGetDocStep.asmx存在SQL注入漏洞](./红帆OA/红帆ioffice-udfGetDocStep.asmx存在SQL注入漏洞.md)
 - [致远前台任意用户密码修改](./致远OA/致远前台任意用户密码修改.md)
-- [JEEVMS仓库管理系统任意文件读取漏洞](./JEEVMS仓库管理系统/JEEVMS仓库管理系统任意文件读取漏洞.md)
+- [JEEWMS仓库管理系统任意文件读取漏洞](./JEEWMS/JEEWMS仓库管理系统任意文件读取漏洞.md)
 - [海康威视iVMS综合安防系统resourceOperations接口任意文件上传漏洞](./海康威视/海康威视iVMS综合安防系统resourceOperations接口任意文件上传漏洞.md)
 - [WordPress插件Bricks Builder存在RCE漏洞(CVE-2024-25600)](./WordPress/WordPress插件Bricks%20Builder存在RCE漏洞(CVE-2024-25600).md)
 - [大华EIMS-capture_handle接口远程命令执行漏洞](./大华/大华EIMS-capture_handle接口远程命令执行漏洞.md)
